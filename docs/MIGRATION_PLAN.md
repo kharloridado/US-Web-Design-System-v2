@@ -292,7 +292,7 @@ Legend: **CSS** = Theme classes only. **B** = Block. **N / W / P** = §7.
 | **7. Templates & app template** (2–3 wks) | All page templates, extra templates, Common flow, `USWDS_AppTemplate` | New app from template runs end-to-end with no OSUI |
 | **8. Style Guide & hardening** (2 wks) | Style Guide complete, docs, developer guide, v1.0.0 release, pilot app | Accessibility sign-off. Pilot app approved |
 
-Total ≈ **20–23 weeks**. Phases 4–6 run in parallel after Phase 2.
+Total ≈ **20–23 weeks of effort** if phases run one after another. Phases 4–6 can overlap once Phase 2 is done, which shortens the calendar with 2–3 developers.
 
 ---
 
