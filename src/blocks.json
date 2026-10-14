@@ -1,0 +1,42 @@
+{
+  "$comment": "USWDS packages compiled as USWDS_Patterns Block stylesheets. Packages owned by the Theme are listed in src/theme/index.scss. strategy: B = Block, N = native OutSystems logic, W = Web Component (MIGRATION_PLAN.md §7).",
+  "blocks": {
+    "usa-button-group": { "block": "ButtonGroup", "strategy": "B" },
+    "usa-breadcrumb": { "block": "Breadcrumb", "strategy": "B" },
+    "usa-card": { "block": "Card", "strategy": "B" },
+    "usa-character-count": { "block": "CharacterCount", "strategy": "B+N" },
+    "usa-checklist": { "block": "Validation", "strategy": "B+N" },
+    "usa-collection": { "block": "Collection", "strategy": "B" },
+    "usa-combo-box": { "block": "ComboBox", "strategy": "B+W" },
+    "usa-date-picker": { "block": "DatePicker", "strategy": "B+W" },
+    "usa-file-input": { "block": "FileInput", "strategy": "B+W" },
+    "usa-graphic-list": { "block": "GraphicList", "strategy": "B" },
+    "usa-hero": { "block": "Hero", "strategy": "B" },
+    "usa-icon-list": { "block": "IconList", "strategy": "B" },
+    "usa-in-page-navigation": { "block": "InPageNavigation", "strategy": "B+W" },
+    "usa-input-mask": { "block": "InputMask", "strategy": "B+W" },
+    "usa-input-prefix-suffix": { "block": "InputPrefixSuffix", "strategy": "B" },
+    "usa-language-selector": { "block": "LanguageSelector", "strategy": "B+N" },
+    "usa-memorable-date": { "block": "MemorableDate", "strategy": "B" },
+    "usa-pagination": { "block": "Pagination", "strategy": "B" },
+    "usa-process-list": { "block": "ProcessList", "strategy": "B" },
+    "usa-site-alert": { "block": "SiteAlert", "strategy": "B" },
+    "usa-step-indicator": { "block": "StepIndicator", "strategy": "B" },
+    "usa-summary-box": { "block": "SummaryBox", "strategy": "B" },
+    "usa-tag": { "block": "Tag", "strategy": "B" },
+    "usa-time-picker": { "block": "TimePicker", "strategy": "B+W" },
+    "usa-tooltip": { "block": "Tooltip", "strategy": "B+N" }
+  },
+  "noStyles": {
+    "$comment": "Packages with no CSS of their own: behavior-only, mixin-only or composite. Implemented as Blocks that reuse other bundles.",
+    "usa-date-range-picker": { "block": "DateRangePicker", "strategy": "B+W", "uses": ["usa-date-picker"] },
+    "usa-validation": { "block": "Validation", "strategy": "B+N", "uses": ["usa-checklist"] },
+    "_usa-password": { "block": "PasswordToggle", "strategy": "B+N", "uses": [] },
+    "usa-add-aspect": { "note": "Sass mixin only" },
+    "usa-fonts": { "note": "Covered by uswds-fonts in the Theme" },
+    "usa-site-title": { "note": "Sass mixin only" },
+    "usa-type-line-length": { "note": "Sass mixin only" },
+    "usa-type-setting": { "note": "Sass mixin only" },
+    "usa-type-spacing": { "note": "Sass mixin only" }
+  }
+}

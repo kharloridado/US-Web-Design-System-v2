@@ -1,0 +1,31 @@
+{
+  "name": "uswds-outsystems",
+  "version": "0.1.0",
+  "description": "USWDS 3.14.0 compiled for an OutSystems 11 Reactive Web standalone theme",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-parity.mjs",
+    "ci": "npm run build && npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharloridado/US-Web-Design-System-v2.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@uswds/uswds": "3.14.0",
+    "autoprefixer": "10.6.1",
+    "postcss": "8.5.30",
+    "sass": "1.105.1"
+  },
+  "private": true,
+  "type": "module",
+  "browserslist": [
+    "> 2%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

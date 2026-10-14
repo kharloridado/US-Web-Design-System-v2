@@ -1,0 +1,406 @@
+{
+  "uswdsVersion": "3.14.0",
+  "theme": {
+    "module": "USWDS_Theme",
+    "packages": [
+      "usa-content",
+      "usa-dark-background",
+      "usa-display",
+      "usa-intro",
+      "usa-link",
+      "usa-list",
+      "usa-paragraph",
+      "usa-prose",
+      "usa-layout-grid",
+      "usa-layout-docs",
+      "usa-section",
+      "usa-embed-container",
+      "usa-media-block",
+      "usa-icon",
+      "usa-button",
+      "usa-alert",
+      "usa-modal",
+      "usa-table",
+      "usa-form",
+      "usa-form-group",
+      "usa-label",
+      "usa-hint",
+      "usa-error-message",
+      "usa-fieldset",
+      "usa-legend",
+      "usa-input",
+      "usa-input-list",
+      "usa-select",
+      "usa-textarea",
+      "usa-checkbox",
+      "usa-radio",
+      "usa-range",
+      "usa-skipnav",
+      "usa-accordion",
+      "usa-search",
+      "usa-nav",
+      "usa-header",
+      "usa-banner",
+      "usa-footer",
+      "usa-identifier",
+      "usa-sidenav"
+    ],
+    "file": "theme/uswds-theme.min.css",
+    "size": {
+      "bytes": 520509,
+      "gzip": 54874
+    }
+  },
+  "blocks": {
+    "ButtonGroup": {
+      "package": "usa-button-group",
+      "strategy": "B",
+      "file": "blocks/ButtonGroup.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 3349,
+        "gzip": 759
+      }
+    },
+    "Breadcrumb": {
+      "package": "usa-breadcrumb",
+      "strategy": "B",
+      "file": "blocks/Breadcrumb.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 4244,
+        "gzip": 974
+      }
+    },
+    "Card": {
+      "package": "usa-card",
+      "strategy": "B",
+      "file": "blocks/Card.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 6278,
+        "gzip": 1313
+      }
+    },
+    "CharacterCount": {
+      "package": "usa-character-count",
+      "strategy": "B+N",
+      "file": "blocks/CharacterCount.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 276,
+        "gzip": 196
+      }
+    },
+    "Validation": {
+      "package": "usa-checklist",
+      "strategy": "B+N",
+      "file": "blocks/Validation.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 803,
+        "gzip": 436
+      }
+    },
+    "Collection": {
+      "package": "usa-collection",
+      "strategy": "B",
+      "file": "blocks/Collection.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 3571,
+        "gzip": 806
+      }
+    },
+    "ComboBox": {
+      "package": "usa-combo-box",
+      "strategy": "B+W",
+      "file": "blocks/ComboBox.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 6566,
+        "gzip": 1335
+      }
+    },
+    "DatePicker": {
+      "package": "usa-date-picker",
+      "strategy": "B+W",
+      "file": "blocks/DatePicker.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 26697,
+        "gzip": 2228
+      }
+    },
+    "FileInput": {
+      "package": "usa-file-input",
+      "strategy": "B+W",
+      "file": "blocks/FileInput.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 4429,
+        "gzip": 1108
+      }
+    },
+    "GraphicList": {
+      "package": "usa-graphic-list",
+      "strategy": "B",
+      "file": "blocks/GraphicList.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 1085,
+        "gzip": 419
+      }
+    },
+    "Hero": {
+      "package": "usa-hero",
+      "strategy": "B",
+      "file": "blocks/Hero.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 896,
+        "gzip": 489
+      }
+    },
+    "IconList": {
+      "package": "usa-icon-list",
+      "strategy": "B",
+      "file": "blocks/IconList.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 50137,
+        "gzip": 3343
+      }
+    },
+    "InPageNavigation": {
+      "package": "usa-in-page-navigation",
+      "strategy": "B+W",
+      "file": "blocks/InPageNavigation.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 3057,
+        "gzip": 840
+      }
+    },
+    "InputMask": {
+      "package": "usa-input-mask",
+      "strategy": "B+W",
+      "file": "blocks/InputMask.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 4028,
+        "gzip": 621
+      }
+    },
+    "InputPrefixSuffix": {
+      "package": "usa-input-prefix-suffix",
+      "strategy": "B",
+      "file": "blocks/InputPrefixSuffix.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 4790,
+        "gzip": 942
+      }
+    },
+    "LanguageSelector": {
+      "package": "usa-language-selector",
+      "strategy": "B+N",
+      "file": "blocks/LanguageSelector.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 2498,
+        "gzip": 738
+      }
+    },
+    "MemorableDate": {
+      "package": "usa-memorable-date",
+      "strategy": "B",
+      "file": "blocks/MemorableDate.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 816,
+        "gzip": 381
+      }
+    },
+    "Pagination": {
+      "package": "usa-pagination",
+      "strategy": "B",
+      "file": "blocks/Pagination.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 2507,
+        "gzip": 797
+      }
+    },
+    "ProcessList": {
+      "package": "usa-process-list",
+      "strategy": "B",
+      "file": "blocks/ProcessList.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 2508,
+        "gzip": 693
+      }
+    },
+    "SiteAlert": {
+      "package": "usa-site-alert",
+      "strategy": "B",
+      "file": "blocks/SiteAlert.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 5370,
+        "gzip": 1053
+      }
+    },
+    "StepIndicator": {
+      "package": "usa-step-indicator",
+      "strategy": "B",
+      "file": "blocks/StepIndicator.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 6081,
+        "gzip": 1177
+      }
+    },
+    "SummaryBox": {
+      "package": "usa-summary-box",
+      "strategy": "B",
+      "file": "blocks/SummaryBox.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 1014,
+        "gzip": 449
+      }
+    },
+    "Tag": {
+      "package": "usa-tag",
+      "strategy": "B",
+      "file": "blocks/Tag.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 511,
+        "gzip": 306
+      }
+    },
+    "TimePicker": {
+      "package": "usa-time-picker",
+      "strategy": "B+W",
+      "file": "blocks/TimePicker.min.css",
+      "requires": [
+        "ComboBox"
+      ],
+      "size": {
+        "bytes": 131,
+        "gzip": 133
+      }
+    },
+    "Tooltip": {
+      "package": "usa-tooltip",
+      "strategy": "B+N",
+      "file": "blocks/Tooltip.min.css",
+      "requires": [],
+      "size": {
+        "bytes": 2021,
+        "gzip": 639
+      }
+    }
+  },
+  "noStyles": {
+    "$comment": "Packages with no CSS of their own: behavior-only, mixin-only or composite. Implemented as Blocks that reuse other bundles.",
+    "usa-date-range-picker": {
+      "block": "DateRangePicker",
+      "strategy": "B+W",
+      "uses": [
+        "usa-date-picker"
+      ]
+    },
+    "usa-validation": {
+      "block": "Validation",
+      "strategy": "B+N",
+      "uses": [
+        "usa-checklist"
+      ]
+    },
+    "_usa-password": {
+      "block": "PasswordToggle",
+      "strategy": "B+N",
+      "uses": []
+    },
+    "usa-add-aspect": {
+      "note": "Sass mixin only"
+    },
+    "usa-fonts": {
+      "note": "Covered by uswds-fonts in the Theme"
+    },
+    "usa-site-title": {
+      "note": "Sass mixin only"
+    },
+    "usa-type-line-length": {
+      "note": "Sass mixin only"
+    },
+    "usa-type-setting": {
+      "note": "Sass mixin only"
+    },
+    "usa-type-spacing": {
+      "note": "Sass mixin only"
+    }
+  },
+  "assets": [
+    "fonts/merriweather/Latin-Merriweather-Bold.woff2",
+    "fonts/merriweather/Latin-Merriweather-BoldItalic.woff2",
+    "fonts/merriweather/Latin-Merriweather-Italic.woff2",
+    "fonts/merriweather/Latin-Merriweather-Light.woff2",
+    "fonts/merriweather/Latin-Merriweather-LightItalic.woff2",
+    "fonts/merriweather/Latin-Merriweather-Regular.woff2",
+    "fonts/roboto-mono/roboto-mono-v5-latin-300.woff2",
+    "fonts/roboto-mono/roboto-mono-v5-latin-300italic.woff2",
+    "fonts/roboto-mono/roboto-mono-v5-latin-700.woff2",
+    "fonts/roboto-mono/roboto-mono-v5-latin-700italic.woff2",
+    "fonts/roboto-mono/roboto-mono-v5-latin-italic.woff2",
+    "fonts/roboto-mono/roboto-mono-v5-latin-regular.woff2",
+    "fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2",
+    "fonts/source-sans-pro/sourcesanspro-bolditalic-webfont.woff2",
+    "fonts/source-sans-pro/sourcesanspro-italic-webfont.woff2",
+    "fonts/source-sans-pro/sourcesanspro-light-webfont.woff2",
+    "fonts/source-sans-pro/sourcesanspro-lightitalic-webfont.woff2",
+    "fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2",
+    "img/checkbox-indeterminate-alt.svg",
+    "img/checkbox-indeterminate.svg",
+    "img/circle-gray-20.svg",
+    "img/correct8-alt.svg",
+    "img/correct8.svg",
+    "img/file-excel.svg",
+    "img/file-pdf.svg",
+    "img/file-video.svg",
+    "img/file-word.svg",
+    "img/file.svg",
+    "img/hero.jpg",
+    "img/icon-dot-gov.svg",
+    "img/icon-https.svg",
+    "img/loader.svg",
+    "img/lock.svg",
+    "img/sprite.svg",
+    "img/us_flag_small.png",
+    "img/usa-icons-bg/check--blue-60v.svg",
+    "img/usa-icons-bg/error--white.svg",
+    "img/usa-icons-bg/launch--white.svg",
+    "img/usa-icons/add.svg",
+    "img/usa-icons/arrow_back.svg",
+    "img/usa-icons/calendar_today.svg",
+    "img/usa-icons/check_circle.svg",
+    "img/usa-icons/close.svg",
+    "img/usa-icons/error.svg",
+    "img/usa-icons/expand_less.svg",
+    "img/usa-icons/expand_more.svg",
+    "img/usa-icons/info.svg",
+    "img/usa-icons/launch.svg",
+    "img/usa-icons/navigate_before.svg",
+    "img/usa-icons/navigate_far_before.svg",
+    "img/usa-icons/navigate_far_next.svg",
+    "img/usa-icons/navigate_next.svg",
+    "img/usa-icons/remove.svg",
+    "img/usa-icons/search.svg",
+    "img/usa-icons/unfold_more.svg",
+    "img/usa-icons/warning.svg"
+  ]
+}

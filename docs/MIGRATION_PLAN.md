@@ -4,6 +4,7 @@
 **Target:** OutSystems 11, Reactive Web
 **Scope:** 100%, end to end. Every USWDS foundation (tokens, typography, color, spacing, grid, utilities, icons, fonts), every component, every page template, plus layouts, an app template and a Live Style Guide.
 **Architecture:** **Standalone USWDS theme, not based on OutSystems UI** (see §3).
+**Brand:** stock USWDS tokens. **Language:** English only for v1.
 
 ---
 
@@ -39,7 +40,7 @@
 
 | Module | Contents | References |
 |---|---|---|
-| `USWDS_Theme` | Theme (Base Theme = none), compiled USWDS CSS, platform widget contract CSS (§4), `:root` tokens, Layout blocks, fonts, images, `sprite.svg` | none |
+| `USWDS_Theme` | Theme (Base Theme = none), compiled USWDS CSS, platform widget contract CSS (§4), `:root` tokens, fonts, images, `sprite.svg`, Layout blocks **and the site-chrome Blocks they use** (Skipnav, Banner, Header, Footer, Identifier, Side navigation), which keeps Theme free of a Patterns dependency | none |
 | `USWDS_JS` | `uswds-os.min.js`: selected USWDS behavior modules + light-DOM custom elements | none |
 | `USWDS_Utils` | Client actions: `SetFocus`/`FocusFirstError`, `ScrollToElement`, `SetHtmlLang`, `TrapFocus`/`ReleaseFocus`, `SetInert`, `AnnounceLiveRegion`, `GetBreakpoint` | none |
 | `USWDS_Patterns` | One Block per component, static entities for variants/sizes | Theme, JS, Utils |
@@ -123,12 +124,13 @@ OSUI's main value is filling gaps. A full USWDS migration leaves no gaps, so wha
 │  │  ├─ platform/                    # §4 platform widget contract, one partial per widget
 │  │  ├─ _layouts.scss
 │  │  └─ _overrides.scss              # agency overrides, last
-│  ├─ components/<usa-package>/index.scss   # → Block stylesheet
+│  ├─ blocks.json                    # usa-* packages compiled as Block stylesheets
 │  ├─ templates/<template>.scss            # template-specific CSS (if any)
 │  └─ js/{uswds-os.js, elements/, utils/}
 ├─ dist/                              # committed build output for Service Studio
 │  ├─ theme/uswds-theme.css
-│  ├─ components/*.css
+│  ├─ blocks/<Block>.css
+│  ├─ manifest.json                  # package → Block, required Blocks, sizes, assets
 │  ├─ js/uswds-os.min.js
 │  └─ assets/{fonts,img}/
 ├─ docs/
@@ -139,7 +141,7 @@ OSUI's main value is filling gaps. A full USWDS migration leaves no gaps, so wha
 │  └─ CHANGELOG.md
 ├─ reference/                         # USWDS twig templates rendered to static HTML (test baseline)
 ├─ tests/{visual,a11y,runtime}/
-└─ scripts/                           # build, size report, upgrade diff, reference render
+└─ scripts/                           # build.mjs (+ coverage check), check-parity.mjs, later: upgrade diff, reference render
 ```
 
 `.oml`/`.oap` binaries are versioned in LifeTime. Each OutSystems release notes the repo commit it was built from.
@@ -160,8 +162,8 @@ OSUI's main value is filling gaps. A full USWDS migration leaves no gaps, so wha
   $theme-global-content-styles: true,         // safe now: no OSUI to clobber
   $theme-global-link-styles: true,
   $theme-global-paragraph-styles: true,
-  $utilities-use-important: false,
-  // brand: $theme-color-primary-family, $theme-font-type-sans, … (stock USWDS until decided)
+  $utilities-use-important: true,             // OS loads Block CSS after the Theme; keeps utilities winning
+  // brand: stock USWDS tokens (decision #4). Agency theming later goes here only.
 );
 ```
 
@@ -257,7 +259,7 @@ Legend: **CSS** = Theme classes only. **B** = Block. **N / W / P** = §7.
 
 **Layout Blocks (`USWDS_Theme`):** `LayoutDefault` (Skipnav → SiteAlert placeholder → Banner → Header → `main#main-content` → Footer → Identifier), `LayoutSidenav` (docs layout), `LayoutBlank` (auth/error/print).
 
-**Screen templates (`USWDS_Templates`, one per USWDS page template, EN + ES where USWDS provides it):**
+**Screen templates (`USWDS_Templates`, one per USWDS page template, English only for v1):**
 
 | USWDS template | OutSystems screen template |
 |---|---|
@@ -280,7 +282,7 @@ Legend: **CSS** = Theme classes only. **B** = Block. **N / W / P** = §7.
 
 | Phase | Scope | Exit criteria |
 |---|---|---|
-| **0. Setup & spike** (1–2 wks) | Repo pipeline + CI, module skeletons, **platform widget DOM spike** (§4), reference HTML renderer for USWDS templates | `npm run build` → `dist/`. Spike inventory documented |
+| **0. Setup & spike** (1–2 wks) | Repo pipeline + CI ✅, module skeletons, **platform widget DOM spike** (§4), reference HTML renderer for USWDS templates | `npm run build` → `dist/` ✅. Parity check: 0 missing/duplicated rules vs official USWDS ✅. Spike inventory documented ([setup guide](phase-0-outsystems-setup.md)) |
 | **1. Foundations** (3 wks) | Settings, tokens, fonts/images/sprite, global + typography + grid + full utilities, Icon Block, `USWDS_Utils` | Token/utility specimen pages in Style Guide |
 | **2. Platform widget contract** (2 wks) | All of §4 | Every platform widget/state matches USWDS on the contract test page |
 | **3. Layouts & site chrome** (2 wks) | Skipnav, Site alert, Banner, Header (all variants), Footer (all), Identifier, Side nav, Layout Blocks | Keyboard + screen-reader pass. Menus survive navigation |
@@ -320,7 +322,7 @@ Total ≈ **20–23 weeks**. Phases 4–6 run in parallel after Phase 2.
 |---|---|---|
 | 1 | Platform | **O11 Reactive Web**, confirmed |
 | 2 | Scope | **100%**: all foundations, components, templates, layouts, app template, confirmed |
-| 3 | OutSystems UI | **Standalone (no OSUI)**, recommended in §3, awaiting confirmation |
-| 4 | Brand | Stock USWDS tokens or agency brand? Needed before Phase 1 ends |
-| 5 | Multilingual | Spanish variants of templates/banner/identifier? |
-| 6 | Existing apps | Any current OSUI-based apps that must migrate onto this system? (adds a migration playbook) |
+| 3 | OutSystems UI | **Standalone (no OSUI)**, confirmed |
+| 4 | Brand | **Stock USWDS tokens**, confirmed |
+| 5 | Multilingual | **English only for v1.** Spanish template variants deferred. The Language selector component is still built (100% component scope) |
+| 6 | Existing apps | **None.** No OSUI migration playbook needed |

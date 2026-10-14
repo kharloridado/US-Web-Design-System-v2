@@ -1,0 +1,26 @@
+// USWDS settings for the OutSystems 11 standalone theme.
+// Every compiled bundle (Theme + each Block) loads this first, so uswds-core
+// is configured identically everywhere.
+// Brand: stock USWDS tokens. Agency theming, if ever needed, goes here only.
+
+@use "uswds-core" with (
+  // Resources in USWDS_Theme are deployed to target directories "fonts" and "img".
+  $theme-font-path: "/USWDS_Theme/fonts",
+  $theme-image-path: "/USWDS_Theme/img",
+
+  $theme-show-compile-warnings: false,
+  $theme-show-notifications: false,
+  $theme-respect-user-font-size: true,
+
+  // Standalone theme (no OutSystems UI), so USWDS global styles are safe.
+  $theme-global-border-box-sizing: true,
+  $theme-global-content-styles: true,
+  $theme-global-link-styles: true,
+  $theme-global-paragraph-styles: true,
+
+  // OutSystems loads Block stylesheets after the Theme stylesheet, so Block
+  // component rules would beat Theme utilities of equal specificity (in the
+  // official bundle utilities load last). !important utilities restore the
+  // USWDS behavior where utility classes always win.
+  $utilities-use-important: true
+);
