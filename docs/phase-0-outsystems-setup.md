@@ -13,9 +13,7 @@ Create one application, **USWDS Design System**, for the Foundation/Core modules
 | Module | Create as | Screens | References (Manage Dependencies) |
 |---|---|---|---|
 | `USWDS_Theme` | Reactive Web module (blank) | none | none. **Remove the OutSystemsUI reference** that new modules get by default |
-| `USWDS_JS` | Reactive Web module (blank) | none | none |
-| `USWDS_Utils` | Reactive Web module (blank) | none | none |
-| `USWDS_Patterns` | Reactive Web module (blank) | none | `USWDS_Theme`, `USWDS_JS`, `USWDS_Utils` |
+| `USWDS_Patterns` | Reactive Web module (blank) | none | `USWDS_Theme` |
 | `USWDS_Templates` | Reactive Web module | template screens (Phase 7) | `USWDS_Patterns`, `USWDS_Theme` |
 | `USWDS_StyleGuide` | Reactive Web app module | yes | all of the above |
 

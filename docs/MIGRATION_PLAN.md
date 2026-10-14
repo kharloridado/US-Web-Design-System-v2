@@ -28,27 +28,26 @@
 │  USWDS_Templates   – page templates (landing, docs, sign-in, forms, │
 │                      error…) exposed in "New Screen"                │
 ├───────────────────────────── Foundation ───────────────────────────┤
-│  USWDS_Patterns    – UI Blocks for every component, static entities │
-│  USWDS_Utils       – client actions replacing the OS UI utilities   │
-│                      we relied on (focus, scroll, lang, device…)    │
-│  USWDS_JS          – USWDS behaviors + custom elements (Script)     │
+│  USWDS_Patterns    – UI Blocks for every component, static entities,│
+│                      USWDS behaviors + custom elements (Scripts)    │
 │  USWDS_Theme       – standalone Theme: compiled CSS, platform-      │
-│                      widget styling, layouts, fonts, img, sprite    │
+│                      widget styling, layouts, site chrome, fonts,   │
+│                      img, sprite, shared client actions             │
 └──────────────────────────────────────────────────────────────────┘
         (no reference to OutSystemsUI from any of these modules)
 ```
 
 | Module | Contents | References |
 |---|---|---|
-| `USWDS_Theme` | Theme (Base Theme = none), compiled USWDS CSS, platform widget contract CSS (§4), `:root` tokens, fonts, images, `sprite.svg`, Layout blocks **and the site-chrome Blocks they use** (Skipnav, Banner, Header, Footer, Identifier, Side navigation), which keeps Theme free of a Patterns dependency | none |
-| `USWDS_JS` | `uswds-os.min.js`: selected USWDS behavior modules + light-DOM custom elements | none |
-| `USWDS_Utils` | Client actions: `SetFocus`/`FocusFirstError`, `ScrollToElement`, `SetHtmlLang`, `TrapFocus`/`ReleaseFocus`, `SetInert`, `AnnounceLiveRegion`, `GetBreakpoint` | none |
-| `USWDS_Patterns` | One Block per component, static entities for variants/sizes | Theme, JS, Utils |
+| `USWDS_Theme` | Theme (Base Theme = none), compiled USWDS CSS, platform widget contract CSS (§4), `:root` tokens, fonts, images, `sprite.svg`, Layout blocks **and the site-chrome Blocks they use** (Skipnav, Banner, Header, Footer, Identifier, Side navigation), and the **shared client actions** both layers need: `FocusFirstError`, `ScrollToElement`, `SetHtmlLang`, `TrapFocus`/`ReleaseFocus`, `SetInert`, `AnnounceLiveRegion`, `GetBreakpoint` | none |
+| `USWDS_Patterns` | One Block per component, static entities for variants/sizes, and the `uswds-os` Script resources (selected USWDS behavior modules + light-DOM custom elements) used by the Web Component Blocks | Theme |
 | `USWDS_Templates` | Screen templates from every USWDS page template | Patterns, Theme |
 | `USWDS_AppTemplate` | Custom app template: Common flow (layouts, login, error/invalid-permissions screens, exception handler), Theme preset | Patterns, Theme, Templates |
 | `USWDS_StyleGuide` | Docs + demo screens for every token, utility, Block and template. Also the target for automated tests | All |
 
-**Rules:** Foundation modules have no sideways references except `Patterns → Theme/JS/Utils`. Consumer apps use Theme = `USWDS_Theme` and must not reference OutSystems UI (enforced in code review / Architecture Dashboard). Releases are versioned together as `vX.Y.Z+uswds3.14.0`.
+**Why two Foundation modules, not four:** an earlier draft split out `USWDS_JS` and `USWDS_Utils`. The scripts are only used by Web Component Blocks in Patterns, and OutSystems loads a Script only on screens that use a Block requiring it, so a separate module added a dependency and a publish step for nothing. The client actions can't go in Patterns, because the Theme's Header, Skipnav and layouts need them and Theme must not reference Patterns, so they live in Theme, which Patterns already references.
+
+**Rules:** the only Foundation reference is `Patterns → Theme`. Consumer apps use Theme = `USWDS_Theme` and must not reference OutSystems UI (enforced in code review / Architecture Dashboard). Releases are versioned together as `vX.Y.Z+uswds3.14.0`.
 
 ---
 
@@ -188,7 +187,7 @@ OSUI's main value is filling gaps. A full USWDS migration leaves no gaps, so wha
 
 | Strategy | When | How |
 |---|---|---|
-| **N – Native OutSystems** | Simple state | Local vars, bound `aria-*`/`hidden`, client actions from `USWDS_Utils`. USWDS CSS provides the visuals |
+| **N – Native OutSystems** | Simple state | Local vars, bound `aria-*`/`hidden`, shared client actions in `USWDS_Theme`. USWDS CSS provides the visuals |
 | **W – Web Component** | USWDS JS rebuilds DOM | Light-DOM custom element (`<uswds-os-…>`): builds inner markup, `behavior.on(this)` in `connectedCallback`, `.off(this)` in `disconnectedCallback`, emits `change`. The Block renders only the host element (HTML Element widget), syncs Inputs in `OnParametersChanged`, raises `OnChange` |
 | **P – Platform widget** | Platform has the behavior | Styled via §4 contract |
 
@@ -283,12 +282,12 @@ Legend: **CSS** = Theme classes only. **B** = Block. **N / W / P** = §7.
 | Phase | Scope | Exit criteria |
 |---|---|---|
 | **0. Setup & spike** (1–2 wks) | Repo pipeline + CI ✅, module skeletons, **platform widget DOM spike** (§4), reference HTML renderer for USWDS templates | `npm run build` → `dist/` ✅. Parity check: 0 missing/duplicated rules vs official USWDS ✅. Spike inventory documented ([setup guide](phase-0-outsystems-setup.md)) |
-| **1. Foundations** (3 wks) | Settings, tokens, fonts/images/sprite, global + typography + grid + full utilities, Icon Block, `USWDS_Utils` | Token/utility specimen pages in Style Guide |
+| **1. Foundations** (3 wks) | Settings, tokens, fonts/images/sprite, global + typography + grid + full utilities, Icon Block, shared client actions | Token/utility specimen pages in Style Guide |
 | **2. Platform widget contract** (2 wks) | All of §4 | Every platform widget/state matches USWDS on the contract test page |
 | **3. Layouts & site chrome** (2 wks) | Skipnav, Site alert, Banner, Header (all variants), Footer (all), Identifier, Side nav, Layout Blocks | Keyboard + screen-reader pass. Menus survive navigation |
 | **4. Static components** (3 wks) | All **B** components without behavior | Visual diff vs reference within threshold. axe 0 serious/critical |
 | **5. Stateful native** (2 wks) | All **B + N** components | Focus-management tests. No React errors on mount/unmount |
-| **6. Web Components** (3–4 wks) | `USWDS_JS` + all **B + W** components | Two-way binding. 50× navigate stress test without leaks |
+| **6. Web Components** (3–4 wks) `uswds-os` Scripts in Patterns + all **B + W** components | Two-way binding. 50× navigate stress test without leaks |
 | **7. Templates & app template** (2–3 wks) | All page templates, extra templates, Common flow, `USWDS_AppTemplate` | New app from template runs end-to-end with no OSUI |
 | **8. Style Guide & hardening** (2 wks) | Style Guide complete, docs, developer guide, v1.0.0 release, pilot app | Accessibility sign-off. Pilot app approved |
 
