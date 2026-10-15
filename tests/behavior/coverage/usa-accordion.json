@@ -1,0 +1,13 @@
+{
+  "package": "usa-accordion",
+  "cases": [
+    { "spec": "usa-accordion/src/test/accordion.spec.js", "title": "has an \"aria-expanded\" attribute", "status": "ported", "test": "usa-accordion/accordion.spec.mjs" },
+    { "spec": "usa-accordion/src/test/accordion.spec.js", "title": "has an \"aria-controls\" attribute", "status": "ported", "test": "usa-accordion/accordion.spec.mjs" },
+    { "spec": "usa-accordion/src/test/accordion.spec.js", "title": "toggles button aria-expanded=\"true\"", "status": "ported", "test": "usa-accordion/accordion.spec.mjs" },
+    { "spec": "usa-accordion/src/test/accordion.spec.js", "title": "toggles content \"hidden\" off", "status": "ported", "test": "usa-accordion/accordion.spec.mjs" },
+    { "spec": "usa-accordion/src/test/accordion.spec.js", "title": "toggles button aria-expanded=\"false\"", "status": "ported", "test": "usa-accordion/accordion.spec.mjs" },
+    { "spec": "usa-accordion/src/test/accordion.spec.js", "title": "toggles content \"hidden\" on", "status": "ported", "test": "usa-accordion/accordion.spec.mjs" },
+    { "spec": "usa-accordion/src/test/accordion.spec.js", "title": "shows the second item when clicked", "status": "ported", "test": "usa-accordion/accordion.spec.mjs" },
+    { "spec": "usa-accordion/src/test/accordion.spec.js", "title": "keeps multiple sections open with data-allow-multiple", "status": "ported", "test": "usa-accordion/accordion.spec.mjs" }
+  ]
+}

@@ -2332,12 +2332,12 @@
       "package": "usa-accordion",
       "file": "usa-accordion/src/test/accordion.spec.js",
       "cases": [
-        "has an ",
-        "has an ",
-        "toggles button aria-expanded=",
-        "toggles content ",
-        "toggles button aria-expanded=",
-        "toggles content ",
+        "has an \"aria-expanded\" attribute",
+        "has an \"aria-controls\" attribute",
+        "toggles button aria-expanded=\"true\"",
+        "toggles content \"hidden\" off",
+        "toggles button aria-expanded=\"false\"",
+        "toggles content \"hidden\" on",
         "shows the second item when clicked",
         "keeps multiple sections open with data-allow-multiple"
       ]
@@ -2685,7 +2685,7 @@
       "cases": [
         "should enhance the date input with a date picker button",
         "should display a calendar for the current date when the date picker button is clicked",
-        "should set aria-current=",
+        "should set aria-current='date' on today's date button",
         "should not set aria-current on non-today date buttons",
         "should hide the calendar when the date picker button is clicked and the calendar is already open",
         "should close the calendar you click outside of an active calendar",
@@ -2725,21 +2725,21 @@
         "should validate the input when a date is selected",
         "should show an improper date as invalid if the user presses enter from the input",
         "should show an empty input as valid",
-        "should prevent action from button when event didn"
+        "should prevent action from button when event didn't originate from date"
       ]
     },
     {
       "package": "usa-date-picker",
       "file": "usa-date-picker/src/test/invalid-template-no-input.spec.js",
       "cases": [
-        "should throw an error when date picker is activated without a wrapping "
+        "should throw an error when date picker is activated without a wrapping \"usa-date-picker\""
       ]
     },
     {
       "package": "usa-date-picker",
       "file": "usa-date-picker/src/test/invalid-template-no-wrapper.spec.js",
       "cases": [
-        "should throw an error when a toggle button is clicked without a wrapping "
+        "should throw an error when a toggle button is clicked without a wrapping \"usa-date-picker\""
       ]
     },
     {
@@ -2772,22 +2772,22 @@
       "package": "usa-date-range-picker",
       "file": "usa-date-range-picker/src/test/invalid-template-no-input.spec.js",
       "cases": [
-        "should throw an error when a toggle button is clicked without a wrapping "
+        "should throw an error when a toggle button is clicked without a wrapping \"usa-date-picker\""
       ]
     },
     {
       "package": "usa-date-range-picker",
       "file": "usa-date-range-picker/src/test/invalid-template-no-wrapper.spec.js",
       "cases": [
-        "should throw an error when the range start value is changed without a wrapping ",
-        "should throw an error when the range end value is changed without a wrapping "
+        "should throw an error when the range start value is changed without a wrapping \"usa-date-range-picker\"",
+        "should throw an error when the range end value is changed without a wrapping \"usa-date-range-picker\""
       ]
     },
     {
       "package": "usa-date-range-picker",
       "file": "usa-date-range-picker/src/test/invalid-template-one-input.spec.js",
       "cases": [
-        "should throw an error when a date range picker without two "
+        "should throw an error when a date range picker without two \"usa-date-picker\" elements"
       ]
     },
     {
@@ -2798,7 +2798,7 @@
         "target ui is created",
         "input gets new class",
         "box is created",
-        "pluralizes ",
+        "pluralizes \"files\" if there is a \"multiple\" attribute",
         "mock file should be defined with specific values",
         "mock file should not be allowed",
         "should provide a default error message for invalid file type",
@@ -2820,7 +2820,7 @@
         "target ui is created",
         "input gets new class",
         "box is created",
-        "pluralizes ",
+        "pluralizes \"files\" if there is a \"multiple\" attribute",
         "creates a status message element",
         "adds a default status message"
       ]
@@ -2829,7 +2829,7 @@
       "package": "usa-file-input",
       "file": "usa-file-input/src/test/single-file-input.spec.js",
       "cases": [
-        "uses singular ",
+        "uses singular \"file\" if there is not a \"multiple\" attribute",
         "uses the desktop drag instruction as its default aria label",
         "removes the drag instruction",
         "uses a mobile-safe choose instruction",
@@ -2963,23 +2963,23 @@
       "file": "usa-modal/src/test/modal.spec.js",
       "cases": [
         "creates new parent elements",
-        "adds role=",
-        "sets aria-hidden=",
+        "adds role=\"dialog\" to modal parent",
+        "sets aria-hidden=\"true\" on the closed dialog wrapper",
         "moves aria-labelledby, aria-describedby, and id to the parent",
-        "sets tabindex=",
+        "sets tabindex=\"-1\" to the modal window",
         "moves the modal to the bottom of the DOM",
-        "adds role=",
+        "adds role=\"button\" to any <a> opener, but not <button>",
         "adds aria-controls to each opener",
         "makes the modal visible",
         "focuses the first footer button when opened",
-        "sets aria-modal=",
+        "sets aria-modal=\"true\" on the dialog wrapper",
         "removes aria-hidden from the dialog wrapper",
         "makes all other page content invisible to screen readers",
         "Allows event propagation and displays combobox list when toggle is clicked",
         "hides the modal when close button is clicked",
         "closes the modal when the overlay is clicked",
         "sends focus to the element that opened it",
-        "restores aria-hidden=",
+        "restores aria-hidden=\"true\" on the dialog wrapper",
         "restores other page content screen reader visibility",
         "restores page content when the opener has left the document",
         "focuses a [data-focus] element over the footer button",
@@ -3037,20 +3037,20 @@
       "package": "usa-skipnav",
       "file": "usa-skipnav/src/test/skipnav.spec.js",
       "cases": [
-        "skipnav link sets tabindex=",
-        "skipnav link sets tabindex=",
-        "return to top link sets tabindex="
+        "skipnav link sets tabindex=\"0\" when clicked",
+        "skipnav link sets tabindex=\"-1\" when blurred",
+        "return to top link sets tabindex=\"0\" when clicked"
       ]
     },
     {
       "package": "usa-table",
       "file": "usa-table/src/test/table.spec.js",
       "cases": [
-        "is immediately followed by an ",
+        "is immediately followed by an \"aria-live\" region",
         "has at least one sortable column",
         "sorts rows by cell content alphabetically when clicked",
         "sorts rows by cell content numerically when clicked",
-        "sorts rows by ",
+        "sorts rows by 'data-sort-value' attribute on cells when clicked",
         "sorts rows descending if already sorted ascending when clicked",
         "announces sort direction when sort changes",
         "has an aria-label that describes the current sort direction",

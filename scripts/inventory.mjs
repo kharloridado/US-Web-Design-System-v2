@@ -71,7 +71,8 @@ const specs = walk(packagesDir, (p) => p.endsWith(".spec.js") && !p.includes(`${
   .sort()
   .map((p) => {
     const src = fs.readFileSync(p, "utf8");
-    const cases = [...src.matchAll(/\bit\(\s*["'`]([^"'`]+)["'`]/g)].map((m) => m[1]);
+    // it("title", ...): the title runs to the matching closing quote, so titles may contain other quotes.
+    const cases = [...src.matchAll(/\bit\(\s*(["'`])((?:\\.|(?!\1)[^\\])*)\1/g)].map((m) => m[2].replace(/\\(.)/g, "$1"));
     return { package: pkgOf(p), file: path.relative(packagesDir, p), cases };
   });
 
