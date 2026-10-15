@@ -54,12 +54,13 @@ ${html}
 `;
 }
 
-// Official USWDS assets, linked rather than copied.
+// Official USWDS assets, linked rather than copied. "junction" because a Windows
+// "dir" symlink needs admin or Developer Mode; the type is ignored elsewhere.
 function linkAssets() {
   const target = path.join(siteDir, "uswds");
   fs.mkdirSync(target, { recursive: true });
   for (const dir of ["css", "js", "img", "fonts"]) {
-    fs.symlinkSync(path.join(uswdsRoot, "dist", dir), path.join(target, dir), "dir");
+    fs.symlinkSync(path.join(uswdsRoot, "dist", dir), path.join(target, dir), "junction");
   }
 }
 
