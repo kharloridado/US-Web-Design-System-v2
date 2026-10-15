@@ -1,0 +1,15 @@
+{
+  "package": "usa-tooltip",
+  "cases": [
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "trigger is created", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" },
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "title attribute on trigger is removed", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" },
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "tooltip body is created", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" },
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "tooltip is visible on focus", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" },
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "tooltip is hidden on blur", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" },
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "tooltip is visible on mouseover", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" },
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "tooltip is hidden on mouseleave", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" },
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "tooltip content is hoverable", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" },
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "tooltip is hidden on escape keydown", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" },
+    { "spec": "usa-tooltip/src/test/tooltips.spec.js", "title": "should not allow for innerHTML of child elements ", "status": "ported", "test": "usa-tooltip/tooltips.spec.mjs" }
+  ]
+}

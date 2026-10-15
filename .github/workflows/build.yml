@@ -51,3 +51,26 @@ jobs:
           name: uswds-reference-screenshots
           path: reference/screenshots/
           retention-days: 30
+
+  behavior:
+    # USWDS's own behavior cases (packages/*/src/test/*.spec.js), ported to
+    # Playwright, on USWDS's spec fixtures. Definition of Done gate 6.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Every USWDS behavior case is ported or accounted for
+        run: npm run check:behavior
+      - name: Run the ported cases on USWDS's fixtures
+        run: npm run test:behavior
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: behavior-test-results
+          path: test-results/
+          retention-days: 14

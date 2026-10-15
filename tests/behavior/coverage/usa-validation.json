@@ -1,0 +1,11 @@
+{
+  "package": "usa-validation",
+  "cases": [
+    { "spec": "usa-validation/src/test/validator-textarea.spec.js", "title": "creates a hidden span element for accessibility status summary readout", "status": "ported", "test": "usa-validation/validator-textarea.spec.mjs" },
+    { "spec": "usa-validation/src/test/validator-textarea.spec.js", "title": "adds .${CHECKED_CLASS} for all successful validations", "status": "ported", "test": "usa-validation/validator-textarea.spec.mjs" },
+    { "spec": "usa-validation/src/test/validator-textarea.spec.js", "title": "removes .${CHECKED_CLASS} for failed validations", "status": "ported", "test": "usa-validation/validator-textarea.spec.mjs" },
+    { "spec": "usa-validation/src/test/validator.spec.js", "title": "creates a hidden span element in each list item", "status": "ported", "test": "usa-validation/validator.spec.mjs" },
+    { "spec": "usa-validation/src/test/validator.spec.js", "title": "adds .${CHECKED_CLASS} for all successful validations", "status": "ported", "test": "usa-validation/validator.spec.mjs" },
+    { "spec": "usa-validation/src/test/validator.spec.js", "title": "removes .${CHECKED_CLASS} for failed validations", "status": "ported", "test": "usa-validation/validator.spec.mjs" }
+  ]
+}

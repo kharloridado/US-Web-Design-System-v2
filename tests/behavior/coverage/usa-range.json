@@ -1,0 +1,12 @@
+{
+  "package": "usa-range",
+  "cases": [
+    { "spec": "usa-range/src/test/range.spec.js", "title": "check that the wrapper div and the span element are added and that they match the slider.", "status": "ported", "test": "usa-range/range.spec.mjs" },
+    { "spec": "usa-range/src/test/range.spec.js", "title": "Updates span element to match new slider value on change", "status": "ported", "test": "usa-range/range.spec.mjs" },
+    { "spec": "usa-range/src/test/range.spec.js", "title": "displays a visual hint to guide sighted users on how to operate the slider", "status": "ported", "test": "usa-range/range.spec.mjs" },
+    { "spec": "usa-range/src/test/sr-callout-with-preposition.spec.js", "title": "adds aria-valuetext attribute with updated preposition", "status": "ported", "test": "usa-range/sr-callout-with-preposition.spec.mjs" },
+    { "spec": "usa-range/src/test/sr-callout-with-preposition.spec.js", "title": "updates aria-valuetext with updated preposition to match new slider value on change", "status": "ported", "test": "usa-range/sr-callout-with-preposition.spec.mjs" },
+    { "spec": "usa-range/src/test/sr-callout.spec.js", "title": "adds aria-valuetext attribute", "status": "ported", "test": "usa-range/sr-callout.spec.mjs" },
+    { "spec": "usa-range/src/test/sr-callout.spec.js", "title": "updates aria-valuetext to match new slider value on change", "status": "ported", "test": "usa-range/sr-callout.spec.mjs" }
+  ]
+}

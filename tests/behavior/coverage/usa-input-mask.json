@@ -1,0 +1,9 @@
+{
+  "package": "usa-input-mask",
+  "cases": [
+    { "spec": "usa-input-mask/src/test/input-mask-alphanumeric.spec.js", "title": "formats an alphanumeric example to A1B 2C3", "status": "ported", "test": "usa-input-mask/input-mask-alphanumeric.spec.mjs" },
+    { "spec": "usa-input-mask/src/test/input-mask-phone.spec.js", "title": "formats a US telephone number to 999-999-9999", "status": "ported", "test": "usa-input-mask/input-mask-phone.spec.mjs" },
+    { "spec": "usa-input-mask/src/test/input-mask-zip-code.spec.js", "title": "formats a US zip code to 12345-6789", "status": "ported", "test": "usa-input-mask/input-mask-zip-code.spec.mjs" },
+    { "spec": "usa-input-mask/src/test/input-mask.spec.js", "title": "formats a nine digit social security number to 999 99 9999", "status": "ported", "test": "usa-input-mask/input-mask.spec.mjs" }
+  ]
+}

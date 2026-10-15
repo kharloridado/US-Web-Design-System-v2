@@ -1,0 +1,8 @@
+{
+  "package": "usa-skipnav",
+  "cases": [
+    { "spec": "usa-skipnav/src/test/skipnav.spec.js", "title": "skipnav link sets tabindex=\"0\" when clicked", "status": "ported", "test": "usa-skipnav/skipnav.spec.mjs" },
+    { "spec": "usa-skipnav/src/test/skipnav.spec.js", "title": "skipnav link sets tabindex=\"-1\" when blurred", "status": "ported", "test": "usa-skipnav/skipnav.spec.mjs" },
+    { "spec": "usa-skipnav/src/test/skipnav.spec.js", "title": "return to top link sets tabindex=\"0\" when clicked", "status": "ported", "test": "usa-skipnav/skipnav.spec.mjs" }
+  ]
+}

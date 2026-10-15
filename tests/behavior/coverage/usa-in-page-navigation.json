@@ -1,0 +1,23 @@
+{
+  "package": "usa-in-page-navigation",
+  "cases": [
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation-custom-content.spec.js", "title": "pulls the headers from the designated custom content region into the nav list", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation-custom-content.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation-custom-content.spec.js", "title": "creates a link in the nav list for the header that is inside the custom content region", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation-custom-content.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation-custom-content.spec.js", "title": "does not create a link in the nav list for the header that is outside the custom content region", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation-custom-content.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation-custom-heading.spec.js", "title": "creates links in the nav list for the heading level listed in data-heading-elements", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation-custom-heading.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation-custom-heading.spec.js", "title": "creates a link in the nav list specifically for the designated header", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation-custom-heading.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation-minimum-heading-default.spec.js", "title": "does not render the in-page navigation when default heading count of 2 has not been reached", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation-minimum-heading-default.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation-minimum-heading.spec.js", "title": "does render the in-page navigation when set minimum heading count of 1 has been reached", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation-minimum-heading.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation-minimum-heading.spec.js", "title": "does not render the in-page navigation when custom set minimum heading count of 4 has not been reached", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation-minimum-heading.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation-minimum-heading.spec.js", "title": "does render the in-page navigation when default heading count of 2 has been reached", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation-minimum-heading.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation.spec.js", "title": "defines a max width", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation.spec.js", "title": "hides at small screens", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation.spec.js", "title": "show on larger screens", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation.spec.js", "title": "assigns id to section headings", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation.spec.js", "title": "scrolls to section", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation.spec.js", "title": "updates url when scrolling to section", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation.spec.js", "title": "does not scroll to section on initialization", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation.spec.js", "title": "handles headings starting with a number", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation.spec.mjs" },
+    { "spec": "usa-in-page-navigation/src/test/in-page-navigation.spec.js", "title": "scrolls to section on initialization", "status": "ported", "test": "usa-in-page-navigation/in-page-navigation.spec.mjs" }
+  ]
+}

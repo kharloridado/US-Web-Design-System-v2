@@ -1,0 +1,10 @@
+{
+  "package": "usa-banner",
+  "cases": [
+    { "spec": "usa-banner/src/test/banner.spec.js", "title": "initializes closed", "status": "ported", "test": "usa-banner/banner.spec.mjs" },
+    { "spec": "usa-banner/src/test/banner.spec.js", "title": "opens when you click the button", "status": "ported", "test": "usa-banner/banner.spec.mjs" },
+    { "spec": "usa-banner/src/test/banner.spec.js", "title": "closes when you click the button again", "status": "ported", "test": "usa-banner/banner.spec.mjs" },
+    { "spec": "usa-banner/src/test/banner.spec.js", "title": "opens when you click the button", "status": "ported", "test": "usa-banner/banner.spec.mjs" },
+    { "spec": "usa-banner/src/test/banner.spec.js", "title": "closes when you click the button again", "status": "ported", "test": "usa-banner/banner.spec.mjs" }
+  ]
+}

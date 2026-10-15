@@ -1,0 +1,16 @@
+{
+  "package": "usa-table",
+  "cases": [
+    { "spec": "usa-table/src/test/table.spec.js", "title": "is immediately followed by an \"aria-live\" region", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "has at least one sortable column", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "sorts rows by cell content alphabetically when clicked", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "sorts rows by cell content numerically when clicked", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "sorts rows by 'data-sort-value' attribute on cells when clicked", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "sorts rows descending if already sorted ascending when clicked", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "announces sort direction when sort changes", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "has an aria-label that describes the current sort direction", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "has sort button with a title that describes what the sort direction will be if clicked", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "has an SVG which displays the correct icon", "status": "ported", "test": "usa-table/table.spec.mjs" },
+    { "spec": "usa-table/src/test/table.spec.js", "title": "does not have a sort button", "status": "ported", "test": "usa-table/table.spec.mjs" }
+  ]
+}
