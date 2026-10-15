@@ -1,0 +1,15 @@
+{
+  "package": "usa-footer",
+  "cases": [
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "defines a max width", "status": "ported", "test": "usa-footer/footer.spec.mjs" },
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "collapses at small screens", "status": "ported", "test": "usa-footer/footer.spec.mjs" },
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "collapses then expands again on larger screens", "status": "ported", "test": "usa-footer/footer.spec.mjs" },
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "opens panel when clicked", "status": "ported", "test": "usa-footer/footer.spec.mjs" },
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "does not open panels when clicked on larger screens", "status": "ported", "test": "usa-footer/footer.spec.mjs" },
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "closes panel on subsequent click", "status": "ported", "test": "usa-footer/footer.spec.mjs" },
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "closes other panels on small screens", "status": "ported", "test": "usa-footer/footer.spec.mjs" },
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "does not close other panels on larger screens", "status": "ported", "test": "usa-footer/footer.spec.mjs" },
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "preserves html tag on resize", "status": "ported", "test": "usa-footer/footer.spec.mjs" },
+    { "spec": "usa-footer/src/test/footer.spec.js", "title": "falls back to h4 when data-tag is not in the allow-list", "status": "ported", "test": "usa-footer/footer.spec.mjs" }
+  ]
+}

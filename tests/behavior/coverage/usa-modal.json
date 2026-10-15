@@ -1,0 +1,27 @@
+{
+  "package": "usa-modal",
+  "cases": [
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "creates new parent elements", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "adds role=\"dialog\" to modal parent", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "sets aria-hidden=\"true\" on the closed dialog wrapper", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "moves aria-labelledby, aria-describedby, and id to the parent", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "sets tabindex=\"-1\" to the modal window", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "moves the modal to the bottom of the DOM", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "adds role=\"button\" to any <a> opener, but not <button>", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "adds aria-controls to each opener", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "makes the modal visible", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "focuses the first footer button when opened", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "sets aria-modal=\"true\" on the dialog wrapper", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "removes aria-hidden from the dialog wrapper", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "makes all other page content invisible to screen readers", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "Allows event propagation and displays combobox list when toggle is clicked", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "hides the modal when close button is clicked", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "closes the modal when the overlay is clicked", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "sends focus to the element that opened it", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "restores aria-hidden=\"true\" on the dialog wrapper", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "restores other page content screen reader visibility", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "restores page content when the opener has left the document", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "focuses a [data-focus] element over the footer button", "status": "ported", "test": "usa-modal/modal.spec.mjs" },
+    { "spec": "usa-modal/src/test/modal.spec.js", "title": "focuses any button when the footer has no buttons", "status": "ported", "test": "usa-modal/modal.spec.mjs" }
+  ]
+}

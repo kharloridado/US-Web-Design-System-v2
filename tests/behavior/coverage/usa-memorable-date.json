@@ -1,0 +1,12 @@
+{
+  "package": "usa-memorable-date",
+  "cases": [
+    { "spec": "usa-memorable-date/src/test/memorable-date.spec.js", "title": "renders a fieldset with a legend", "status": "ported", "test": "usa-memorable-date/memorable-date.spec.mjs" },
+    { "spec": "usa-memorable-date/src/test/memorable-date.spec.js", "title": "renders a visible group hint hidden from assistive technology", "status": "ported", "test": "usa-memorable-date/memorable-date.spec.mjs" },
+    { "spec": "usa-memorable-date/src/test/memorable-date.spec.js", "title": "associates each field label with its control", "status": "ported", "test": "usa-memorable-date/memorable-date.spec.mjs" },
+    { "spec": "usa-memorable-date/src/test/memorable-date.spec.js", "title": "uses per-field hint ids derived from the field id", "status": "ported", "test": "usa-memorable-date/memorable-date.spec.mjs" },
+    { "spec": "usa-memorable-date/src/test/memorable-date.spec.js", "title": "describes each field with its own screen-reader-only hint", "status": "ported", "test": "usa-memorable-date/memorable-date.spec.mjs" },
+    { "spec": "usa-memorable-date/src/test/memorable-date.spec.js", "title": "does not associate fields with the group hint", "status": "ported", "test": "usa-memorable-date/memorable-date.spec.mjs" },
+    { "spec": "usa-memorable-date/src/test/memorable-date.spec.js", "title": "uses matching id and name values for each field", "status": "ported", "test": "usa-memorable-date/memorable-date.spec.mjs" }
+  ]
+}

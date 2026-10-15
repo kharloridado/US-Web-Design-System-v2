@@ -1,0 +1,13 @@
+{
+  "package": "usa-language-selector",
+  "cases": [
+    { "spec": "usa-language-selector/src/test/language-selector.spec.js", "title": "shows the language dropdown when the language button is clicked", "status": "ported", "test": "usa-language-selector/language-selector.spec.mjs" },
+    { "spec": "usa-language-selector/src/test/language-selector.spec.js", "title": "hides the visible language menu when the body is clicked", "status": "ported", "test": "usa-language-selector/language-selector.spec.mjs" },
+    { "spec": "usa-language-selector/src/test/language-selector.spec.js", "title": "collapses dropdown when a language link is clicked", "status": "ported", "test": "usa-language-selector/language-selector.spec.mjs" },
+    { "spec": "usa-language-selector/src/test/language-selector.spec.js", "title": "collapses dropdown when the Escape key is hit", "status": "ported", "test": "usa-language-selector/language-selector.spec.mjs" },
+    { "spec": "usa-language-selector/src/test/language-selector.spec.js", "title": "collapses dropdown via the FocusTrap Escape callback", "status": "ported", "test": "usa-language-selector/language-selector.spec.mjs" },
+    { "spec": "usa-language-selector/src/test/language-selector.spec.js", "title": "contains a role of button", "status": "ported", "test": "usa-language-selector/language-selector.spec.mjs" },
+    { "spec": "usa-language-selector/src/test/language-selector.spec.js", "title": "contains aria-controls of language-options", "status": "ported", "test": "usa-language-selector/language-selector.spec.mjs" },
+    { "spec": "usa-language-selector/src/test/language-selector.spec.js", "title": "contains an id of language-options", "status": "ported", "test": "usa-language-selector/language-selector.spec.mjs" }
+  ]
+}

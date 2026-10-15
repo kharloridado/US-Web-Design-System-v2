@@ -1,0 +1,21 @@
+{
+  "package": "usa-nav",
+  "cases": [
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "hides a visible nav menu when the body is clicked", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "shows the nav when the menu button is clicked", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "hides the nav when the close button is clicked", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "hides the nav when the overlay is clicked", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "hides the nav when a nav link is clicked", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "focuses the close button when the menu button is clicked", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "focuses the menu button when the close button is clicked", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "makes all other page content invisible to screen readers", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "collapses nav if needed on window resize", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "does not collapse nav if not needed on window resize", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "does not show the nav when a nav link is clicked", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "collapses accordions when a nav link is clicked", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "collapses dropdowns when the Escape key is hit", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "hides the nav when the Escape key is hit", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "collapses dropdowns when focus leaves nav", "status": "ported", "test": "usa-nav/navigation.spec.mjs" },
+    { "spec": "usa-nav/src/test/navigation.spec.js", "title": "removes event listeners", "status": "internal", "category": "api-only", "reason": "Calls navigation.off() and navigation.on() to tear down and re-attach listeners; a person cannot turn the behavior off and on." }
+  ]
+}
