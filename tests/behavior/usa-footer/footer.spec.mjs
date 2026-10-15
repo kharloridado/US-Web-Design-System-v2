@@ -67,6 +67,7 @@ test.describe("big footer accordion initialized at document.body", () => {
 
   test("opens panel when clicked", async ({ page }) => {
     await resizeTo(page, 400);
+    await assertHidden(lists(page).nth(0), true);
     await buttons(page).nth(0).click();
     await assertHidden(lists(page).nth(0), false);
   });

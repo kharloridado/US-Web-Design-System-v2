@@ -121,7 +121,9 @@ test.describe("navigation toggle", () => {
 
     test("hides the nav when the Escape key is hit", async ({ page }) => {
       await menuButton(page).click();
+      await expect(nav(page)).toHaveClass(isVisible);
       await navControl(page).focus();
+      await expect(navControl(page)).toBeFocused();
       await page.keyboard.press("Escape");
       await expect(nav(page)).not.toHaveClass(isVisible);
       await expect(overlay(page)).not.toHaveClass(isVisible);
