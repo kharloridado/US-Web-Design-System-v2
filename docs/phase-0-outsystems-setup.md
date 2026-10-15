@@ -81,7 +81,18 @@ Publish, open the screen in a browser, and for each item record into `docs/spike
 4. Whether `.ThemeGrid_*`, `.OSFillParent`, `.OSInline`, `.OSAutoMarginTop` rules exist without OutSystems UI (Width/Margin properties in Service Studio rely on them).
 5. Focus handling of Popup (focus trap, Escape), to decide restyle-only vs Modal Block replacement.
 
-## 6. Phase 0 exit checklist
+## 6. Style Guide screens: one per USWDS variant
+
+Automated comparison (Definition of Done gates 3–7) needs a predictable screen for every one of the 208 variants in `docs/acceptance/inventory.md`. The published app is recorded in `o11.config.json`: `https://vmzsdfeddev11.domain.outsystems.com/USWDS_StyleGuide`.
+
+| Rule | Example |
+|---|---|
+| **Screen name** = the USWDS story id with every `-` replaced by `_` (OutSystems names can't contain hyphens) | story `components-accordion--bordered` → screen `Components_Accordion__Bordered` → `/USWDS_StyleGuide/Components_Accordion__Bordered` |
+| **Anonymous access**: tick the Anonymous role on every Style Guide screen | So tests run without signing in |
+| **Layout `LayoutStory`** in the Style Guide module: a single Container with Style Classes `story-root`, padding `1rem` (or `0` for the page templates, which USWDS shows full screen) | Mirrors Storybook's padded / fullscreen layout used by the reference pages |
+| **Content** = exactly the story's content and nothing else on the screen | The reference page `reference/site/<story-id>.html` shows what belongs there |
+
+## 7. Phase 0 exit checklist
 
 - [ ] Modules created with dependencies as in §1, no OutSystemsUI reference anywhere
 - [ ] USWDS theme published, Base Theme = none, `uswds-theme.min.css` pasted
@@ -89,3 +100,4 @@ Publish, open the screen in a browser, and for each item record into `docs/spike
 - [ ] A test screen shows USWDS typography (Source Sans Pro), `usa-button`, `grid-row`/`grid-col-*` and a `usa-alert` correctly
 - [ ] `docs/spike/platform-dom.md` completed (§5)
 - [ ] CI green on the repo (`npm run ci`)
+- [ ] `vmzsdfeddev11.domain.outsystems.com` reachable from the Claude cloud environment (Allowed domains) and Style Guide screens anonymous

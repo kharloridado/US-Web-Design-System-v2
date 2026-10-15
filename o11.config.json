@@ -1,0 +1,6 @@
+{
+  "$comment": "Where the published OutSystems 11 Style Guide lives, and how its screens map to USWDS reference pages (docs/phase-0-outsystems-setup.md §6).",
+  "styleGuideUrl": "https://vmzsdfeddev11.domain.outsystems.com/USWDS_StyleGuide",
+  "screenNameFromStoryId": "replace every '-' with '_' (screen URLs are case-insensitive)",
+  "storyRootSelector": ".story-root"
+}
