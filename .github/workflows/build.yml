@@ -19,5 +19,7 @@ jobs:
         run: npm run build
       - name: Parity with official USWDS bundle
         run: npm run check
-      - name: dist/ is committed and up to date
-        run: test -z "$(git status --porcelain -- dist)" || (git status --short -- dist; exit 1)
+      - name: Acceptance inventory from USWDS stories and specs
+        run: npm run inventory
+      - name: dist/ and docs/acceptance/ are committed and up to date
+        run: test -z "$(git status --porcelain -- dist docs/acceptance)" || (git status --short -- dist docs/acceptance; exit 1)

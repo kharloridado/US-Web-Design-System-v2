@@ -3,6 +3,7 @@
 The [U.S. Web Design System](https://designsystem.digital.gov) (`@uswds/uswds` 3.14.0) migrated to an OutSystems 11 Reactive Web **standalone theme** (no OutSystems UI). Stock USWDS tokens, English.
 
 - Plan and architecture: [`docs/MIGRATION_PLAN.md`](docs/MIGRATION_PLAN.md)
+- What done means: [`docs/DEFINITION_OF_DONE.md`](docs/DEFINITION_OF_DONE.md) (inventory: [`docs/acceptance/inventory.md`](docs/acceptance/inventory.md))
 - Service Studio setup and platform spike: [`docs/phase-0-outsystems-setup.md`](docs/phase-0-outsystems-setup.md)
 
 ## Build
@@ -11,6 +12,7 @@ The [U.S. Web Design System](https://designsystem.digital.gov) (`@uswds/uswds` 3
 npm ci
 npm run build   # compile Theme + Block CSS, copy fonts/images, write dist/manifest.json
 npm run check   # prove dist/ has 100% of the official USWDS CSS, with nothing duplicated
+npm run inventory  # list every USWDS variant and behavior case that must work in O11
 ```
 
 | Output | Goes to |

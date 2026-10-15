@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "check": "node scripts/check-parity.mjs",
-    "ci": "npm run build && npm run check"
+    "inventory": "node scripts/inventory.mjs",
+    "ci": "npm run build && npm run check && npm run inventory"
   },
   "repository": {
     "type": "git",

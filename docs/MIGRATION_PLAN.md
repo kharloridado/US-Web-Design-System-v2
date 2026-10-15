@@ -5,6 +5,7 @@
 **Scope:** 100%, end to end. Every USWDS foundation (tokens, typography, color, spacing, grid, utilities, icons, fonts), every component, every page template, plus layouts, an app template and a Live Style Guide.
 **Architecture:** **Standalone USWDS theme, not based on OutSystems UI** (see §3).
 **Brand:** stock USWDS tokens. **Language:** English only for v1.
+**Done:** the entire USWDS runs in O11, built exactly as it is: 208 variants, 414 behavior cases, 0 CSS differences. Measured by seven gates in [DEFINITION_OF_DONE.md](DEFINITION_OF_DONE.md).
 
 ---
 
@@ -281,7 +282,7 @@ Legend: **CSS** = Theme classes only. **B** = Block. **N / W / P** = §7.
 
 | Phase | Scope | Exit criteria |
 |---|---|---|
-| **0. Setup & spike** (1–2 wks) | Repo pipeline + CI ✅, module skeletons, **platform widget DOM spike** (§4), reference HTML renderer for USWDS templates | `npm run build` → `dist/` ✅. Parity check: 0 missing/duplicated rules vs official USWDS ✅. Spike inventory documented ([setup guide](phase-0-outsystems-setup.md)) |
+| **0. Setup & spike** (1–2 wks) | Repo pipeline + CI ✅, module skeletons, **platform widget DOM spike** (§4), reference renderer for every USWDS story (Definition of Done gates 4–5) | `npm run build` → `dist/` ✅. Parity check: 0 missing/duplicated rules vs official USWDS ✅. Spike inventory documented ([setup guide](phase-0-outsystems-setup.md)) |
 | **1. Foundations** (3 wks) | Settings, tokens, fonts/images/sprite, global + typography + grid + full utilities, Icon Block, shared client actions | Token/utility specimen pages in Style Guide |
 | **2. Platform widget contract** (2 wks) | All of §4 | Every platform widget/state matches USWDS on the contract test page |
 | **3. Layouts & site chrome** (2 wks) | Skipnav, Site alert, Banner, Header (all variants), Footer (all), Identifier, Side nav, Layout Blocks | Keyboard + screen-reader pass. Menus survive navigation |
@@ -289,7 +290,7 @@ Legend: **CSS** = Theme classes only. **B** = Block. **N / W / P** = §7.
 | **5. Stateful native** (2 wks) | All **B + N** components | Focus-management tests. No React errors on mount/unmount |
 | **6. Web Components** (3–4 wks) `uswds-os` Scripts in Patterns + all **B + W** components | Two-way binding. 50× navigate stress test without leaks |
 | **7. Templates & app template** (2–3 wks) | All page templates, extra templates, Common flow, `USWDS_AppTemplate` | New app from template runs end-to-end with no OSUI |
-| **8. Style Guide & hardening** (2 wks) | Style Guide complete, docs, developer guide, v1.0.0 release, pilot app | Accessibility sign-off. Pilot app approved |
+| **8. Style Guide & hardening** (2 wks) | Style Guide complete, docs, developer guide, v1.0.0 release, pilot app | **All seven Definition of Done gates pass.** Accessibility sign-off. Pilot app approved |
 
 Total ≈ **20–23 weeks of effort** if phases run one after another. Phases 4–6 can overlap once Phase 2 is done, which shortens the calendar with 2–3 developers.
 
