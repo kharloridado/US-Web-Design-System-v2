@@ -64,5 +64,8 @@
 // Platform widget contract (Phase 2)
 @forward "platform";
 
+// Hosts of the USWDS custom elements (dist/js/uswds-os.min.js)
+@forward "custom-elements";
+
 // Utilities last so they win over component defaults
 @forward "uswds-utilities/src/styles";

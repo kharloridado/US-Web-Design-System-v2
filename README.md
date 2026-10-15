@@ -15,6 +15,7 @@ npm run build   # compile Theme + Block CSS, copy fonts/images, write dist/manif
 npm run check   # prove dist/ has 100% of the official USWDS CSS, with nothing duplicated
 npm run inventory  # list every USWDS variant and behavior case that must work in O11
 npm run reference  # render all 208 USWDS variants as reference pages and verify them in Chromium
+npm run test:elements  # test the 7 USWDS custom elements against those reference pages
 ```
 
 | Output | Goes to |
@@ -22,6 +23,7 @@ npm run reference  # render all 208 USWDS variants as reference pages and verify
 | `dist/theme/uswds-theme.min.css` | `USWDS_Theme` → Theme stylesheet |
 | `dist/blocks/<Block>.min.css` | `USWDS_Patterns` → `<Block>` stylesheet |
 | `dist/assets/{fonts,img}/…` | `USWDS_Theme` → Resources (Deploy to Target Directory) |
+| `dist/js/uswds-os.min.js` | `USWDS_Patterns` → Script, required by the Web Component Blocks ([guide](docs/blocks/web-components.md)) |
 | `dist/manifest.json` | Which USWDS package maps to which Block, required Blocks, sizes |
 
 `dist/` is committed so every OutSystems release traces back to a commit. CI fails if it is out of date.
