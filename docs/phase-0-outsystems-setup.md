@@ -8,7 +8,7 @@ This guide covers the Service Studio half of Phase 0. The repo half (build pipel
 
 ## 1. Create the modules
 
-Create one application, **USWDS Design System**, for the Foundation/Core modules, and a separate application, **USWDS Style Guide**, for the Live Style Guide. All modules are **Reactive Web** modules.
+Create one application, **US Web Design System Sandbox**, for the Foundation/Core modules, and a separate application, **USWDS Style Guide**, for the Live Style Guide. All modules are **Reactive Web** modules.
 
 | Module | Create as | Screens | References (Manage Dependencies) |
 |---|---|---|---|

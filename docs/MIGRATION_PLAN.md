@@ -48,6 +48,8 @@
 
 **Why two Foundation modules, not four:** an earlier draft split out `USWDS_JS` and `USWDS_Utils`. The scripts are only used by Web Component Blocks in Patterns, and OutSystems loads a Script only on screens that use a Block requiring it, so a separate module added a dependency and a publish step for nothing. The client actions can't go in Patterns, because the Theme's Header, Skipnav and layouts need them and Theme must not reference Patterns, so they live in Theme, which Patterns already references.
 
+**O11 application:** the Foundation and Core modules live in the application **US Web Design System Sandbox**. The Style Guide is a separate application.
+
 **Rules:** the only Foundation reference is `Patterns → Theme`. Consumer apps use Theme = `USWDS_Theme` and must not reference OutSystems UI (enforced in code review / Architecture Dashboard). Releases are versioned together as `vX.Y.Z+uswds3.14.0`.
 
 ---
