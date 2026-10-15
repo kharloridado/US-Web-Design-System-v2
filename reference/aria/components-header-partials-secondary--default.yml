@@ -1,0 +1,7 @@
+- list:
+  - listitem:
+    - link "Secondary link":
+      - /url: javascript:void(0);
+  - listitem:
+    - link "Another secondary link":
+      - /url: javascript:void(0);

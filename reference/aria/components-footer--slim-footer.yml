@@ -1,0 +1,22 @@
+- contentinfo:
+  - link "Return to top":
+    - /url: "#"
+  - navigation "Footer navigation,":
+    - list:
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+  - link "<(800) 555-GOVT>":
+    - /url: tel:1-800-555-5555
+  - link "<info@agency.gov>":
+    - /url: mailto:info@agency.gov
+  - paragraph: <Agency Contact Center>

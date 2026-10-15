@@ -1,0 +1,5 @@
+- paragraph:
+  - text: Aspect ratios are helpful for dealing with responsive media. Also available via a
+  - code: add-aspect()
+  - text: mixin.
+- text: 9x16 16x9 1x1 4x3 2x1

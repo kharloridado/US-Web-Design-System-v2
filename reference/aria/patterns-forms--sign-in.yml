@@ -1,0 +1,10 @@
+- group "Access your account":
+  - text: Access your account Email address
+  - textbox "Email address"
+  - text: Password
+  - textbox "Password"
+  - button "Show password"
+  - button "Sign in"
+  - paragraph:
+    - link "Forgot password?":
+      - /url: javascript:void()

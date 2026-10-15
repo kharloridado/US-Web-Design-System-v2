@@ -1,0 +1,10 @@
+- list:
+  - listitem:
+    - heading "Start a process." [level=4]
+    - paragraph: Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum.
+  - listitem:
+    - heading "Proceed to the second step." [level=4]
+    - paragraph: Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat.
+  - listitem:
+    - heading "Complete the step-by-step process." [level=4]
+    - paragraph: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque.

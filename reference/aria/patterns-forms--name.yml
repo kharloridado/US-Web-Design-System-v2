@@ -1,0 +1,13 @@
+- group "Name":
+  - text: Name First or given name For example, Jose, Darren, or Mai
+  - textbox "First or given name"
+  - text: Middle name
+  - textbox "Middle name"
+  - text: Last or family name For example, Martinez Gonzalez, Gu, or Smith
+  - textbox "Last or family name"
+- group "Full Name":
+  - text: Full Name Full name For example, Prof. Madeline Martinez Hernandez
+  - textbox "Full name"
+- group "Preferred name":
+  - text: Preferred name I prefer to be addressed as For example, Dr. Gu, Mrs. Schmidt, Alix Martinez
+  - textbox "I prefer to be addressed as"

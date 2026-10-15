@@ -1,0 +1,19 @@
+- banner:
+  - emphasis:
+    - link "Home":
+      - /url: /
+  - navigation "Primary navigation":
+    - list:
+      - listitem:
+        - button "<Current section>"
+      - listitem:
+        - button "<Section>"
+    - region "Search component":
+      - search:
+        - text: Search
+        - searchbox "Search"
+        - button "Search":
+          - img "Search"
+  - list:
+    - listitem:
+      - button "Languages"

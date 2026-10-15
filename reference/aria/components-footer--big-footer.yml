@@ -1,0 +1,85 @@
+- contentinfo:
+  - link "Return to top":
+    - /url: "#"
+  - navigation "Footer navigation,,":
+    - heading "<Topic>" [level=4]
+    - list:
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link that's a bit longer than most of the others>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+    - heading "<Topic>" [level=4]
+    - list:
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link that's pretty long>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+    - heading "<Topic>" [level=4]
+    - list:
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+    - heading "<Topic>" [level=4]
+    - list:
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Secondary link>":
+          - /url: javascript:void(0);
+  - heading "Sign up" [level=3]
+  - text: Your email address
+  - textbox "Your email address"
+  - button "Sign up"
+  - paragraph: <Name of Agency>
+  - link "Facebook":
+    - /url: javascript:void(0);
+    - img "Facebook"
+  - link "Twitter":
+    - /url: javascript:void(0);
+    - img "Twitter"
+  - link "YouTube":
+    - /url: javascript:void(0);
+    - img "YouTube"
+  - link "Instagram":
+    - /url: javascript:void(0);
+    - img "Instagram"
+  - link "RSS":
+    - /url: javascript:void(0);
+    - img "RSS"
+  - paragraph: <Agency Contact Center>
+  - link "<(800) 555-GOVT>":
+    - /url: tel:1-800-555-5555
+  - link "<info@agency.gov>":
+    - /url: mailto:info@agency.gov

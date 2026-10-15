@@ -1,0 +1,29 @@
+- list:
+  - listitem:
+    - heading "The eight principles of mobile-friendliness" [level=3]:
+      - link "The eight principles of mobile-friendliness":
+        - /url: https://digital.gov/guides/mobile-principles/?dg
+    - list "More information":
+      - listitem: Digital.gov
+  - listitem:
+    - heading "The USWDS maturity model" [level=3]:
+      - link "The USWDS maturity model":
+        - /url: https://designsystem.digital.gov/maturity-model/
+    - list "More information":
+      - listitem: U.S. Web Design System
+  - listitem:
+    - heading "A news item that’s on our own site" [level=3]:
+      - link "A news item that’s on our own site":
+        - /url: "#"
+  - listitem:
+    - heading "The key role of product owners in federated data projects" [level=3]:
+      - link "The key role of product owners in federated data projects":
+        - /url: https://18f.gsa.gov/2020/11/24/the-key-role-of-product-owners-in-federated-data-projects/
+    - list "More information":
+      - listitem: 18F
+  - listitem:
+    - heading "Progress on Cross-Agency Priority (CAP) goals and Agency Priority Goals (APGs)" [level=3]:
+      - link "Progress on Cross-Agency Priority (CAP) goals and Agency Priority Goals (APGs)":
+        - /url: https://trumpadministration.archives.performance.gov/September-2020-Updates-Show-Progress/
+    - list "More information":
+      - listitem: Performance.gov

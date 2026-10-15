@@ -1,0 +1,10 @@
+- group "Select any historical figure":
+  - text: Select any historical figure
+  - checkbox "Sojourner Truth This is optional text that can be used to describe the label in more detail." [checked]
+  - text: Sojourner Truth This is optional text that can be used to describe the label in more detail.
+  - checkbox "Frederick Douglass"
+  - text: Frederick Douglass
+  - checkbox "Booker T. Washington"
+  - text: Booker T. Washington
+  - checkbox "George Washington Carver" [disabled]
+  - text: George Washington Carver

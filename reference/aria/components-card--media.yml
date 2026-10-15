@@ -1,0 +1,25 @@
+- list:
+  - listitem:
+    - heading "Default media" [level=2]
+    - img "A placeholder image"
+    - paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae.
+    - link "Visit Florida Keys":
+      - /url: "#"
+  - listitem:
+    - heading "Inset media" [level=2]
+    - img "A placeholder image"
+    - paragraph: Etiam vitae sodales metus. Fusce id orci dignissim, efficitur risus eget, tempus odio. Donec lectus ante, auctor eget cursus sed, convallis quis magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris mattis tellus bibendum aliquet malesuada.
+    - link "Visit Florida Keys":
+      - /url: "#"
+  - listitem:
+    - heading "Exdent media" [level=2]
+    - img "A placeholder image"
+    - paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus similique nemo odit doloremque laudantium?
+    - link "Visit Florida Keys":
+      - /url: "#"
+  - listitem:
+    - heading "Media with header first" [level=2]
+    - img "A placeholder image"
+    - paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus similique nemo odit doloremque laudantium?
+    - link "Visit Florida Keys":
+      - /url: "#"

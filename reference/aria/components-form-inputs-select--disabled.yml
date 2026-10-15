@@ -1,0 +1,6 @@
+- text: Dropdown label
+- combobox "Dropdown label" [disabled]:
+  - option "- Select -" [selected]
+  - option "Option A"
+  - option "Option B"
+  - option "Option C"

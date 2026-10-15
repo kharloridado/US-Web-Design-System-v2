@@ -1,0 +1,83 @@
+// Emits USWDS design tokens as runtime CSS custom properties (--usa-*), so
+// OutSystems Style Classes, inline expressions and the platform widget
+// contract can use tokens. Values are computed by the USWDS token functions,
+// so they always match the compiled component CSS.
+
+@use "sass:map";
+@use "sass:meta";
+@use "uswds-core" as uswds;
+@use "uswds-core/src/styles/tokens/color/shortcodes-color-theme" as theme-colors;
+@use "uswds-core/src/styles/tokens/color/shortcodes-color-state" as state-colors;
+
+$-spacing-tokens: (
+  "0": 0, "1px": 1px, "2px": 2px, "05": 0.5, "1": 1, "105": 1.5, "2": 2,
+  "205": 2.5, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9,
+  "10": 10, "15": 15, "card": "card", "card-lg": "card-lg", "mobile": "mobile",
+);
+$-breakpoints: ("mobile-lg", "tablet", "tablet-lg", "desktop", "desktop-lg", "widescreen");
+$-font-roles: ("ui", "heading", "body", "code", "alt");
+$-font-types: ("sans", "serif", "mono");
+$-font-sizes: ("3xs", "2xs", "xs", "sm", "md", "lg", "xl", "2xl", "3xl");
+$-font-weights: ("thin", "light", "normal", "medium", "semibold", "bold", "heavy");
+$-radii: ("0": 0, "sm": "sm", "md": "md", "lg": "lg", "pill": "pill");
+
+:root {
+  // Color
+  // Theme + state color tokens that are set (unset tokens are false)
+  @each $token, $value in map.merge(theme-colors.$tokens-color-theme, state-colors.$tokens-color-state) {
+    @if $value != false {
+      --usa-color-#{$token}: #{$value};
+    }
+  }
+  --usa-color-white: #{uswds.color("white")};
+  --usa-color-black: #{uswds.color("black")};
+
+  // Focus
+  --usa-focus-color: #{uswds.color(uswds.$theme-focus-color)};
+  --usa-focus-width: #{uswds.units(uswds.$theme-focus-width)};
+  --usa-focus-offset: #{uswds.units(uswds.$theme-focus-offset)};
+  --usa-focus-style: #{uswds.$theme-focus-style};
+
+  // Spacing units (8px base)
+  @each $token, $value in $-spacing-tokens {
+    --usa-unit-#{$token}: #{uswds.units($value)};
+  }
+
+  // Breakpoints (for JS; CSS media queries must use USWDS mixins)
+  @each $bp in $-breakpoints {
+    --usa-breakpoint-#{$bp}: #{uswds.units($bp)};
+  }
+
+  // Typography: families
+  @each $type in $-font-types {
+    --usa-font-#{$type}: #{meta.inspect(uswds.family($type))};
+  }
+  @each $role in $-font-roles {
+    --usa-font-#{$role}: #{meta.inspect(uswds.family($role))};
+  }
+
+  // Typography: sizes per role (normalized per typeface by USWDS)
+  @each $role in ("ui", "heading", "body") {
+    @each $size in $-font-sizes {
+      --usa-font-size-#{$role}-#{$size}: #{uswds.size($role, $size)};
+    }
+  }
+
+  // Typography: weights that the configured typefaces provide
+  @each $weight in $-font-weights {
+    @if map.get(meta.module-variables("uswds"), "theme-font-weight-#{$weight}") != false {
+      --usa-font-weight-#{$weight}: #{uswds.font-weight($weight)};
+    }
+  }
+
+  // Typography: line heights and measure
+  @for $i from 1 through 6 {
+    --usa-line-height-body-#{$i}: #{uswds.line-height("body", $i)};
+    --usa-measure-#{$i}: #{uswds.measure($i)};
+  }
+
+  // Radius
+  @each $token, $value in $-radii {
+    --usa-radius-#{$token}: #{uswds.radius($value)};
+  }
+}

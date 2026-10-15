@@ -1,0 +1,6 @@
+- region "Small search component":
+  - search:
+    - text: Search
+    - searchbox "Search"
+    - button "Search":
+      - img "Search"

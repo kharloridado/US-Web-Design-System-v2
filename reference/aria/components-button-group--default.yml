@@ -1,0 +1,6 @@
+- list:
+  - listitem:
+    - link "Back":
+      - /url: "#"
+  - listitem:
+    - button "Continue"

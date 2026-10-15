@@ -1,0 +1,8 @@
+- group "Enter a comment":
+  - text: Enter a comment
+  - heading "Comment requirements" [level=3]
+  - list:
+    - listitem "Cannot be empty status incomplete": Cannot be empty
+  - text: Comment
+  - textbox "Comment"
+  - button "Submit code"

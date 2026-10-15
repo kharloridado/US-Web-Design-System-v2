@@ -1,0 +1,213 @@
+- table "Recently admitted US states (sortable table example)":
+  - caption: Recently admitted US states (sortable table example)
+  - rowgroup:
+    - row "Name, sortable column, currently unsorted Order admitted to union, sortable column, currently sorted ascending Date of ratification vote, sortable column, currently unsorted Date admitted to union, sortable column, currently unsorted Percent of voters in favor of ratification, sortable column, currently unsorted Votes cast in favor of ratification, sortable column, currently unsorted Estimated population at time of admission, sortable column, currently unsorted":
+      - columnheader "Name, sortable column, currently unsorted":
+        - text: Name
+        - button "Click to sort by Name in ascending order.":
+          - img
+      - columnheader "Order admitted to union, sortable column, currently sorted ascending":
+        - text: Order admitted to union
+        - button "Click to sort by Order admitted to union in descending order.":
+          - img
+      - columnheader "Date of ratification vote, sortable column, currently unsorted":
+        - text: Date of ratification vote
+        - button "Click to sort by Date of ratification vote in ascending order.":
+          - img
+      - columnheader "Date admitted to union, sortable column, currently unsorted":
+        - text: Date admitted to union
+        - button "Click to sort by Date admitted to union in ascending order.":
+          - img
+      - columnheader "Percent of voters in favor of ratification, sortable column, currently unsorted":
+        - text: Percent of voters in favor of ratification
+        - button "Click to sort by Percent of voters in favor of ratification in ascending order.":
+          - img
+      - columnheader "Votes cast in favor of ratification, sortable column, currently unsorted":
+        - text: Votes cast in favor of ratification
+        - button "Click to sort by Votes cast in favor of ratification in ascending order.":
+          - img
+      - columnheader "Estimated population at time of admission, sortable column, currently unsorted":
+        - text: Estimated population at time of admission
+        - button "Click to sort by Estimated population at time of admission in ascending order.":
+          - img
+  - rowgroup:
+    - row "Utah 45th Nov. 5, 1895 Jan. 4, 1896 80.5% 31,305 210,779":
+      - rowheader "Utah"
+      - cell "45th"
+      - cell "Nov. 5, 1895"
+      - cell "Jan. 4, 1896"
+      - cell "80.5%"
+      - cell "31,305"
+      - cell "210,779"
+    - row "Oklahoma 46th Sep. 17, 1907 Nov. 16, 1907 71.2% 180,333 1,657,155":
+      - rowheader "Oklahoma"
+      - cell "46th"
+      - cell "Sep. 17, 1907"
+      - cell "Nov. 16, 1907"
+      - cell "71.2%"
+      - cell "180,333"
+      - cell "1,657,155"
+    - row "New Mexico 47th Nov. 5, 1911 Jan. 6, 1912 70.3% 31,742 327,301":
+      - rowheader "New Mexico"
+      - cell "47th"
+      - cell "Nov. 5, 1911"
+      - cell "Jan. 6, 1912"
+      - cell "70.3%"
+      - cell "31,742"
+      - cell "327,301"
+    - row "Arizona 48th Feb. 9, 1911 Feb. 14, 1912 78.7% 12,187 204,354":
+      - rowheader "Arizona"
+      - cell "48th"
+      - cell "Feb. 9, 1911"
+      - cell "Feb. 14, 1912"
+      - cell "78.7%"
+      - cell "12,187"
+      - cell "204,354"
+    - row "Alaska 49th Apr. 24, 1956 Jan. 3, 1959 68.1% 17,477 226,167":
+      - rowheader "Alaska"
+      - cell "49th"
+      - cell "Apr. 24, 1956"
+      - cell "Jan. 3, 1959"
+      - cell "68.1%"
+      - cell "17,477"
+      - cell "226,167"
+    - row "Hawaii 50th Jun. 27, 1959 Aug. 21, 1959 94.3% 132,773 632,772":
+      - rowheader "Hawaii"
+      - cell "50th"
+      - cell "Jun. 27, 1959"
+      - cell "Aug. 21, 1959"
+      - cell "94.3%"
+      - cell "132,773"
+      - cell "632,772"
+- text: The table named "Recently admitted US states (sortable table example)" is now sorted by Order admitted to union in ascending order.
+- paragraph: Data for illustration purposes only.
+- table "Sortable striped table with various content types":
+  - caption: Sortable striped table with various content types
+  - rowgroup:
+    - row "Alphabetical, sortable column, currently unsorted Month, sortable column, currently unsorted Percent, sortable column, currently unsorted Count, sortable column, currently unsorted Rank (Ordinal), sortable column, currently unsorted Rank (Cardinal), sortable column, currently unsorted Unix Timestamp, sortable column, currently unsorted":
+      - columnheader "Alphabetical, sortable column, currently unsorted":
+        - text: Alphabetical
+        - button "Click to sort by Alphabetical in ascending order.":
+          - img
+      - columnheader "Month, sortable column, currently unsorted":
+        - text: Month
+        - button "Click to sort by Month in ascending order.":
+          - img
+      - columnheader "Percent, sortable column, currently unsorted":
+        - text: Percent
+        - button "Click to sort by Percent in ascending order.":
+          - img
+      - columnheader "Count, sortable column, currently unsorted":
+        - text: Count
+        - button "Click to sort by Count in ascending order.":
+          - img
+      - columnheader "Rank (Ordinal), sortable column, currently unsorted":
+        - text: Rank (Ordinal)
+        - button "Click to sort by Rank (Ordinal) in ascending order.":
+          - img
+      - columnheader "Rank (Cardinal), sortable column, currently unsorted":
+        - text: Rank (Cardinal)
+        - button "Click to sort by Rank (Cardinal) in ascending order.":
+          - img
+      - columnheader "Unix Timestamp, sortable column, currently unsorted":
+        - text: Unix Timestamp
+        - button "Click to sort by Unix Timestamp in ascending order.":
+          - img
+  - rowgroup:
+    - row "Tango March 20.6% 23,612 Third 3rd March 27, 2012":
+      - rowheader "Tango"
+      - cell "March"
+      - cell "20.6%"
+      - cell "23,612"
+      - cell "Third"
+      - cell "3rd"
+      - cell "March 27, 2012"
+    - row "Foxtrot April 2.6% -32 First 1st April 9, 2021":
+      - rowheader "Foxtrot"
+      - cell "April"
+      - cell "2.6%"
+      - cell "-32"
+      - cell "First"
+      - cell "1st"
+      - cell "April 9, 2021"
+    - row "Hilo January -3.6% 0.002 Second 2nd January 20, 2021":
+      - rowheader "Hilo"
+      - cell "January"
+      - cell "-3.6%"
+      - cell "0.002"
+      - cell "Second"
+      - cell "2nd"
+      - cell "January 20, 2021"
+    - row "Bravo December -300.6% 0 Fourth 4th December 16, 2020":
+      - rowheader "Bravo"
+      - cell "December"
+      - cell "-300.6%"
+      - cell "0"
+      - cell "Fourth"
+      - cell "4th"
+      - cell "December 16, 2020"
+- table "Sortable borderless table with various content types":
+  - caption: Sortable borderless table with various content types
+  - rowgroup:
+    - row "Alphabetical, sortable column, currently unsorted Month, sortable column, currently unsorted Percent, sortable column, currently unsorted Count, sortable column, currently unsorted Rank (Ordinal), sortable column, currently unsorted Rank (Cardinal), sortable column, currently unsorted Unix Timestamp, sortable column, currently unsorted":
+      - columnheader "Alphabetical, sortable column, currently unsorted":
+        - text: Alphabetical
+        - button "Click to sort by Alphabetical in ascending order.":
+          - img
+      - columnheader "Month, sortable column, currently unsorted":
+        - text: Month
+        - button "Click to sort by Month in ascending order.":
+          - img
+      - columnheader "Percent, sortable column, currently unsorted":
+        - text: Percent
+        - button "Click to sort by Percent in ascending order.":
+          - img
+      - columnheader "Count, sortable column, currently unsorted":
+        - text: Count
+        - button "Click to sort by Count in ascending order.":
+          - img
+      - columnheader "Rank (Ordinal), sortable column, currently unsorted":
+        - text: Rank (Ordinal)
+        - button "Click to sort by Rank (Ordinal) in ascending order.":
+          - img
+      - columnheader "Rank (Cardinal), sortable column, currently unsorted":
+        - text: Rank (Cardinal)
+        - button "Click to sort by Rank (Cardinal) in ascending order.":
+          - img
+      - columnheader "Unix Timestamp, sortable column, currently unsorted":
+        - text: Unix Timestamp
+        - button "Click to sort by Unix Timestamp in ascending order.":
+          - img
+  - rowgroup:
+    - row "Tango March 20.6% 23,612 Third 3rd March 27, 2012":
+      - rowheader "Tango"
+      - cell "March"
+      - cell "20.6%"
+      - cell "23,612"
+      - cell "Third"
+      - cell "3rd"
+      - cell "March 27, 2012"
+    - row "Foxtrot April 2.6% -32 First 1st April 9, 2021":
+      - rowheader "Foxtrot"
+      - cell "April"
+      - cell "2.6%"
+      - cell "-32"
+      - cell "First"
+      - cell "1st"
+      - cell "April 9, 2021"
+    - row "Hilo January -3.6% 0.002 Second 2nd January 20, 2021":
+      - rowheader "Hilo"
+      - cell "January"
+      - cell "-3.6%"
+      - cell "0.002"
+      - cell "Second"
+      - cell "2nd"
+      - cell "January 20, 2021"
+    - row "Bravo December -300.6% 0 Fourth 4th December 16, 2020":
+      - rowheader "Bravo"
+      - cell "December"
+      - cell "-300.6%"
+      - cell "0"
+      - cell "Fourth"
+      - cell "4th"
+      - cell "December 16, 2020"

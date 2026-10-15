@@ -1,0 +1,3124 @@
+{
+  "summary": {
+    "uswdsVersion": "3.14.0",
+    "variants": 208,
+    "spanishVariants": 20,
+    "uswdsInternalTestStories": 29,
+    "behaviorSpecFiles": 64,
+    "behaviorCases": 414
+  },
+  "stories": [
+    {
+      "id": "pages-create-account--create-account-page",
+      "title": "Pages/Create Account",
+      "package": "templates",
+      "file": "templates/usa-create-account/usa-create-account.stories.js",
+      "story": "CreateAccountPage",
+      "twig": "./usa-create-account.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "pages-create-account--create-account-page-spanish",
+      "title": "Pages/Create Account",
+      "package": "templates",
+      "file": "templates/usa-create-account/usa-create-account.stories.js",
+      "story": "CreateAccountPageSpanish",
+      "twig": "./usa-create-account.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "pages-documentation-page--documentation-page",
+      "title": "Pages/Documentation Page",
+      "package": "templates",
+      "file": "templates/usa-documentation/usa-docs.stories.js",
+      "story": "DocumentationPage",
+      "twig": "./usa-docs.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "pages-documentation-page--test-documentation-reorder",
+      "title": "Pages/Documentation Page",
+      "package": "templates",
+      "file": "templates/usa-documentation/usa-docs.stories.js",
+      "story": "TestDocumentationReorder",
+      "twig": "./usa-docs.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "pages-error--page-not-found",
+      "title": "Pages/Error",
+      "package": "templates",
+      "file": "templates/usa-error/usa-error.stories.js",
+      "story": "PageNotFound",
+      "twig": "./usa-error.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "pages-error--page-not-found-spanish",
+      "title": "Pages/Error",
+      "package": "templates",
+      "file": "templates/usa-error/usa-error.stories.js",
+      "story": "PageNotFoundSpanish",
+      "twig": "./usa-error.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "pages-landing-page--landing-page",
+      "title": "Pages/Landing Page",
+      "package": "templates",
+      "file": "templates/usa-landing/usa-landing.stories.js",
+      "story": "LandingPage",
+      "twig": "./usa-landing.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "pages-sign-in--sign-in-page",
+      "title": "Pages/Sign-In",
+      "package": "templates",
+      "file": "templates/usa-sign-in/usa-sign-in.stories.js",
+      "story": "SignInPage",
+      "twig": "./usa-sign-in.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "pages-sign-in--sign-in-page-spanish",
+      "title": "Pages/Sign-In",
+      "package": "templates",
+      "file": "templates/usa-sign-in/usa-sign-in.stories.js",
+      "story": "SignInPageSpanish",
+      "twig": "./usa-sign-in.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "pages-sign-in--multiple-sign-in-page",
+      "title": "Pages/Sign-In",
+      "package": "templates",
+      "file": "templates/usa-sign-in/usa-sign-in.stories.js",
+      "story": "MultipleSignInPage",
+      "twig": "./usa-sign-in--multiple/usa-sign-in--multiple.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "pages-sign-in--multiple-sign-in-page-spanish",
+      "title": "Pages/Sign-In",
+      "package": "templates",
+      "file": "templates/usa-sign-in/usa-sign-in.stories.js",
+      "story": "MultipleSignInPageSpanish",
+      "twig": "./usa-sign-in--multiple/usa-sign-in--multiple.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-accordion--default",
+      "title": "Components/Accordion",
+      "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
+      "story": "Default",
+      "twig": "./usa-accordion.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-accordion--bordered",
+      "title": "Components/Accordion",
+      "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
+      "story": "Bordered",
+      "twig": "./usa-accordion.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-accordion--multiselectable",
+      "title": "Components/Accordion",
+      "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
+      "story": "Multiselectable",
+      "twig": "./usa-accordion.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-accordion--icon-start",
+      "title": "Components/Accordion",
+      "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
+      "story": "IconStart",
+      "twig": "./usa-accordion.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-accordion--icon-end",
+      "title": "Components/Accordion",
+      "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
+      "story": "IconEnd",
+      "twig": "./usa-accordion.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-accordion--test-icons",
+      "title": "Components/Accordion",
+      "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
+      "story": "TestIcons",
+      "twig": "./test/test-patterns/test-accordion-icon.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-add-aspect--add-aspect",
+      "title": "Components/Add Aspect",
+      "package": "usa-add-aspect",
+      "file": "usa-add-aspect/src/usa-add-aspect.stories.js",
+      "story": "AddAspect",
+      "twig": "./usa-add-aspect.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-add-aspect--test",
+      "title": "Components/Add Aspect",
+      "package": "usa-add-aspect",
+      "file": "usa-add-aspect/src/usa-add-aspect.stories.js",
+      "story": "Test",
+      "twig": "./test/test-usa-add-aspect.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-alert--default",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "Default",
+      "twig": "./usa-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-alert--emergency",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "Emergency",
+      "twig": "./usa-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-alert--error",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "Error",
+      "twig": "./usa-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-alert--info",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "Info",
+      "twig": "./usa-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-alert--no-header",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "NoHeader",
+      "twig": "./usa-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-alert--no-icon",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "NoIcon",
+      "twig": "./usa-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-alert--slim",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "Slim",
+      "twig": "./usa-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-alert--success",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "Success",
+      "twig": "./usa-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-alert--warning",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "Warning",
+      "twig": "./usa-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-alert--test",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "Test",
+      "twig": "./test/test-patterns/test-usa-alert-lists.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-alert--test-alert-site-alert-comparison",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "TestAlertSiteAlertComparison",
+      "twig": "./test/test-patterns/test-alert-comparison.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-alert--test-alerts-in-template",
+      "title": "Components/Alert",
+      "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
+      "story": "TestAlertsInTemplate",
+      "twig": "./test/test-patterns/test-alert-in-template.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-banner--default",
+      "title": "Components/Banner",
+      "package": "usa-banner",
+      "file": "usa-banner/src/usa-banner.stories.js",
+      "story": "Default",
+      "twig": "",
+      "kind": "variant"
+    },
+    {
+      "id": "components-banner--default-spanish",
+      "title": "Components/Banner",
+      "package": "usa-banner",
+      "file": "usa-banner/src/usa-banner.stories.js",
+      "story": "DefaultSpanish",
+      "twig": "",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-banner--mil",
+      "title": "Components/Banner",
+      "package": "usa-banner",
+      "file": "usa-banner/src/usa-banner.stories.js",
+      "story": "Mil",
+      "twig": "",
+      "kind": "variant"
+    },
+    {
+      "id": "components-banner--mil-spanish",
+      "title": "Components/Banner",
+      "package": "usa-banner",
+      "file": "usa-banner/src/usa-banner.stories.js",
+      "story": "MilSpanish",
+      "twig": "",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-breadcrumb--default",
+      "title": "Components/Breadcrumb",
+      "package": "usa-breadcrumb",
+      "file": "usa-breadcrumb/src/usa-breadcrumb.stories.js",
+      "story": "Default",
+      "twig": "./usa-breadcrumb.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-breadcrumb--truncate",
+      "title": "Components/Breadcrumb",
+      "package": "usa-breadcrumb",
+      "file": "usa-breadcrumb/src/usa-breadcrumb.stories.js",
+      "story": "Truncate",
+      "twig": "./usa-breadcrumb.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button-group--default",
+      "title": "Components/Button Group",
+      "package": "usa-button-group",
+      "file": "usa-button-group/src/usa-button-group.stories.js",
+      "story": "Default",
+      "twig": "./usa-button-group.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button-group--segmented",
+      "title": "Components/Button Group",
+      "package": "usa-button-group",
+      "file": "usa-button-group/src/usa-button-group.stories.js",
+      "story": "Segmented",
+      "twig": "./usa-button-group.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button-group--test-text-wrapping",
+      "title": "Components/Button Group",
+      "package": "usa-button-group",
+      "file": "usa-button-group/src/usa-button-group.stories.js",
+      "story": "TestTextWrapping",
+      "twig": "./test/test-patterns/test-usa-button-group--text-wrapping.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-button-group--test-nested-button-groups",
+      "title": "Components/Button Group",
+      "package": "usa-button-group",
+      "file": "usa-button-group/src/usa-button-group.stories.js",
+      "story": "TestNestedButtonGroups",
+      "twig": "./test/test-patterns/test-usa-button-group--nested.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-button--default",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "Default",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--accent-cool",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "AccentCool",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--accent-warm",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "AccentWarm",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--base",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "Base",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--big",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "Big",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--icon",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "Icon",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--outline",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "Outline",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--outline-inverse",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "OutlineInverse",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--secondary",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "Secondary",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--unstyled",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "Unstyled",
+      "twig": "./usa-button.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-button--links-styled-as-buttons",
+      "title": "Components/Button",
+      "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
+      "story": "LinksStyledAsButtons",
+      "twig": "./usa-button--links/usa-button--links.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-card--default",
+      "title": "Components/Card",
+      "package": "usa-card",
+      "file": "usa-card/src/usa-card.stories.js",
+      "story": "Default",
+      "twig": "./usa-card.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-card--flag",
+      "title": "Components/Card",
+      "package": "usa-card",
+      "file": "usa-card/src/usa-card.stories.js",
+      "story": "Flag",
+      "twig": "./usa-card.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-card--media",
+      "title": "Components/Card",
+      "package": "usa-card",
+      "file": "usa-card/src/usa-card.stories.js",
+      "story": "Media",
+      "twig": "./usa-card.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-card--test",
+      "title": "Components/Card",
+      "package": "usa-card",
+      "file": "usa-card/src/usa-card.stories.js",
+      "story": "Test",
+      "twig": "./usa-card.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-form-inputs-character-count--character-count",
+      "title": "Components/Form Inputs/Character Count",
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
+      "story": "CharacterCount",
+      "twig": "./usa-character-count.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-character-count--disabled",
+      "title": "Components/Form Inputs/Character Count",
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-character-count.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-character-count--aria-disabled",
+      "title": "Components/Form Inputs/Character Count",
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-character-count.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-character-count--test-no-label",
+      "title": "Components/Form Inputs/Character Count",
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
+      "story": "TestNoLabel",
+      "twig": "./test/test-patterns/test-usa-character-count--no-label.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-form-inputs-character-count--test-no-form-group",
+      "title": "Components/Form Inputs/Character Count",
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
+      "story": "TestNoFormGroup",
+      "twig": "./test/test-patterns/test-usa-character-count--no-form-group.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-form-inputs-checkbox--default",
+      "title": "Components/Form Inputs/Checkbox",
+      "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
+      "story": "Default",
+      "twig": "./usa-checkbox.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-checkbox--disabled",
+      "title": "Components/Form Inputs/Checkbox",
+      "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-checkbox.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-checkbox--aria-disabled",
+      "title": "Components/Form Inputs/Checkbox",
+      "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-checkbox.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-checkbox--tile",
+      "title": "Components/Form Inputs/Checkbox",
+      "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
+      "story": "Tile",
+      "twig": "./usa-checkbox--tile.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-checkbox--disabled-tile",
+      "title": "Components/Form Inputs/Checkbox",
+      "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
+      "story": "DisabledTile",
+      "twig": "./usa-checkbox--tile.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-checkbox--aria-disabled-tile",
+      "title": "Components/Form Inputs/Checkbox",
+      "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
+      "story": "AriaDisabledTile",
+      "twig": "./usa-checkbox--tile.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-checkbox--test",
+      "title": "Components/Form Inputs/Checkbox",
+      "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
+      "story": "Test",
+      "twig": "./test/test-patterns/test-usa-checkbox.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-form-inputs-checkbox--indeterminate",
+      "title": "Components/Form Inputs/Checkbox",
+      "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
+      "story": "Indeterminate",
+      "twig": "./usa-checkbox.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-checkbox--indeterminate-tile",
+      "title": "Components/Form Inputs/Checkbox",
+      "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
+      "story": "IndeterminateTile",
+      "twig": "./usa-checkbox--tile.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-checklist--checklist",
+      "title": "Components/Form Inputs/Checklist",
+      "package": "usa-checklist",
+      "file": "usa-checklist/src/usa-checklist.stories.js",
+      "story": "Checklist",
+      "twig": "./usa-checklist.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-collection--default",
+      "title": "Components/Collection",
+      "package": "usa-collection",
+      "file": "usa-collection/src/usa-collection.stories.js",
+      "story": "Default",
+      "twig": "./usa-collection.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-collection--fancy-date",
+      "title": "Components/Collection",
+      "package": "usa-collection",
+      "file": "usa-collection/src/usa-collection.stories.js",
+      "story": "FancyDate",
+      "twig": "./usa-collection--fancy-date.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-collection--media",
+      "title": "Components/Collection",
+      "package": "usa-collection",
+      "file": "usa-collection/src/usa-collection.stories.js",
+      "story": "Media",
+      "twig": "./usa-collection--media.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-collection--only-headers",
+      "title": "Components/Collection",
+      "package": "usa-collection",
+      "file": "usa-collection/src/usa-collection.stories.js",
+      "story": "OnlyHeaders",
+      "twig": "./usa-collection--only-headers.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-combo-box--default",
+      "title": "Components/Form Inputs/Combo Box",
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/usa-combo-box.stories.js",
+      "story": "Default",
+      "twig": "./usa-combo-box.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-combo-box--disabled",
+      "title": "Components/Form Inputs/Combo Box",
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/usa-combo-box.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-combo-box.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-combo-box--aria-disabled",
+      "title": "Components/Form Inputs/Combo Box",
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/usa-combo-box.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-combo-box.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-combo-box--test",
+      "title": "Components/Form Inputs/Combo Box",
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/usa-combo-box.stories.js",
+      "story": "Test",
+      "twig": "./test/test-patterns/test-usa-combo-box.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-form-inputs-date-picker--default",
+      "title": "Components/Form Inputs/Date Picker",
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
+      "story": "Default",
+      "twig": "./usa-date-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-picker--default-date",
+      "title": "Components/Form Inputs/Date Picker",
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
+      "story": "DefaultDate",
+      "twig": "./usa-date-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-picker--range-date",
+      "title": "Components/Form Inputs/Date Picker",
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
+      "story": "RangeDate",
+      "twig": "./usa-date-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-picker--restricted-date",
+      "title": "Components/Form Inputs/Date Picker",
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
+      "story": "RestrictedDate",
+      "twig": "./usa-date-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-picker--disabled",
+      "title": "Components/Form Inputs/Date Picker",
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-date-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-picker--aria-disabled",
+      "title": "Components/Form Inputs/Date Picker",
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-date-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-range-picker--default",
+      "title": "Components/Form Inputs/Date Range Picker",
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
+      "story": "Default",
+      "twig": "./usa-date-range-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-range-picker--default-date",
+      "title": "Components/Form Inputs/Date Range Picker",
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
+      "story": "DefaultDate",
+      "twig": "./usa-date-range-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-range-picker--restricted-date",
+      "title": "Components/Form Inputs/Date Range Picker",
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
+      "story": "RestrictedDate",
+      "twig": "./usa-date-range-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-range-picker--disabled",
+      "title": "Components/Form Inputs/Date Range Picker",
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-date-range-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-date-range-picker--aria-disabled",
+      "title": "Components/Form Inputs/Date Range Picker",
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-date-range-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-embed-container--embed-container",
+      "title": "Components/Embed Container",
+      "package": "usa-embed-container",
+      "file": "usa-embed-container/src/usa-embed-container.stories.js",
+      "story": "EmbedContainer",
+      "twig": "./usa-embed-container.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-file-input--default",
+      "title": "Components/Form Inputs/File Input",
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
+      "story": "Default",
+      "twig": "./usa-file-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-file-input--error",
+      "title": "Components/Form Inputs/File Input",
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
+      "story": "Error",
+      "twig": "./usa-file-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-file-input--multiple",
+      "title": "Components/Form Inputs/File Input",
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
+      "story": "Multiple",
+      "twig": "./usa-file-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-file-input--specific",
+      "title": "Components/Form Inputs/File Input",
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
+      "story": "Specific",
+      "twig": "./usa-file-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-file-input--wildcard",
+      "title": "Components/Form Inputs/File Input",
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
+      "story": "Wildcard",
+      "twig": "./usa-file-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-file-input--disabled",
+      "title": "Components/Form Inputs/File Input",
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-file-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-file-input--aria-disabled",
+      "title": "Components/Form Inputs/File Input",
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-file-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-file-input--test-multiple-inputs",
+      "title": "Components/Form Inputs/File Input",
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
+      "story": "TestMultipleInputs",
+      "twig": "./test/test-patterns/test-usa-file-input.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "design-tokens-fonts--fonts",
+      "title": "Design Tokens/Fonts",
+      "package": "usa-fonts",
+      "file": "usa-fonts/src/usa-fonts.stories.js",
+      "story": "Fonts",
+      "twig": "./usa-fonts.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-footer--default",
+      "title": "Components/Footer",
+      "package": "usa-footer",
+      "file": "usa-footer/src/usa-footer.stories.js",
+      "story": "Default",
+      "twig": "./usa-footer.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-footer--big-footer",
+      "title": "Components/Footer",
+      "package": "usa-footer",
+      "file": "usa-footer/src/usa-footer.stories.js",
+      "story": "BigFooter",
+      "twig": "./usa-footer--big/usa-footer--big.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-footer--slim-footer",
+      "title": "Components/Footer",
+      "package": "usa-footer",
+      "file": "usa-footer/src/usa-footer.stories.js",
+      "story": "SlimFooter",
+      "twig": "./usa-footer--slim/usa-footer--slim.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "patterns-forms--mailing-address",
+      "title": "Patterns/Forms",
+      "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
+      "story": "MailingAddress",
+      "twig": "../../templates/usa-address-form.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "patterns-forms--name",
+      "title": "Patterns/Forms",
+      "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
+      "story": "Name",
+      "twig": "../../templates/usa-name-form.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "patterns-forms--reset-password",
+      "title": "Patterns/Forms",
+      "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
+      "story": "ResetPassword",
+      "twig": "../../templates/usa-password-reset-form.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "patterns-forms--sign-in",
+      "title": "Patterns/Forms",
+      "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
+      "story": "SignIn",
+      "twig": "../../templates/usa-sign-in/usa-sign-in-form/usa-sign-in-form.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "patterns-forms--sign-in-spanish",
+      "title": "Patterns/Forms",
+      "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
+      "story": "SignInSpanish",
+      "twig": "../../templates/usa-sign-in/usa-sign-in-form/usa-sign-in-form.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "patterns-forms--sign-in-multiple",
+      "title": "Patterns/Forms",
+      "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
+      "story": "SignInMultiple",
+      "twig": "../../templates/usa-sign-in/includes/_usa-sign-in-multiple-inner.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "patterns-forms--sign-in-multiple-spanish",
+      "title": "Patterns/Forms",
+      "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
+      "story": "SignInMultipleSpanish",
+      "twig": "../../templates/usa-sign-in/includes/_usa-sign-in-multiple-inner.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "patterns-forms--disabled-form-elements",
+      "title": "Patterns/Forms",
+      "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
+      "story": "DisabledFormElements",
+      "twig": "./test/test-pattern/test-usa-form.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "patterns-forms--test-error-form-elements",
+      "title": "Patterns/Forms",
+      "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
+      "story": "TestErrorFormElements",
+      "twig": "./test/test-pattern/test-usa-form.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-graphic-list--graphic-list",
+      "title": "Components/Graphic List",
+      "package": "usa-graphic-list",
+      "file": "usa-graphic-list/src/usa-graphic-list.stories.js",
+      "story": "GraphicList",
+      "twig": "./usa-graphic-list.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-header--default",
+      "title": "Components/Header",
+      "package": "usa-header",
+      "file": "usa-header/src/usa-header.stories.js",
+      "story": "Default",
+      "twig": "./usa-header.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-header--megamenu",
+      "title": "Components/Header",
+      "package": "usa-header",
+      "file": "usa-header/src/usa-header.stories.js",
+      "story": "Megamenu",
+      "twig": "./usa-header.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-header--extended",
+      "title": "Components/Header",
+      "package": "usa-header",
+      "file": "usa-header/src/usa-header.stories.js",
+      "story": "Extended",
+      "twig": "./usa-header--extended/usa-header--extended.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-header--extended-megamenu",
+      "title": "Components/Header",
+      "package": "usa-header",
+      "file": "usa-header/src/usa-header.stories.js",
+      "story": "ExtendedMegamenu",
+      "twig": "./usa-header--extended/usa-header--extended.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-hero--hero",
+      "title": "Components/Hero",
+      "package": "usa-hero",
+      "file": "usa-hero/src/usa-hero.stories.js",
+      "story": "Hero",
+      "twig": "./usa-hero.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-icon-list--default",
+      "title": "Components/Icon List",
+      "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
+      "story": "Default",
+      "twig": "./usa-icon-list.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-icon-list--custom-rich",
+      "title": "Components/Icon List",
+      "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
+      "story": "CustomRich",
+      "twig": "./usa-icon-list.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-icon-list--custom-size",
+      "title": "Components/Icon List",
+      "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
+      "story": "CustomSize",
+      "twig": "./usa-icon-list.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-icon-list--rich",
+      "title": "Components/Icon List",
+      "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
+      "story": "Rich",
+      "twig": "./usa-icon-list.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-icon-list--simple",
+      "title": "Components/Icon List",
+      "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
+      "story": "Simple",
+      "twig": "./usa-icon-list.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "design-tokens-icons-icon-sizes--icon-sizes",
+      "title": "Design Tokens/Icons/Icon Sizes",
+      "package": "usa-icon",
+      "file": "usa-icon/src/usa-icon--sizes/usa-icon--sizes.stories.js",
+      "story": "IconSizes",
+      "twig": "./usa-icon--sizes.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "design-tokens-icons--icons",
+      "title": "Design Tokens/Icons",
+      "package": "usa-icon",
+      "file": "usa-icon/src/usa-icon.stories.js",
+      "story": "Icons",
+      "twig": "./usa-icon.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-identifier--default",
+      "title": "Components/Identifier",
+      "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
+      "story": "Default",
+      "twig": "./usa-identifier.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-identifier--default-spanish",
+      "title": "Components/Identifier",
+      "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
+      "story": "DefaultSpanish",
+      "twig": "./usa-identifier.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-identifier--multiple-parents-and-logos",
+      "title": "Components/Identifier",
+      "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
+      "story": "MultipleParentsAndLogos",
+      "twig": "./usa-identifier.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-identifier--multiple-parents-and-logos-spanish",
+      "title": "Components/Identifier",
+      "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
+      "story": "MultipleParentsAndLogosSpanish",
+      "twig": "./usa-identifier.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-identifier--no-logos",
+      "title": "Components/Identifier",
+      "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
+      "story": "NoLogos",
+      "twig": "./usa-identifier.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-identifier--no-logos-spanish",
+      "title": "Components/Identifier",
+      "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
+      "story": "NoLogosSpanish",
+      "twig": "./usa-identifier.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-identifier--taxpayer-disclaimer",
+      "title": "Components/Identifier",
+      "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
+      "story": "TaxpayerDisclaimer",
+      "twig": "./usa-identifier.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-identifier--taxpayer-disclaimer-spanish",
+      "title": "Components/Identifier",
+      "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
+      "story": "TaxpayerDisclaimerSpanish",
+      "twig": "./usa-identifier.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-in-page-navigation--default",
+      "title": "Components/In-Page Navigation",
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
+      "story": "Default",
+      "twig": "./usa-in-page-navigation.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-in-page-navigation--test-custom-content-selector",
+      "title": "Components/In-Page Navigation",
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
+      "story": "TestCustomContentSelector",
+      "twig": "./test/test-patterns/test-custom-content-selector.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-in-page-navigation--test-custom-header-selector",
+      "title": "Components/In-Page Navigation",
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
+      "story": "TestCustomHeaderSelector",
+      "twig": "./test/test-patterns/test-custom-header-selector.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-in-page-navigation--test-hidden-headers",
+      "title": "Components/In-Page Navigation",
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
+      "story": "TestHiddenHeaders",
+      "twig": "./test/test-patterns/test-hidden-headers.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-in-page-navigation--test-minimum-headers",
+      "title": "Components/In-Page Navigation",
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
+      "story": "TestMinimumHeaders",
+      "twig": "./test/test-patterns/test-minimum-header.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-in-page-navigation--test-nested-headers",
+      "title": "Components/In-Page Navigation",
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
+      "story": "TestNestedHeaders",
+      "twig": "./test/test-patterns/test-nested-headers.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-form-inputs-text-input-mask--ssn",
+      "title": "Components/Form Inputs/Text Input Mask",
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
+      "story": "SSN",
+      "twig": "./usa-input-mask.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input-mask--phone",
+      "title": "Components/Form Inputs/Text Input Mask",
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
+      "story": "Phone",
+      "twig": "./usa-input-mask.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input-mask--zip",
+      "title": "Components/Form Inputs/Text Input Mask",
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
+      "story": "ZIP",
+      "twig": "./usa-input-mask.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input-mask--alphanumeric",
+      "title": "Components/Form Inputs/Text Input Mask",
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
+      "story": "Alphanumeric",
+      "twig": "./usa-input-mask.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input-mask--disabled",
+      "title": "Components/Form Inputs/Text Input Mask",
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-input-mask.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input-mask--aria-disabled",
+      "title": "Components/Form Inputs/Text Input Mask",
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-input-mask.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-input-prefix-or-suffix--prefix",
+      "title": "Components/Form Inputs/Input Prefix or Suffix",
+      "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
+      "story": "Prefix",
+      "twig": "./usa-input-prefix.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-input-prefix-or-suffix--prefix-disabled",
+      "title": "Components/Form Inputs/Input Prefix or Suffix",
+      "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
+      "story": "PrefixDisabled",
+      "twig": "./usa-input-prefix.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-input-prefix-or-suffix--prefix-aria-disabled",
+      "title": "Components/Form Inputs/Input Prefix or Suffix",
+      "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
+      "story": "PrefixAriaDisabled",
+      "twig": "./usa-input-prefix.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-input-prefix-or-suffix--suffix",
+      "title": "Components/Form Inputs/Input Prefix or Suffix",
+      "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
+      "story": "Suffix",
+      "twig": "./usa-input-suffix.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-input-prefix-or-suffix--suffix-disabled",
+      "title": "Components/Form Inputs/Input Prefix or Suffix",
+      "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
+      "story": "SuffixDisabled",
+      "twig": "./usa-input-suffix.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-input-prefix-or-suffix--suffix-aria-disabled",
+      "title": "Components/Form Inputs/Input Prefix or Suffix",
+      "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
+      "story": "SuffixAriaDisabled",
+      "twig": "./usa-input-suffix.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input--input",
+      "title": "Components/Form Inputs/Text Input",
+      "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
+      "story": "Input",
+      "twig": "./usa-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input--disabled",
+      "title": "Components/Form Inputs/Text Input",
+      "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input--aria-disabled",
+      "title": "Components/Form Inputs/Text Input",
+      "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input--error",
+      "title": "Components/Form Inputs/Text Input",
+      "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
+      "story": "Error",
+      "twig": "./usa-input.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-text-input--state-showcase",
+      "title": "Components/Form Inputs/Text Input",
+      "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
+      "story": "StateShowcase",
+      "twig": "./usa-input--showcase.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-language-selector--two-languages",
+      "title": "Components/Language Selector",
+      "package": "usa-language-selector",
+      "file": "usa-language-selector/src/usa-language-selector.stories.js",
+      "story": "TwoLanguages",
+      "twig": "./usa-language-selector.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-language-selector--three-or-more-languages",
+      "title": "Components/Language Selector",
+      "package": "usa-language-selector",
+      "file": "usa-language-selector/src/usa-language-selector.stories.js",
+      "story": "ThreeOrMoreLanguages",
+      "twig": "./usa-language-selector--three-or-more/usa-language-selector--three-or-more.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-language-selector--in-header-example",
+      "title": "Components/Language Selector",
+      "package": "usa-language-selector",
+      "file": "usa-language-selector/src/usa-language-selector.stories.js",
+      "story": "InHeaderExample",
+      "twig": "./usa-language-selector--header/usa-language-selector--header.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-language-selector--unstyled-example",
+      "title": "Components/Language Selector",
+      "package": "usa-language-selector",
+      "file": "usa-language-selector/src/usa-language-selector.stories.js",
+      "story": "UnstyledExample",
+      "twig": "./usa-language-selector--unstyled/usa-language-selector--unstyled.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-link--link",
+      "title": "Components/Link",
+      "package": "usa-link",
+      "file": "usa-link/src/usa-link.stories.js",
+      "story": "Link",
+      "twig": "./usa-link.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-list--list",
+      "title": "Components/List",
+      "package": "usa-list",
+      "file": "usa-list/src/usa-list.stories.js",
+      "story": "List",
+      "twig": "./usa-list.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-media-block--media-block",
+      "title": "Components/Media Block",
+      "package": "usa-media-block",
+      "file": "usa-media-block/src/usa-media-block.stories.js",
+      "story": "MediaBlock",
+      "twig": "./usa-media-block.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-memorable-date--memorable-date",
+      "title": "Components/Form Inputs/Memorable Date",
+      "package": "usa-memorable-date",
+      "file": "usa-memorable-date/src/usa-memorable-date.stories.js",
+      "story": "MemorableDate",
+      "twig": "./usa-memorable-date.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-memorable-date--disabled",
+      "title": "Components/Form Inputs/Memorable Date",
+      "package": "usa-memorable-date",
+      "file": "usa-memorable-date/src/usa-memorable-date.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-memorable-date.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-memorable-date--aria-disabled",
+      "title": "Components/Form Inputs/Memorable Date",
+      "package": "usa-memorable-date",
+      "file": "usa-memorable-date/src/usa-memorable-date.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-memorable-date.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-modal--default",
+      "title": "Components/Modal",
+      "package": "usa-modal",
+      "file": "usa-modal/src/usa-modal.stories.js",
+      "story": "Default",
+      "twig": "./usa-modal.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-modal--large",
+      "title": "Components/Modal",
+      "package": "usa-modal",
+      "file": "usa-modal/src/usa-modal.stories.js",
+      "story": "Large",
+      "twig": "./usa-modal.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-modal--forced-action",
+      "title": "Components/Modal",
+      "package": "usa-modal",
+      "file": "usa-modal/src/usa-modal.stories.js",
+      "story": "ForcedAction",
+      "twig": "./usa-modal.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-modal--test-nested-forms",
+      "title": "Components/Modal",
+      "package": "usa-modal",
+      "file": "usa-modal/src/usa-modal.stories.js",
+      "story": "TestNestedForms",
+      "twig": "./test/test-patterns/test-usa-modal--nested-forms.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-header-partials-primary--default",
+      "title": "Components/Header/Partials/Primary",
+      "package": "usa-nav",
+      "file": "usa-nav/src/usa-nav__primary/usa-nav-primary.stories.js",
+      "story": "Default",
+      "twig": "./usa-nav__primary.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-header-partials-primary--megamenu",
+      "title": "Components/Header/Partials/Primary",
+      "package": "usa-nav",
+      "file": "usa-nav/src/usa-nav__primary/usa-nav-primary.stories.js",
+      "story": "Megamenu",
+      "twig": "./usa-nav__primary.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-header-partials-secondary--default",
+      "title": "Components/Header/Partials/Secondary",
+      "package": "usa-nav",
+      "file": "usa-nav/src/usa-nav__secondary/usa-nav-secondary.stories.js",
+      "story": "Default",
+      "twig": "./usa-nav__secondary.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-header-partials-secondary--search-included",
+      "title": "Components/Header/Partials/Secondary",
+      "package": "usa-nav",
+      "file": "usa-nav/src/usa-nav__secondary/usa-nav-secondary.stories.js",
+      "story": "SearchIncluded",
+      "twig": "./usa-nav__secondary.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-pagination--default",
+      "title": "Components/Pagination",
+      "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
+      "story": "Default",
+      "twig": "./usa-pagination.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-pagination--unbounded",
+      "title": "Components/Pagination",
+      "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
+      "story": "Unbounded",
+      "twig": "./usa-pagination.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-pagination--spanish",
+      "title": "Components/Pagination",
+      "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
+      "story": "Spanish",
+      "twig": "./usa-pagination.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-pagination--spanish-unbounded",
+      "title": "Components/Pagination",
+      "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
+      "story": "SpanishUnbounded",
+      "twig": "./usa-pagination.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-pagination--test",
+      "title": "Components/Pagination",
+      "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
+      "story": "Test",
+      "twig": "./test/test-patterns/test-pagination-all.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-process-list--default",
+      "title": "Components/Process List",
+      "package": "usa-process-list",
+      "file": "usa-process-list/src/usa-process-list.stories.js",
+      "story": "Default",
+      "twig": "./usa-process-list.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-process-list--process-list-custom-sizing",
+      "title": "Components/Process List",
+      "package": "usa-process-list",
+      "file": "usa-process-list/src/usa-process-list.stories.js",
+      "story": "ProcessListCustomSizing",
+      "twig": "./usa-process-list--custom-sizing.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-process-list--process-list-no-text",
+      "title": "Components/Process List",
+      "package": "usa-process-list",
+      "file": "usa-process-list/src/usa-process-list.stories.js",
+      "story": "ProcessListNoText",
+      "twig": "./usa-process-list--no-text.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-prose--default",
+      "title": "Components/Prose",
+      "package": "usa-prose",
+      "file": "usa-prose/src/usa-prose.stories.js",
+      "story": "Default",
+      "twig": "./usa-prose.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-radio--default",
+      "title": "Components/Form Inputs/Radio",
+      "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
+      "story": "Default",
+      "twig": "./usa-radio.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-radio--disabled",
+      "title": "Components/Form Inputs/Radio",
+      "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-radio.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-radio--aria-disabled",
+      "title": "Components/Form Inputs/Radio",
+      "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-radio.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-radio--radio-tile",
+      "title": "Components/Form Inputs/Radio",
+      "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
+      "story": "RadioTile",
+      "twig": "./usa-radio--tile.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-radio--tile-disabled",
+      "title": "Components/Form Inputs/Radio",
+      "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
+      "story": "TileDisabled",
+      "twig": "./usa-radio--tile.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-radio--tile-aria-disabled",
+      "title": "Components/Form Inputs/Radio",
+      "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
+      "story": "TileAriaDisabled",
+      "twig": "./usa-radio--tile.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-radio--indeterminate",
+      "title": "Components/Form Inputs/Radio",
+      "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
+      "story": "Indeterminate",
+      "twig": "./usa-radio.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-radio--indeterminate-tile",
+      "title": "Components/Form Inputs/Radio",
+      "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
+      "story": "IndeterminateTile",
+      "twig": "./usa-radio--tile.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-range--range",
+      "title": "Components/Form Inputs/Range",
+      "package": "usa-range",
+      "file": "usa-range/src/usa-range.stories.js",
+      "story": "Range",
+      "twig": "./usa-range.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-range--disabled",
+      "title": "Components/Form Inputs/Range",
+      "package": "usa-range",
+      "file": "usa-range/src/usa-range.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-range.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-range--aria-disabled",
+      "title": "Components/Form Inputs/Range",
+      "package": "usa-range",
+      "file": "usa-range/src/usa-range.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-range.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-search--default",
+      "title": "Components/Search",
+      "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
+      "story": "Default",
+      "twig": "./usa-search.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-search--big",
+      "title": "Components/Search",
+      "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
+      "story": "Big",
+      "twig": "./usa-search.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-search--small",
+      "title": "Components/Search",
+      "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
+      "story": "Small",
+      "twig": "./usa-search.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-search--default-lang-es",
+      "title": "Components/Search",
+      "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
+      "story": "DefaultLangEs",
+      "twig": "./usa-search.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-search--big-lang-es",
+      "title": "Components/Search",
+      "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
+      "story": "BigLangEs",
+      "twig": "./usa-search.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-search--small-lang-es",
+      "title": "Components/Search",
+      "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
+      "story": "SmallLangEs",
+      "twig": "./usa-search.twig",
+      "kind": "spanish"
+    },
+    {
+      "id": "components-section--default",
+      "title": "Components/Section",
+      "package": "usa-section",
+      "file": "usa-section/src/usa-section.stories.js",
+      "story": "Default",
+      "twig": "./usa-section.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-section--dark",
+      "title": "Components/Section",
+      "package": "usa-section",
+      "file": "usa-section/src/usa-section.stories.js",
+      "story": "Dark",
+      "twig": "./usa-section.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-section--light",
+      "title": "Components/Section",
+      "package": "usa-section",
+      "file": "usa-section/src/usa-section.stories.js",
+      "story": "Light",
+      "twig": "./usa-section.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-select--select",
+      "title": "Components/Form Inputs/Select",
+      "package": "usa-select",
+      "file": "usa-select/src/usa-select.stories.js",
+      "story": "Select",
+      "twig": "./usa-select.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-select--disabled",
+      "title": "Components/Form Inputs/Select",
+      "package": "usa-select",
+      "file": "usa-select/src/usa-select.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-select.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-select--aria-disabled",
+      "title": "Components/Form Inputs/Select",
+      "package": "usa-select",
+      "file": "usa-select/src/usa-select.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-select.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-select--multiple",
+      "title": "Components/Form Inputs/Select",
+      "package": "usa-select",
+      "file": "usa-select/src/usa-select.stories.js",
+      "story": "Multiple",
+      "twig": "./test/test-patterns/usa-select--multiple.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-side-navigation--level-one",
+      "title": "Components/Side Navigation",
+      "package": "usa-sidenav",
+      "file": "usa-sidenav/src/usa-sidenav.stories.js",
+      "story": "LevelOne",
+      "twig": "./usa-sidenav.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-side-navigation--level-two",
+      "title": "Components/Side Navigation",
+      "package": "usa-sidenav",
+      "file": "usa-sidenav/src/usa-sidenav.stories.js",
+      "story": "LevelTwo",
+      "twig": "./usa-sidenav.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-side-navigation--level-three",
+      "title": "Components/Side Navigation",
+      "package": "usa-sidenav",
+      "file": "usa-sidenav/src/usa-sidenav.stories.js",
+      "story": "LevelThree",
+      "twig": "./usa-sidenav.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-side-navigation--test",
+      "title": "Components/Side Navigation",
+      "package": "usa-sidenav",
+      "file": "usa-sidenav/src/usa-sidenav.stories.js",
+      "story": "Test",
+      "twig": "./test/test-patterns/test-sidenav-button.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-site-alert--default",
+      "title": "Components/Site Alert",
+      "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
+      "story": "Default",
+      "twig": "./usa-site-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-site-alert--info",
+      "title": "Components/Site Alert",
+      "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
+      "story": "Info",
+      "twig": "./usa-site-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-site-alert--emergency",
+      "title": "Components/Site Alert",
+      "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
+      "story": "Emergency",
+      "twig": "./usa-site-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-site-alert--emergency-list",
+      "title": "Components/Site Alert",
+      "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
+      "story": "EmergencyList",
+      "twig": "./usa-site-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-site-alert--emergency-no-header",
+      "title": "Components/Site Alert",
+      "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
+      "story": "EmergencyNoHeader",
+      "twig": "./usa-site-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-site-alert--emergency-no-icon",
+      "title": "Components/Site Alert",
+      "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
+      "story": "EmergencyNoIcon",
+      "twig": "./usa-site-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-site-alert--emergency-slim",
+      "title": "Components/Site Alert",
+      "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
+      "story": "EmergencySlim",
+      "twig": "./usa-site-alert.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-site-title--site-title",
+      "title": "Components/Site Title",
+      "package": "usa-site-title",
+      "file": "usa-site-title/src/usa-site-title.stories.js",
+      "story": "SiteTitle",
+      "twig": "./usa-site-title.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-skipnav--skipnav",
+      "title": "Components/Skipnav",
+      "package": "usa-skipnav",
+      "file": "usa-skipnav/src/usa-skipnav.stories.js",
+      "story": "Skipnav",
+      "twig": "./usa-skipnav.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-step-indicator--default",
+      "title": "Components/Step Indicator",
+      "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
+      "story": "Default",
+      "twig": "./usa-step-indicator.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-step-indicator--center-counters-sm",
+      "title": "Components/Step Indicator",
+      "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
+      "story": "CenterCountersSm",
+      "twig": "./usa-step-indicator.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-step-indicator--center-counters",
+      "title": "Components/Step Indicator",
+      "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
+      "story": "CenterCounters",
+      "twig": "./usa-step-indicator.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-step-indicator--center-no-label",
+      "title": "Components/Step Indicator",
+      "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
+      "story": "CenterNoLabel",
+      "twig": "./usa-step-indicator.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-step-indicator--center",
+      "title": "Components/Step Indicator",
+      "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
+      "story": "Center",
+      "twig": "./usa-step-indicator.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-step-indicator--counters-sm",
+      "title": "Components/Step Indicator",
+      "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
+      "story": "CountersSm",
+      "twig": "./usa-step-indicator.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-step-indicator--counters",
+      "title": "Components/Step Indicator",
+      "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
+      "story": "Counters",
+      "twig": "./usa-step-indicator.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-step-indicator--no-labels",
+      "title": "Components/Step Indicator",
+      "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
+      "story": "NoLabels",
+      "twig": "./usa-step-indicator.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-step-indicator--short",
+      "title": "Components/Step Indicator",
+      "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
+      "story": "Short",
+      "twig": "./usa-step-indicator.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-summary-box--summary-box",
+      "title": "Components/Summary Box",
+      "package": "usa-summary-box",
+      "file": "usa-summary-box/src/usa-summary-box.stories.js",
+      "story": "SummaryBox",
+      "twig": "./usa-summary-box.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table-scrollable--default",
+      "title": "Components/Table/Scrollable",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table--scrollable/usa-table--scrollable.stories.js",
+      "story": "Default",
+      "twig": "./usa-table--scrollable.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table-scrollable--striped",
+      "title": "Components/Table/Scrollable",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table--scrollable/usa-table--scrollable.stories.js",
+      "story": "Striped",
+      "twig": "./usa-table--scrollable.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table-scrollable--compact",
+      "title": "Components/Table/Scrollable",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table--scrollable/usa-table--scrollable.stories.js",
+      "story": "Compact",
+      "twig": "./usa-table--scrollable.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table-scrollable--compact-striped",
+      "title": "Components/Table/Scrollable",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table--scrollable/usa-table--scrollable.stories.js",
+      "story": "CompactStriped",
+      "twig": "./usa-table--scrollable.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table-stacked--default",
+      "title": "Components/Table/Stacked",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table--stacked/usa-table--stacked.stories.js",
+      "story": "Default",
+      "twig": "./usa-table--stacked.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table-stacked--borderless",
+      "title": "Components/Table/Stacked",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table--stacked/usa-table--stacked.stories.js",
+      "story": "Borderless",
+      "twig": "./usa-table--stacked.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table-stacked--with-header",
+      "title": "Components/Table/Stacked",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table--stacked/usa-table--stacked.stories.js",
+      "story": "WithHeader",
+      "twig": "./usa-table--stacked.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table-stacked--with-header-borderless",
+      "title": "Components/Table/Stacked",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table--stacked/usa-table--stacked.stories.js",
+      "story": "withHeaderBorderless",
+      "twig": "./usa-table--stacked.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table--default",
+      "title": "Components/Table",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
+      "story": "Default",
+      "twig": "./usa-table.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table--borderless",
+      "title": "Components/Table",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
+      "story": "Borderless",
+      "twig": "./usa-table.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table--striped",
+      "title": "Components/Table",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
+      "story": "Striped",
+      "twig": "./usa-table.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table--sticky-header",
+      "title": "Components/Table",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
+      "story": "StickyHeader",
+      "twig": "./usa-table.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table--sortable",
+      "title": "Components/Table",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
+      "story": "Sortable",
+      "twig": "./usa-table--sortable/usa-table--sortable.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-table--test-sticky-header-multiple-rows",
+      "title": "Components/Table",
+      "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
+      "story": "TestStickyHeaderMultipleRows",
+      "twig": "./test/test-patterns/test-usa-table--multiple-sticky-headers.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-tags--info",
+      "title": "Components/Tags",
+      "package": "usa-tag",
+      "file": "usa-tag/src/usa-tag.stories.js",
+      "story": "Info",
+      "twig": "./usa-tag.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-tags--big",
+      "title": "Components/Tags",
+      "package": "usa-tag",
+      "file": "usa-tag/src/usa-tag.stories.js",
+      "story": "Big",
+      "twig": "./usa-tag.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-time-picker--time-picker",
+      "title": "Components/Form Inputs/Time Picker",
+      "package": "usa-time-picker",
+      "file": "usa-time-picker/src/usa-time-picker.stories.js",
+      "story": "TimePicker",
+      "twig": "./usa-time-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-time-picker--time-picker-default-value",
+      "title": "Components/Form Inputs/Time Picker",
+      "package": "usa-time-picker",
+      "file": "usa-time-picker/src/usa-time-picker.stories.js",
+      "story": "TimePickerDefaultValue",
+      "twig": "./usa-time-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-time-picker--disabled",
+      "title": "Components/Form Inputs/Time Picker",
+      "package": "usa-time-picker",
+      "file": "usa-time-picker/src/usa-time-picker.stories.js",
+      "story": "Disabled",
+      "twig": "./usa-time-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-form-inputs-time-picker--aria-disabled",
+      "title": "Components/Form Inputs/Time Picker",
+      "package": "usa-time-picker",
+      "file": "usa-time-picker/src/usa-time-picker.stories.js",
+      "story": "AriaDisabled",
+      "twig": "./usa-time-picker.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-tooltip--tooltip",
+      "title": "Components/Tooltip",
+      "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
+      "story": "Tooltip",
+      "twig": "./usa-tooltip.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-tooltip--tooltip-utility",
+      "title": "Components/Tooltip",
+      "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
+      "story": "TooltipUtility",
+      "twig": "./usa-tooltip--utilities.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-tooltip--test",
+      "title": "Components/Tooltip",
+      "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
+      "story": "Test",
+      "twig": "./test/test-patterns/test-usa-tooltip-utilities.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-tooltip--test-no-wrapper",
+      "title": "Components/Tooltip",
+      "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
+      "story": "TestNoWrapper",
+      "twig": "./test/test-patterns/test-usa-tooltip-no-wrapper.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-tooltip--test-non-button",
+      "title": "Components/Tooltip",
+      "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
+      "story": "TestNonButton",
+      "twig": "./test/test-patterns/test-usa-tooltip-non-button.twig",
+      "kind": "uswds-internal-test"
+    },
+    {
+      "id": "components-validation--input-validation",
+      "title": "Components/Validation",
+      "package": "usa-validation",
+      "file": "usa-validation/src/usa-validation.stories.js",
+      "story": "InputValidation",
+      "twig": "./usa-validation.twig",
+      "kind": "variant"
+    },
+    {
+      "id": "components-validation--textarea-validation",
+      "title": "Components/Validation",
+      "package": "usa-validation",
+      "file": "usa-validation/src/usa-validation.stories.js",
+      "story": "TextareaValidation",
+      "twig": "./usa-validation--textarea.twig",
+      "kind": "variant"
+    }
+  ],
+  "specs": [
+    {
+      "package": "usa-accordion",
+      "file": "usa-accordion/src/test/accordion-icon.spec.js",
+      "cases": []
+    },
+    {
+      "package": "usa-accordion",
+      "file": "usa-accordion/src/test/accordion.spec.js",
+      "cases": [
+        "has an ",
+        "has an ",
+        "toggles button aria-expanded=",
+        "toggles content ",
+        "toggles button aria-expanded=",
+        "toggles content ",
+        "shows the second item when clicked",
+        "keeps multiple sections open with data-allow-multiple"
+      ]
+    },
+    {
+      "package": "usa-banner",
+      "file": "usa-banner/src/test/banner.spec.js",
+      "cases": [
+        "initializes closed",
+        "opens when you click the button",
+        "closes when you click the button again",
+        "opens when you click the button",
+        "closes when you click the button again"
+      ]
+    },
+    {
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/test/character-count.spec.js",
+      "cases": [
+        "hides the requirements hint for screen readers",
+        "creates a visual status message on init",
+        "creates a screen reader status message on init",
+        "does not create duplicate status messages when initialized twice",
+        "does not set aria-live on the sr status message synchronously",
+        "sets aria-live on the sr status message after a delay",
+        "adds initial status message for the character count component",
+        "informs the user how many more characters they are allowed",
+        "informs the user they are allowed a single character",
+        "informs the user they are over the limit by a single character",
+        "informs the user how many characters they will need to remove",
+        "should show the component and input as valid when the input is under the limit",
+        "should show the component and input as invalid when the input is over the limit",
+        "should not allow for innerHTML of child elements ",
+        "announces assertively after debounce when over the limit",
+        "waits for typing to pause before assertively announcing how far over the limit",
+        "uses polite announcements while typing under the limit",
+        "announces recovery quickly when backspacing under the limit",
+        "does not replay a stale over-limit announcement after backspacing to empty",
+        "initializes without error when the input ID contains colons",
+        "applies error class to the label found via for attribute"
+      ]
+    },
+    {
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/test/invalid-template-no-message.spec.js",
+      "cases": [
+        "should throw an error when a character count component is created with no message element"
+      ]
+    },
+    {
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/test/invalid-template-no-wrapper.spec.js",
+      "cases": [
+        "should throw an error when a character count component is created with no wrapping class"
+      ]
+    },
+    {
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/test/valid-template-multiple-validators.spec.js",
+      "cases": [
+        "assert that input constraint validation adds a validation message",
+        "assert that input constraint validation does not overwrite a custom message",
+        "should not affect the validation message when a custom error message is already present",
+        "should not affect the validation message when the input is already invalid",
+        "should clear the validation message when input is only invalid by character count validation"
+      ]
+    },
+    {
+      "package": "usa-character-count",
+      "file": "usa-character-count/src/test/valid-template-no-maxlength.spec.js",
+      "cases": [
+        "should not update an initial message for the character count component",
+        "should not inform the user of remaining characters when typing"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/combo-box-change-event.spec.js",
+      "cases": [
+        "enhances a select element into a combo box component",
+        "should emit change events when selecting an item from the option list when clicking a list option",
+        "should emit change events when resetting input values when an incomplete item is submitted through enter",
+        "should emit change events when closing the list but not the clear the input value when escape is performed while the list is open",
+        "should emit change events when setting the input value when a complete selection is submitted by pressing enter",
+        "should emit change events when selecting the focused list item in the list when pressing enter on a focused item",
+        "should emit change events when pressing escape from a focused item"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/combo-box-default-value.spec.js",
+      "cases": [
+        "enhances a select element into a combo box component"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/combo-box-disable-filtering.spec.js",
+      "cases": [
+        "should display the full list and focus the first found item"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/combo-box-disabled.spec.js",
+      "cases": [
+        "enhances a select element into a combo box component",
+        "should not show the list when clicking the disabled input",
+        "should not show the list when clicking the disabled button",
+        "should show the list when clicking the input once the component has been enabled"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/combo-box-filter.spec.js",
+      "cases": [
+        "should display and filter the option list after a character is typed"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/combo-box-placeholder.spec.js",
+      "cases": [
+        "enhances a select element into a combo box component"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/combo-box-subsequent-selection.spec.js",
+      "cases": [
+        "should display the full list and focus the selected item when the input is pristine (after fresh selection)",
+        "should display the filtered list when the input is dirty (characters inputted)",
+        "should show a clear button when the input has a selected value present",
+        "should clear the input when the clear button is clicked",
+        "should update the filter and begin filtering once a pristine input value is changed"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/combo-box.spec.js",
+      "cases": [
+        "enhances a select element into a combo box component",
+        "should show the list by clicking the input",
+        "should show the list by clicking the toggle button",
+        "should show the list by clicking when clicking the input twice",
+        "should toggle the list and close by clicking when clicking the toggle button twice",
+        "should set up the list items for accessibility",
+        "should close the list by clicking away",
+        "should select an item from the option list when clicking a list option",
+        "should display and filter the option list after a character is typed",
+        "should sort matches by options that start with the query, then options that contain the query",
+        "should reset input values when an incomplete item is remaining on blur",
+        "should reset input values when an incomplete item is submitted through enter",
+        "should not allow enter to perform default action when the list is hidden",
+        "should close the list and reset input value when escape is performed while the list is open",
+        "should reset the input value when a complete selection is left on blur from the input element",
+        "should set the input value when a complete selection is submitted by pressing enter",
+        "should show the no results item when a nonexistent option is typed",
+        "status should not allow innerHTML",
+        "should show the list when pressing down from an empty input",
+        "should focus the first item in the list when pressing down from the input",
+        "should select the focused list item in the list when pressing enter on a focused item",
+        "should select the focused list item in the list when pressing space on a focused item",
+        "should not select the focused list item in the list when blurring component from a focused item",
+        "should focus the last item in the list when pressing down many times from the input",
+        "should not select the focused item in the list when pressing escape from the focused item",
+        "should focus the input and hide the list when pressing up from the first item in the list",
+        "should not allow for innerHTML of child elements ",
+        "should have attribute type of string"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/generateDynamicRegExp.spec.js",
+      "cases": [
+        "allows for static string",
+        "allows for string replacement",
+        "allows for string replacement with filter",
+        "allows for escaped string",
+        "escapes regular expression inputs"
+      ]
+    },
+    {
+      "package": "usa-combo-box",
+      "file": "usa-combo-box/src/test/invalid-template-no-select.spec.js",
+      "cases": [
+        "should throw an error when a combo box component is created with no select element"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-default-date.spec.js",
+      "cases": [
+        "should display the input date when an input date is present",
+        "should display the default date when the input date is empty",
+        "should display the default date when the input date is invalid"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-default-value.spec.js",
+      "cases": [
+        "should set the input date of the calendar",
+        "should display the selected date when the calendar is opened"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-disabled.spec.js",
+      "cases": [
+        "should not display the calendar when the button is clicked as it is disabled",
+        "should display the calendar when the button is clicked once the component is enabled"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-focus-trap.spec.js",
+      "cases": [
+        "should move focus to the first item when pressing tab form last item",
+        "should move focus to the last item when pressing shift+tab form first item"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-i18n.spec.js",
+      "cases": [
+        "should display month in english by default",
+        "should display month in the document language",
+        "should display the correct aria-label in the document language",
+        "should display the full list of months in english by default",
+        "should display the full list of months in the document language",
+        "should display the days of the week headers in english by default",
+        "should display the days of the week headers the in document language",
+        "should display the aria-label in the document language"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-min-date-max-date.spec.js",
+      "cases": [
+        "should allow navigation back a year to a month that is partially disabled due to a minimum date being set",
+        "should disable back buttons when displaying the minimum month",
+        "should disable forward buttons when displaying the maximum month",
+        "should allow navigation back a year to a month that is less than a year from the minimum date being set and cap at that minimum date",
+        "should allow navigation back a month to a month that is partially disabled due to a minimum date being set",
+        "should not allow navigation back a month to a month that is fully disabled due to a minimum date being set",
+        "should allow navigation forward a year to a month that is partially disabled due to a maximum date being set",
+        "should allow navigation forward a year to a month that is less than a year from the maximum date and cap at that maximum date",
+        "should allow navigation forward a month to a month that is partially disabled due to a maximum date being set",
+        "should not allow navigation forward a month to a month that is fully disabled due to a maximum date being set",
+        "should allow selection of a month in the month selection screen that is partially disabled due to a minimum date being set",
+        "should not allow selection of a month in the month selection screen that is fully disabled due to a minimum date being set",
+        "should allow selection of a month in the month selection screen that is partially disabled due to a maximum date being set",
+        "should not allow selection of a month in the month selection screen that is fully disabled due to a maximum date being set",
+        "should allow selection of a year in the year selection screen that is partially disabled due to a minimum date being set",
+        "should allow selection of a year in the year selection screen that is partially disabled due to a maximum date being set",
+        "should not allow selection of a year in the year selection screen that is fully disabled due to a minimum date being set",
+        "should not allow selection of a year  in the year selection screen that is fully disabled due to a maximum date being set",
+        "should allow selection of a date that is the minimum date",
+        "should allow selection of a date that is the maximum date",
+        "should not allow selection of a date that is before the minimum date",
+        "should not allow selection of a date that is after the maximum date",
+        "should allow keyboard navigation to move back one day to a date that is the minimum date",
+        "should allow keyboard navigation to move back one week to a date that is the minimum date",
+        "should allow keyboard navigation to move back one month to a date that is the minimum date",
+        "should allow keyboard navigation to move back one year to a date that is the minimum date",
+        "should not allow keyboard navigation to move back one day to a date that is before the minimum date",
+        "should allow keyboard navigation to move to the start of the week to a date that is before the minimum date but cap at minimum date",
+        "should allow keyboard navigation to move back one week to a date that is before the minimum date but cap at minimum date",
+        "should allow keyboard navigation to move back one month to a date that is before the minimum date but cap at minimum date",
+        "should allow keyboard navigation to move back one year to a date that is before the minimum date but cap at minimum date",
+        "should allow keyboard navigation to move forward one day to a date that is the maximum date",
+        "should allow keyboard navigation to move forward one week to a date that is the maximum date",
+        "should allow keyboard navigation to move forward one month to a date that is the maximum date",
+        "should allow keyboard navigation to move forward one year to a date that is the maximum date",
+        "should not allow keyboard navigation to move forward one day to a date that is after the maximum date",
+        "should allow keyboard navigation to move to the end of the week to a date that is after the maximum date but cap at maximum date",
+        "should allow keyboard navigation to move forward one week to a date that is after the maximum date but cap at maximum date",
+        "should allow keyboard navigation to move forward one month to a date that is after the maximum date but cap at maximum date",
+        "should allow keyboard navigation to move forward one year to a date that is after the maximum date but cap at maximum date",
+        "should show a date that is after the maximum date as invalid",
+        "should show a date that is the maximum date as valid",
+        "should show a date that is before the minimum date as invalid",
+        "should show a date that is the minimum date as valid",
+        "should throw when minDate is larger than maxDate",
+        "should open the calendar on the min date when the input date is before the min date",
+        "should open the calendar on the max date when the input date is after the max date",
+        "should open the calendar on the max date when the input is empty and the current date is after the max date",
+        "should update the calendar to the max date when the input is changed and the input date is after the max date"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-month-selection.spec.js",
+      "cases": [
+        "should show month of June as focused",
+        "should show month of June as selected",
+        "should navigate back three months when pressing up",
+        "should navigate ahead three months when pressing down",
+        "should navigate back one month when pressing left",
+        "should navigate ahead one month when pressing right",
+        "should navigate to the beginning of the month row when pressing home",
+        "should navigate to the end of the month row when pressing end",
+        "should navigate to January when pressing page up",
+        "should navigate to December when pressing page down"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-mousemove.spec.js",
+      "cases": [
+        "should ignore mouse move events over disabled days",
+        "should ignore mouse event on the same day"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-range-date.spec.js",
+      "cases": [
+        "should display the range date when showing the month of the range date",
+        "should not display the range date when showing the a month different from the range date month",
+        "should display the days between the calendar date and the range date as within range when the calendar date is above the range date",
+        "should display the days between the calendar date and the range date as within range when the calendar date is below the range date"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker-year-selection.spec.js",
+      "cases": [
+        "should show year of 2020 as focused",
+        "should show year of 2020 as selected",
+        "should navigate back three years when pressing up",
+        "should navigate ahead three years when pressing down",
+        "should navigate back one year when pressing left",
+        "should navigate ahead one year when pressing right",
+        "should navigate to the beginning of the year row when pressing home",
+        "should navigate to the end of the year row when pressing end",
+        "should navigate back 12 years when pressing page up",
+        "should navigate forward 12 years when pressing page down"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/date-picker.spec.js",
+      "cases": [
+        "should enhance the date input with a date picker button",
+        "should display a calendar for the current date when the date picker button is clicked",
+        "should set aria-current=",
+        "should not set aria-current on non-today date buttons",
+        "should hide the calendar when the date picker button is clicked and the calendar is already open",
+        "should close the calendar you click outside of an active calendar",
+        "should close the calendar you press escape from the input",
+        "should display a calendar for the inputted date when the date picker button is clicked with a date entered",
+        "should allow for the selection of a date within the calendar",
+        "should allow for navigation to the preceding month by clicking the left single arrow button within the calendar",
+        "should allow for navigation to the succeeding month by clicking the right single arrow button within the calendar",
+        "should allow for navigation to the preceding year by clicking the left double arrow button within the calendar",
+        "should allow for navigation to the succeeding year by clicking the right double arrow button within the calendar",
+        "should display a month selection screen by clicking the month display within the calendar",
+        "should allow for the selection of a month within month selection screen",
+        "should display a year selection screen by clicking the year display within the calendar",
+        "should allow for navigation to the preceding dozen years by clicking the left single arrow button within the year selection screen",
+        "should allow for navigation to the succeeding dozen year by clicking the right single arrow button within the year selection screen",
+        "should allow for the selection of a year within year selection screen",
+        "should close the calendar when escape is pressed within the calendar",
+        "should move focus to the same day of week of the previous week when up is pressed from the currently focused day",
+        "should move focus to the same day of week of the next week when down is pressed from the currently focused day",
+        "should move focus to the previous day when left is pressed from the currently focused day",
+        "should move focus to the next day when right is pressed from the currently focused day",
+        "should move focus to the first day (e.g. Sunday) of the current week when home is pressed from the currently focused day",
+        "should move focus to the last day (e.g. Saturday) of the current week when end is pressed from the currently focused day",
+        "should move focus to the same day of the previous month when page up is pressed from the currently focused day",
+        "should move focus to the last day of the previous month when page up is pressed from the the last day of a longer month",
+        "should move focus to the same day of the next month when page down is pressed from the currently focused day",
+        "should move focus to the last day of the next month when page down is pressed from the the last day of a longer month",
+        "should move focus to the same day of the month January when page down is pressed from the currently focused day in December",
+        "should move focus to the same day/month of the previous year when shift + page up is pressed from the currently focused day",
+        "should move focus to February 28th of the previous year when shift + page up is pressed from a focused February 29th date of a leap year",
+        "should move focus to the same day/month of the next year when shift + page down is pressed from the currently focused day",
+        "should move focus to February 28th of the next year when shift + page down is pressed from a focused February 29th date of a leap year",
+        "should accept a parse-able date with a two digit year and display the calendar of that year in the current century",
+        "should show an improper date as invalid as the user leaves the input",
+        "should validate input on the static validate function being emitted",
+        "should update the calendar when a valid date is entered in the input while the date picker is open",
+        "should validate the input when a date is selected",
+        "should show an improper date as invalid if the user presses enter from the input",
+        "should show an empty input as valid",
+        "should prevent action from button when event didn"
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/invalid-template-no-input.spec.js",
+      "cases": [
+        "should throw an error when date picker is activated without a wrapping "
+      ]
+    },
+    {
+      "package": "usa-date-picker",
+      "file": "usa-date-picker/src/test/invalid-template-no-wrapper.spec.js",
+      "cases": [
+        "should throw an error when a toggle button is clicked without a wrapping "
+      ]
+    },
+    {
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/test/date-range-picker-min-date-max-date.spec.js",
+      "cases": [
+        "should enhance the date picker and identify the start and end date pickers",
+        "should not update the range end date picker properties when the range start date picker has an empty value",
+        "should update the range end date picker properties to have a min date and range date when the range start date picker has an updated valid value",
+        "should reset the range end date picker properties when the range start date picker has an updated invalid value",
+        "should not update the range end date picker properties when the range start date picker has an empty value",
+        "should update the range start date picker properties to have a max date and range date when the range end date picker has an updated valid value",
+        "should not update the range end date picker properties when the range start date picker has an updated invalid value"
+      ]
+    },
+    {
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/test/date-range-picker.spec.js",
+      "cases": [
+        "should enhance the date picker and identify the start and end date pickers",
+        "should reset the range end date picker properties when the range start date picker has an empty value",
+        "should update the range end date picker properties to have a min date and range date when the range start date picker has an updated valid value",
+        "should reset the range end date picker properties when the range start date picker has an updated invalid value",
+        "should reset the range start date picker properties when the range end date picker has an empty value",
+        "should update the range start date picker properties to have a max date and range date when the range end date picker has an updated valid value",
+        "should reset the range end date picker properties when the range start date picker has an updated invalid value"
+      ]
+    },
+    {
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/test/invalid-template-no-input.spec.js",
+      "cases": [
+        "should throw an error when a toggle button is clicked without a wrapping "
+      ]
+    },
+    {
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/test/invalid-template-no-wrapper.spec.js",
+      "cases": [
+        "should throw an error when the range start value is changed without a wrapping ",
+        "should throw an error when the range end value is changed without a wrapping "
+      ]
+    },
+    {
+      "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/test/invalid-template-one-input.spec.js",
+      "cases": [
+        "should throw an error when a date range picker without two "
+      ]
+    },
+    {
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/test/file-input-accepts.spec.js",
+      "cases": [
+        "instructions are created",
+        "target ui is created",
+        "input gets new class",
+        "box is created",
+        "pluralizes ",
+        "mock file should be defined with specific values",
+        "mock file should not be allowed",
+        "should provide a default error message for invalid file type",
+        "should allow a custom error message for invalid file type"
+      ]
+    },
+    {
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/test/file-input-disabled.spec.js",
+      "cases": [
+        "has disabled styling"
+      ]
+    },
+    {
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/test/file-input.spec.js",
+      "cases": [
+        "instructions are created",
+        "target ui is created",
+        "input gets new class",
+        "box is created",
+        "pluralizes ",
+        "creates a status message element",
+        "adds a default status message"
+      ]
+    },
+    {
+      "package": "usa-file-input",
+      "file": "usa-file-input/src/test/single-file-input.spec.js",
+      "cases": [
+        "uses singular ",
+        "uses the desktop drag instruction as its default aria label",
+        "removes the drag instruction",
+        "uses a mobile-safe choose instruction",
+        "defaults to the mobile-safe instruction",
+        "updates instructions when a fine pointer is attached",
+        "updates instructions when a fine pointer is detached",
+        "removes the media query change listener on teardown"
+      ]
+    },
+    {
+      "package": "usa-footer",
+      "file": "usa-footer/src/test/footer.spec.js",
+      "cases": [
+        "defines a max width",
+        "collapses at small screens",
+        "collapses then expands again on larger screens",
+        "opens panel when clicked",
+        "does not open panels when clicked on larger screens",
+        "closes panel on subsequent click",
+        "closes other panels on small screens",
+        "does not close other panels on larger screens",
+        "preserves html tag on resize",
+        "falls back to h4 when data-tag is not in the allow-list"
+      ]
+    },
+    {
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/test/in-page-navigation-custom-content.spec.js",
+      "cases": [
+        "pulls the headers from the designated custom content region into the nav list",
+        "creates a link in the nav list for the header that is inside the custom content region",
+        "does not create a link in the nav list for the header that is outside the custom content region"
+      ]
+    },
+    {
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/test/in-page-navigation-custom-heading.spec.js",
+      "cases": [
+        "creates links in the nav list for the heading level listed in data-heading-elements",
+        "creates a link in the nav list specifically for the designated header"
+      ]
+    },
+    {
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/test/in-page-navigation-minimum-heading-default.spec.js",
+      "cases": [
+        "does not render the in-page navigation when default heading count of 2 has not been reached"
+      ]
+    },
+    {
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/test/in-page-navigation-minimum-heading.spec.js",
+      "cases": [
+        "does render the in-page navigation when set minimum heading count of 1 has been reached",
+        "does not render the in-page navigation when custom set minimum heading count of 4 has not been reached",
+        "does render the in-page navigation when default heading count of 2 has been reached"
+      ]
+    },
+    {
+      "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/test/in-page-navigation.spec.js",
+      "cases": [
+        "defines a max width",
+        "hides at small screens",
+        "show on larger screens",
+        "assigns id to section headings",
+        "scrolls to section",
+        "updates url when scrolling to section",
+        "does not scroll to section on initialization",
+        "handles headings starting with a number",
+        "scrolls to section on initialization"
+      ]
+    },
+    {
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/test/input-mask-alphanumeric.spec.js",
+      "cases": [
+        "formats an alphanumeric example to A1B 2C3"
+      ]
+    },
+    {
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/test/input-mask-phone.spec.js",
+      "cases": [
+        "formats a US telephone number to 999-999-9999"
+      ]
+    },
+    {
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/test/input-mask-zip-code.spec.js",
+      "cases": [
+        "formats a US zip code to 12345-6789"
+      ]
+    },
+    {
+      "package": "usa-input-mask",
+      "file": "usa-input-mask/src/test/input-mask.spec.js",
+      "cases": [
+        "formats a nine digit social security number to 999 99 9999"
+      ]
+    },
+    {
+      "package": "usa-language-selector",
+      "file": "usa-language-selector/src/test/language-selector.spec.js",
+      "cases": [
+        "shows the language dropdown when the language button is clicked",
+        "hides the visible language menu when the body is clicked",
+        "collapses dropdown when a language link is clicked",
+        "collapses dropdown when the Escape key is hit",
+        "collapses dropdown via the FocusTrap Escape callback",
+        "contains a role of button",
+        "contains aria-controls of language-options",
+        "contains an id of language-options"
+      ]
+    },
+    {
+      "package": "usa-memorable-date",
+      "file": "usa-memorable-date/src/test/memorable-date.spec.js",
+      "cases": [
+        "renders a fieldset with a legend",
+        "renders a visible group hint hidden from assistive technology",
+        "associates each field label with its control",
+        "uses per-field hint ids derived from the field id",
+        "describes each field with its own screen-reader-only hint",
+        "does not associate fields with the group hint",
+        "uses matching id and name values for each field"
+      ]
+    },
+    {
+      "package": "usa-modal",
+      "file": "usa-modal/src/test/modal.spec.js",
+      "cases": [
+        "creates new parent elements",
+        "adds role=",
+        "sets aria-hidden=",
+        "moves aria-labelledby, aria-describedby, and id to the parent",
+        "sets tabindex=",
+        "moves the modal to the bottom of the DOM",
+        "adds role=",
+        "adds aria-controls to each opener",
+        "makes the modal visible",
+        "focuses the first footer button when opened",
+        "sets aria-modal=",
+        "removes aria-hidden from the dialog wrapper",
+        "makes all other page content invisible to screen readers",
+        "Allows event propagation and displays combobox list when toggle is clicked",
+        "hides the modal when close button is clicked",
+        "closes the modal when the overlay is clicked",
+        "sends focus to the element that opened it",
+        "restores aria-hidden=",
+        "restores other page content screen reader visibility",
+        "restores page content when the opener has left the document",
+        "focuses a [data-focus] element over the footer button",
+        "focuses any button when the footer has no buttons"
+      ]
+    },
+    {
+      "package": "usa-nav",
+      "file": "usa-nav/src/test/navigation.spec.js",
+      "cases": [
+        "hides a visible nav menu when the body is clicked",
+        "shows the nav when the menu button is clicked",
+        "hides the nav when the close button is clicked",
+        "hides the nav when the overlay is clicked",
+        "hides the nav when a nav link is clicked",
+        "focuses the close button when the menu button is clicked",
+        "focuses the menu button when the close button is clicked",
+        "makes all other page content invisible to screen readers",
+        "collapses nav if needed on window resize",
+        "does not collapse nav if not needed on window resize",
+        "does not show the nav when a nav link is clicked",
+        "collapses accordions when a nav link is clicked",
+        "collapses dropdowns when the Escape key is hit",
+        "hides the nav when the Escape key is hit",
+        "collapses dropdowns when focus leaves nav",
+        "removes event listeners"
+      ]
+    },
+    {
+      "package": "usa-range",
+      "file": "usa-range/src/test/range.spec.js",
+      "cases": [
+        "check that the wrapper div and the span element are added and that they match the slider.",
+        "Updates span element to match new slider value on change",
+        "displays a visual hint to guide sighted users on how to operate the slider"
+      ]
+    },
+    {
+      "package": "usa-range",
+      "file": "usa-range/src/test/sr-callout-with-preposition.spec.js",
+      "cases": [
+        "adds aria-valuetext attribute with updated preposition",
+        "updates aria-valuetext with updated preposition to match new slider value on change"
+      ]
+    },
+    {
+      "package": "usa-range",
+      "file": "usa-range/src/test/sr-callout.spec.js",
+      "cases": [
+        "adds aria-valuetext attribute",
+        "updates aria-valuetext to match new slider value on change"
+      ]
+    },
+    {
+      "package": "usa-skipnav",
+      "file": "usa-skipnav/src/test/skipnav.spec.js",
+      "cases": [
+        "skipnav link sets tabindex=",
+        "skipnav link sets tabindex=",
+        "return to top link sets tabindex="
+      ]
+    },
+    {
+      "package": "usa-table",
+      "file": "usa-table/src/test/table.spec.js",
+      "cases": [
+        "is immediately followed by an ",
+        "has at least one sortable column",
+        "sorts rows by cell content alphabetically when clicked",
+        "sorts rows by cell content numerically when clicked",
+        "sorts rows by ",
+        "sorts rows descending if already sorted ascending when clicked",
+        "announces sort direction when sort changes",
+        "has an aria-label that describes the current sort direction",
+        "has sort button with a title that describes what the sort direction will be if clicked",
+        "has an SVG which displays the correct icon",
+        "does not have a sort button"
+      ]
+    },
+    {
+      "package": "usa-time-picker",
+      "file": "usa-time-picker/src/test/time-picker-regex.spec.js",
+      "cases": [
+        "should match a starts with selection",
+        "should match a starts with selection with colon",
+        "should match a starts with selection with full time",
+        "should match a complete selection",
+        "should match a starts with selection without leading zero",
+        "should match a starts with selection without leading zero with pm",
+        "should match a starts with selection with leading zero with pm",
+        "should match a starts with selection without leading zero with p",
+        "should match a starts with selection with leading zero with p",
+        "should match a starts with selection with pm",
+        "should match first numerals as a complete match on hour",
+        "should match first numerals as a complete match on hour with trailing p"
+      ]
+    },
+    {
+      "package": "usa-time-picker",
+      "file": "usa-time-picker/src/test/time-picker.spec.js",
+      "cases": [
+        "enhances a select element into a combo box component",
+        "should focus the first item found in the list from the query when pressing down from the input",
+        "should focus the first complete hour found in the list from the query when pressing down from the input"
+      ]
+    },
+    {
+      "package": "usa-tooltip",
+      "file": "usa-tooltip/src/test/tooltips.spec.js",
+      "cases": [
+        "trigger is created",
+        "title attribute on trigger is removed",
+        "tooltip body is created",
+        "tooltip is visible on focus",
+        "tooltip is hidden on blur",
+        "tooltip is visible on mouseover",
+        "tooltip is hidden on mouseleave",
+        "tooltip content is hoverable",
+        "tooltip is hidden on escape keydown",
+        "should not allow for innerHTML of child elements "
+      ]
+    },
+    {
+      "package": "usa-validation",
+      "file": "usa-validation/src/test/validator-textarea.spec.js",
+      "cases": [
+        "creates a hidden span element for accessibility status summary readout",
+        "adds .${CHECKED_CLASS} for all successful validations",
+        "removes .${CHECKED_CLASS} for failed validations"
+      ]
+    },
+    {
+      "package": "usa-validation",
+      "file": "usa-validation/src/test/validator.spec.js",
+      "cases": [
+        "creates a hidden span element in each list item",
+        "adds .${CHECKED_CLASS} for all successful validations",
+        "removes .${CHECKED_CLASS} for failed validations"
+      ]
+    }
+  ]
+}

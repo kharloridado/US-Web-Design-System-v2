@@ -1,0 +1,37 @@
+- region "Agency identifier,":
+  - link "<Parent agency> logo":
+    - /url: ""
+    - img "<Parent agency> logo"
+  - region "Agency description,":
+    - paragraph: domain.gov
+    - paragraph:
+      - text: official website of the
+      - link "<Parent agency>":
+        - /url: ""
+- navigation "Important links,":
+  - list:
+    - listitem:
+      - link "About <Parent shortname>":
+        - /url: javascript:void(0)
+    - listitem:
+      - link "Accessibility statement":
+        - /url: ""
+    - listitem:
+      - link "FOIA requests":
+        - /url: ""
+    - listitem:
+      - link "No FEAR Act data":
+        - /url: ""
+    - listitem:
+      - link "Office of the Inspector General":
+        - /url: ""
+    - listitem:
+      - link "Performance reports":
+        - /url: ""
+    - listitem:
+      - link "Privacy policy":
+        - /url: ""
+- region "U.S. government information and services,":
+  - text: Looking for U.S. government information and services?
+  - link "Visit USA.gov":
+    - /url: https://www.usa.gov/

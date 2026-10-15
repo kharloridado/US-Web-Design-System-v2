@@ -1,0 +1,33 @@
+- paragraph:
+  - text: This is
+  - link "a text link":
+    - /url: javascript:void(0);
+  - text: on a light background.
+- paragraph:
+  - text: This is
+  - link "a visited link":
+    - /url: javascript:void(0);
+  - text: .
+- paragraph:
+  - text: This is a link that opens in the
+  - emphasis: current
+  - text: tab and goes to an
+  - link "External. external website":
+    - /url: https://i.giphy.com/media/WPzQF6ruiIIVzHNlwX/source.gif
+  - text: .
+- paragraph:
+  - text: This is a link that opens in a
+  - emphasis: new
+  - text: tab and goes to an
+  - link "External, opens in a new tab. external website":
+    - /url: https://i.giphy.com/media/WPzQF6ruiIIVzHNlwX/source.gif
+  - text: .
+- paragraph:
+  - text: This is
+  - link "a text link on a dark background":
+    - /url: javascript:void(0);
+  - text: .
+- paragraph:
+  - link "External. This":
+    - /url: https://i.giphy.com/media/WPzQF6ruiIIVzHNlwX/source.gif
+  - text: is an alternate external text link on a dark background.

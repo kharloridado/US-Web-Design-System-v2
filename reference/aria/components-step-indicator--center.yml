@@ -1,0 +1,7 @@
+- list:
+  - listitem: Personal information completed
+  - listitem: Household status completed
+  - listitem: Supporting documents
+  - listitem: Signature not completed
+  - listitem: Review and submit not completed
+- heading "Step 3 of 5 Supporting documents" [level=4]

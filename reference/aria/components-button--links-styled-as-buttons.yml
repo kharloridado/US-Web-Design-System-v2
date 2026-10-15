@@ -1,0 +1,12 @@
+- link "Default":
+  - /url: "#"
+- link "Hover":
+  - /url: "#"
+- link "Active":
+  - /url: "#"
+- link "Focus":
+  - /url: "#"
+- link "aria-disabled" [disabled]:
+  - /url: "#"
+- link "Unstyled button":
+  - /url: "#"

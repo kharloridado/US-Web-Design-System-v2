@@ -1,0 +1,32 @@
+- navigation "Pagination":
+  - list:
+    - listitem:
+      - link "Previous page":
+        - /url: javascript:void(0);
+        - text: Previous
+    - listitem:
+      - link "Page 1":
+        - /url: javascript:void(0);
+        - text: "1"
+    - listitem "ellipsis indicating non-visible pages": …
+    - listitem:
+      - link "Page 9":
+        - /url: javascript:void(0);
+        - text: "9"
+    - listitem:
+      - link "Page 10":
+        - /url: javascript:void(0);
+        - text: "10"
+    - listitem:
+      - link "Page 11":
+        - /url: javascript:void(0);
+        - text: "11"
+    - listitem "ellipsis indicating non-visible pages": …
+    - listitem:
+      - link "Last page, page 24":
+        - /url: javascript:void(0);
+        - text: "24"
+    - listitem:
+      - link "Next page":
+        - /url: javascript:void(0);
+        - text: Next

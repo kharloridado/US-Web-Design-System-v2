@@ -1,0 +1,19 @@
+- text: Text input label
+- textbox "Text input label"
+- text: Text input focused
+- textbox "Text input focused"
+- text: Text input error
+- alert: Helpful error message
+- textbox "Text input error"
+- text: Text input success
+- textbox "Text input success"
+- text: Text area label
+- textbox "Text area label"
+- text: Text input disabled
+- textbox "Text input disabled" [disabled]
+- text: Text area disabled
+- textbox "Text area disabled" [disabled]
+- text: Text input aria-disabled
+- textbox "Text input aria-disabled" [disabled]
+- text: Text area aria-disabled
+- textbox "Text area aria-disabled" [disabled]

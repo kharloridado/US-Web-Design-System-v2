@@ -1,0 +1,6 @@
+- text: Text input label
+- alert: Helpful error message
+- textbox "Text input label"
+- text: Text area label
+- alert: Helpful error message
+- textbox "Text area label"

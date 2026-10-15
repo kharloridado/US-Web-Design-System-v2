@@ -1,0 +1,4 @@
+- text: Text input label
+- textbox "Text input label" [disabled]
+- text: Text area label
+- textbox "Text area label" [disabled]

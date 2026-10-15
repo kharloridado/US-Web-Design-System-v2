@@ -1,0 +1,38 @@
+- contentinfo:
+  - link "Return to top":
+    - /url: "#"
+  - navigation "Footer navigation":
+    - list:
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+  - paragraph: <Name of Agency>
+  - link "Facebook":
+    - /url: javascript:void(0);
+    - img "Facebook"
+  - link "Twitter":
+    - /url: javascript:void(0);
+    - img "Twitter"
+  - link "YouTube":
+    - /url: javascript:void(0);
+    - img "YouTube"
+  - link "Instagram":
+    - /url: javascript:void(0);
+    - img "Instagram"
+  - link "RSS":
+    - /url: javascript:void(0);
+    - img "RSS"
+  - paragraph: <Agency Contact Center>
+  - link "<(800) 555-GOVT>":
+    - /url: tel:1-800-555-5555
+  - link "<info@agency.gov>":
+    - /url: mailto:info@agency.gov

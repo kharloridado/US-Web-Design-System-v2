@@ -1,0 +1,2 @@
+- text: Credit card number
+- textbox "Credit card number" [disabled]

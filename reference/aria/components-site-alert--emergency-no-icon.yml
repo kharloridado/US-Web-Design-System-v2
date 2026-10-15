@@ -1,0 +1,7 @@
+- region "Site alert,,,,,":
+  - paragraph:
+    - strong: Short alert message.
+    - text: Additional context and followup information including
+    - link "a link":
+      - /url: javascript:void(0);
+    - text: .

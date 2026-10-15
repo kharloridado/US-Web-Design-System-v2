@@ -1,0 +1,71 @@
+// USWDS_Theme stylesheet.
+// Everything here is always loaded. Packages listed with @forward "usa-*" are
+// owned by the Theme; every other usa-* package is compiled as a Block bundle
+// (see scripts/build.mjs). Order mirrors packages/uswds/_index.scss.
+
+@use "../settings/uswds-settings";
+
+// Design tokens as runtime CSS custom properties
+@forward "tokens-custom-props";
+
+// Global: normalize, fonts, elements, helpers
+@forward "uswds-global";
+
+// Typography
+@forward "usa-content/src/styles";
+@forward "usa-dark-background/src/styles";
+@forward "usa-display/src/styles";
+@forward "usa-intro/src/styles";
+@forward "usa-link/src/styles";
+@forward "usa-list/src/styles";
+@forward "usa-paragraph/src/styles";
+@forward "usa-prose/src/styles";
+
+// Layout
+@forward "usa-layout-grid/src/styles";
+@forward "usa-layout-docs/src/styles";
+@forward "usa-section/src/styles";
+@forward "usa-embed-container/src/styles";
+@forward "usa-media-block/src/styles";
+
+// Primitives styled onto platform widgets (Button, Input, Dropdown, Checkbox,
+// Radio, Table, Popup, FeedbackMessage, validation states)
+@forward "usa-icon/src/styles";
+@forward "usa-button/src/styles";
+@forward "usa-alert/src/styles";
+@forward "usa-modal/src/styles";
+@forward "usa-table/src/styles";
+@forward "usa-form/src/styles";
+@forward "usa-form-group/src/styles";
+@forward "usa-label/src/styles";
+@forward "usa-hint/src/styles";
+@forward "usa-error-message/src/styles";
+@forward "usa-fieldset/src/styles";
+@forward "usa-legend/src/styles";
+@forward "usa-input/src/styles";
+@forward "usa-input-list/src/styles";
+@forward "usa-select/src/styles";
+@forward "usa-textarea/src/styles";
+@forward "usa-checkbox/src/styles";
+@forward "usa-radio/src/styles";
+@forward "usa-range/src/styles";
+
+// Site chrome used by the Layout blocks (Blocks live in USWDS_Theme)
+@forward "usa-skipnav/src/styles";
+@forward "usa-accordion/src/styles";
+@forward "usa-search/src/styles";
+@forward "usa-nav/src/styles";
+@forward "usa-header/src/styles";
+@forward "usa-banner/src/styles";
+@forward "usa-footer/src/styles";
+@forward "usa-identifier/src/styles";
+@forward "usa-sidenav/src/styles";
+
+// Platform widget contract (Phase 2)
+@forward "platform";
+
+// Hosts of the USWDS custom elements (dist/js/uswds-os.min.js)
+@forward "custom-elements";
+
+// Utilities last so they win over component defaults
+@forward "uswds-utilities/src/styles";

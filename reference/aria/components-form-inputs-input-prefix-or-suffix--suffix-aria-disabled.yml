@@ -1,0 +1,2 @@
+- text: Weight, in pounds
+- textbox "Weight, in pounds" [disabled]
