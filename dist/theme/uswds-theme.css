@@ -9234,6 +9234,16 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
 .usa-sidenav__sublist {
   font-size: 1rem;
 }
+
+uswds-os-combo-box,
+uswds-os-date-picker,
+uswds-os-date-range-picker,
+uswds-os-time-picker,
+uswds-os-file-input,
+uswds-os-input-mask,
+uswds-os-in-page-navigation {
+  display: contents;
+}
 [class*=font-mono-] {
   font-family: Roboto Mono Web, Bitstream Vera Sans Mono, Consolas, Courier, monospace !important;
 }

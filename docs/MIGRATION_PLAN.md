@@ -290,7 +290,7 @@ Legend: **CSS** = Theme classes only. **B** = Block. **N / W / P** = §7.
 | **3. Layouts & site chrome** (2 wks) | Skipnav, Site alert, Banner, Header (all variants), Footer (all), Identifier, Side nav, Layout Blocks | Keyboard + screen-reader pass. Menus survive navigation |
 | **4. Static components** (3 wks) | All **B** components without behavior | Visual diff vs reference within threshold. axe 0 serious/critical |
 | **5. Stateful native** (2 wks) | All **B + N** components | Focus-management tests. No React errors on mount/unmount |
-| **6. Web Components** (3–4 wks) `uswds-os` Scripts in Patterns + all **B + W** components | Two-way binding. 50× navigate stress test without leaks |
+| **6. Web Components** (3–4 wks) | `uswds-os` Scripts in Patterns + all **B + W** components | Two-way binding. 50× navigate stress test without leaks. **Custom elements done ✅**: all 7 in `dist/js/uswds-os.min.js`, matching USWDS on all 32 stories (`npm run test:elements`). Remaining: build the Blocks in Service Studio per [docs/blocks/web-components.md](blocks/web-components.md) |
 | **7. Templates & app template** (2–3 wks) | All page templates, extra templates, Common flow, `USWDS_AppTemplate` | New app from template runs end-to-end with no OSUI |
 | **8. Style Guide & hardening** (2 wks) | Style Guide complete, docs, developer guide, v1.0.0 release, pilot app | **All seven Definition of Done gates pass.** Accessibility sign-off. Pilot app approved |
 

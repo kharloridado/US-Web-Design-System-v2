@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "USWDS 3.14.0 compiled for an OutSystems 11 Reactive Web standalone theme",
   "scripts": {
-    "build": "node scripts/build.mjs",
+    "build": "node scripts/build.mjs && node scripts/build-js.mjs",
     "check": "node scripts/check-parity.mjs",
     "inventory": "node scripts/inventory.mjs",
     "ci": "npm run build && npm run check && npm run inventory",
@@ -11,7 +11,8 @@
     "reference:fetch": "node scripts/reference/fetch-external.mjs",
     "reference:verify": "node scripts/reference/verify.mjs",
     "reference:screenshots": "node scripts/reference/verify.mjs --screenshots",
-    "reference": "npm run reference:render && npm run reference:verify"
+    "reference": "npm run reference:render && npm run reference:verify",
+    "test:elements": "node tests/elements/run.mjs"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,10 @@
   "devDependencies": {
     "@uswds/uswds": "3.14.0",
     "autoprefixer": "10.6.1",
+    "esbuild": "0.25.10",
+    "pixelmatch": "5.3.0",
     "playwright": "1.56.1",
+    "pngjs": "7.0.0",
     "postcss": "8.5.30",
     "sass": "1.105.1",
     "twig": "3.0.0"

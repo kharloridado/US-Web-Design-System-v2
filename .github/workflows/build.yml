@@ -42,6 +42,8 @@ jobs:
         run: npm run reference:fetch
       - name: Verify in Chromium, capture baselines and screenshots
         run: npm run reference:screenshots
+      - name: Test USWDS custom elements against the reference pages
+        run: npm run test:elements
       - name: Accessibility baselines are committed and up to date
         run: test -z "$(git status --porcelain -- reference/aria)" || (git status --short -- reference/aria; exit 1)
       - uses: actions/upload-artifact@v4

@@ -13,7 +13,7 @@ import autoprefixer from "autoprefixer";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
 // Rules we add on purpose (not in the official bundle).
-const ALLOWED_EXTRA = [/^\|:root\{--usa-/];
+const ALLOWED_EXTRA = [/^\|:root\{--usa-/, /^\|uswds-os-[a-z-]+\{display:contents\}$/];
 
 const { css: officialRaw } = sass.compileString(`@use "settings/uswds-settings";\n@forward "uswds";`, {
   loadPaths: [path.join(root, "src"), path.join(root, "node_modules/@uswds/uswds/packages")],

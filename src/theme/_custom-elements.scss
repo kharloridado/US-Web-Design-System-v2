@@ -1,0 +1,14 @@
+// Host elements of the USWDS custom elements (src/js). The USWDS markup they
+// render inside themselves must lay out exactly as it does without them, e.g.
+// the in-page navigation <aside> stays a flex item of .usa-in-page-nav-container.
+// The hosts have no role, so display: contents leaves the accessibility tree as is.
+
+uswds-os-combo-box,
+uswds-os-date-picker,
+uswds-os-date-range-picker,
+uswds-os-time-picker,
+uswds-os-file-input,
+uswds-os-input-mask,
+uswds-os-in-page-navigation {
+  display: contents;
+}
