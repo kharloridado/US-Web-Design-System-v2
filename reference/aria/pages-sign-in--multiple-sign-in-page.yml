@@ -1,0 +1,117 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- region "Official website of the United States government":
+  - button "Here’s how you know"
+- banner:
+  - emphasis:
+    - link "<Project title>":
+      - /url: /
+- main:
+  - heading "Sign in to your account" [level=1]
+  - paragraph: You can access your account by signing in with one of the options below.
+  - paragraph:
+    - link "Sign in with Login.gov":
+      - /url: javascript:void()
+  - paragraph:
+    - link "Sign in with <Legacy system 1>":
+      - /url: javascript:void()
+  - paragraph:
+    - link "Sign in with <Legacy system 2>":
+      - /url: javascript:void()
+  - paragraph:
+    - strong
+  - paragraph: "If you don’t have an account already, sign up here:"
+  - paragraph:
+    - link "Create Login.gov account":
+      - /url: javascript:void()
+  - heading "<A tagline that explains the benefit of creating an account.>" [level=2]
+  - paragraph
+  - paragraph:
+    - strong: "Value proposition 1:"
+    - text: Vivamus nec velit sed leo scelerisque laoreet vestibulum.
+  - paragraph:
+    - strong: "Value proposition 1:"
+    - text: Vivamus nec velit sed leo scelerisque laoreet vestibulum.
+  - paragraph:
+    - strong: "Value proposition 3:"
+    - text: Vivamus nec velit sed leo scelerisque laoreet vestibulum.
+  - heading "Are you a federal employee?" [level=2]
+  - paragraph: If you are a federal employee or <other secondary user>, please use <secondary Single Sign On (SSO)>.
+  - paragraph:
+    - link "Launch secondary SSO":
+      - /url: javascript:void()
+- contentinfo:
+  - link "Return to top":
+    - /url: "#"
+  - navigation "Footer navigation":
+    - list:
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+  - paragraph: <Name of Agency>
+  - link "Facebook":
+    - /url: javascript:void(0);
+    - img "Facebook"
+  - link "Twitter":
+    - /url: javascript:void(0);
+    - img "Twitter"
+  - link "YouTube":
+    - /url: javascript:void(0);
+    - img "YouTube"
+  - link "Instagram":
+    - /url: javascript:void(0);
+    - img "Instagram"
+  - link "RSS":
+    - /url: javascript:void(0);
+    - img "RSS"
+  - paragraph: <Agency Contact Center>
+  - link "<(800) 555-GOVT>":
+    - /url: tel:1-800-555-5555
+  - link "<info@agency.gov>":
+    - /url: mailto:info@agency.gov
+- region "Agency identifier":
+  - link "<Parent agency> logo":
+    - /url: javascript:void(0)
+    - img "<Parent agency> logo"
+  - region "Agency description":
+    - paragraph: domain.gov
+    - paragraph:
+      - text: official website of the
+      - link "<Parent agency>":
+        - /url: javascript:void()
+- navigation "Important links":
+  - list:
+    - listitem:
+      - link "About <Parent shortname>":
+        - /url: javascript:void(0)
+    - listitem:
+      - link "Accessibility support":
+        - /url: ""
+    - listitem:
+      - link "FOIA requests":
+        - /url: ""
+    - listitem:
+      - link "No FEAR Act data":
+        - /url: ""
+    - listitem:
+      - link "Office of the Inspector General":
+        - /url: ""
+    - listitem:
+      - link "Performance reports":
+        - /url: ""
+    - listitem:
+      - link "Privacy policy":
+        - /url: ""
+- region "U.S. government information and services":
+  - text: Looking for U.S. government information and services?
+  - link "Visit USA.gov":
+    - /url: https://www.usa.gov/

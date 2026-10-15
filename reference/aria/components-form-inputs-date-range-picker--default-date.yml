@@ -1,0 +1,8 @@
+- text: Event start date mm/dd/yyyy
+- textbox "Event start date": 03/06/1995
+- button "Toggle calendar"
+- status
+- text: Event end date mm/dd/yyyy
+- textbox "Event end date": 03/15/1995
+- button "Toggle calendar"
+- status

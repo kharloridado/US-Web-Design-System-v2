@@ -1,0 +1,7 @@
+- region "Site alert,,":
+  - heading "Emergency alert message" [level=3]
+  - paragraph:
+    - text: Additional context and followup information including
+    - link "a link":
+      - /url: javascript:void(0);
+    - text: .

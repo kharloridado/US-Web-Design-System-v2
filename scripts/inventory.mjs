@@ -24,6 +24,10 @@ function walk(dir, pred, out = []) {
   return out;
 }
 
+// Storybook's story id: kebab-cased title, "--", kebab-cased export name.
+const kebab = (str) => str.replace(/([a-z0-9])([A-Z])/g, "$1-$2").replace(/([A-Z])([A-Z][a-z])/g, "$1-$2").replace(/[^A-Za-z0-9]+/g, "-").replace(/^-|-$/g, "").toLowerCase();
+const storyId = (title, story) => `${kebab(title)}--${kebab(story)}`;
+
 const pkgOf = (file) => path.relative(packagesDir, file).split(path.sep)[0];
 
 // --- Stories ------------------------------------------------------------------
@@ -48,7 +52,7 @@ function parseStories(file) {
     const internal = /(^|\/)test\//.test(twig) || /^Test/.test(m[1]);
     const spanish = /spanish|~lang-es|Es$/i.test(m[1]) || /lang-es/.test(twig);
     return { story: m[1], twig, kind: internal ? "uswds-internal-test" : spanish ? "spanish" : "variant" };
-  }).map((s) => ({ title, package: pkgOf(file), ...s }));
+  }).map((s) => ({ id: storyId(title, s.story), title, package: pkgOf(file), file: path.relative(packagesDir, file), ...s }));
 }
 
 const stories = walk(packagesDir, (p) => p.endsWith(".stories.js")).sort().flatMap(parseStories);
@@ -58,7 +62,7 @@ const templatesDir = path.join(packagesDir, "templates");
 for (const f of fs.readdirSync(templatesDir).filter((f) => f.endsWith(".twig"))) {
   const name = f.replace(/\.twig$/, "");
   if (!stories.some((s) => s.twig.includes(name))) {
-    stories.push({ title: "Pages/Form templates", package: "templates", story: name, twig: `./${f}`, kind: "variant" });
+    stories.push({ id: storyId("Pages/Form templates", name), title: "Pages/Form templates", package: "templates", file: null, story: name, twig: `./${f}`, kind: "variant" });
   }
 }
 

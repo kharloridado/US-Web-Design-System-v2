@@ -1,0 +1,5 @@
+- region "Introduction":
+  - 'heading "Hero callout: Bring attention to a project priority" [level=1]'
+  - paragraph: Support the callout with some short explanatory text. You don’t need more than a couple of sentences.
+  - link "Call to action":
+    - /url: javascript:void(0)

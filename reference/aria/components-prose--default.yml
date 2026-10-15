@@ -1,0 +1,65 @@
+- heading "Line length" [level=3]
+- paragraph:
+  - strong: "75 characters (68ex) max-width:"
+  - text: Yosemite National Park is set within California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoias, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome.
+- heading "Spacing" [level=3]
+- heading "Page heading" [level=1]
+- paragraph: Great Smoky Mountains National Park straddles the border of North Carolina and Tennessee.
+- heading "Section heading" [level=2]
+- heading "Section of the page" [level=3]
+- paragraph: The sprawling landscape encompasses lush forests and an abundance of wildflowers that bloom year-round. Streams, rivers and waterfalls appear along hiking routes that include a segment of the Appalachian Trail.
+- heading "Subsection of the page" [level=4]
+- paragraph: World renowned for its diversity of plant and animal life, the beauty of its ancient mountains, and the quality of its remnants of Southern Appalachian mountain culture, this is America's most visited national park.
+- paragraph: Right now scientists think that we only know about 17 percent of the plants and animals that live in the park, or about 17,000 species of a probable 100,000 different organisms.
+- heading "Subsection of the page" [level=5]
+- paragraph: Entrance to Great Smoky Mountains National Park is free. The park is one of the few national parks where no entrance fees are charged.
+- list:
+  - listitem: Unordered list item
+  - listitem: Unordered list item
+  - listitem:
+    - text: Unordered list item
+    - list:
+      - listitem: Nested unordered list item
+      - listitem:
+        - text: Nested unordered list item
+        - list:
+          - listitem: 3rd level nesting
+          - listitem: 3rd level nesting
+          - listitem: 3rd level nesting
+      - listitem: Nested unordered list item
+      - listitem: Nested unordered list item
+- paragraph: Right now scientists think that we only know about 17 percent of the plants and animals that live in the park, or about 17,000 species of a probable 100,000 different organisms.
+- list:
+  - listitem: Ordered list item
+  - listitem:
+    - text: Ordered list item
+    - list:
+      - listitem: Nested ordered list item
+      - listitem: Nested ordered list item
+      - listitem: Nested ordered list item
+      - listitem: Nested ordered list item
+  - listitem: Ordered list item
+- table "Bordered table":
+  - caption: Bordered table
+  - rowgroup:
+    - row "Document title Description Year":
+      - columnheader "Document title"
+      - columnheader "Description"
+      - columnheader "Year"
+  - rowgroup:
+    - row "Declaration of Independence Statement adopted by the Continental Congress declaring independence from the British Empire. 1776":
+      - rowheader "Declaration of Independence"
+      - cell "Statement adopted by the Continental Congress declaring independence from the British Empire."
+      - cell "1776"
+    - row "Bill of Rights The first ten amendments of the U.S. Constitution guaranteeing rights and freedoms. 1791":
+      - rowheader "Bill of Rights"
+      - cell "The first ten amendments of the U.S. Constitution guaranteeing rights and freedoms."
+      - cell "1791"
+    - row "Declaration of Sentiments A document written during the Seneca Falls Convention outlining the rights that American women should be entitled to as citizens. 1848":
+      - rowheader "Declaration of Sentiments"
+      - cell "A document written during the Seneca Falls Convention outlining the rights that American women should be entitled to as citizens."
+      - cell "1848"
+    - row "Emancipation Proclamation An executive order granting freedom to slaves in designated southern states. 1863":
+      - rowheader "Emancipation Proclamation"
+      - cell "An executive order granting freedom to slaves in designated southern states."
+      - cell "1863"

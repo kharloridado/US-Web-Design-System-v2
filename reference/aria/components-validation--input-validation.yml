@@ -1,0 +1,9 @@
+- group "Enter a code":
+  - text: Enter a code
+  - heading "Code requirements" [level=3]
+  - list:
+    - listitem "Use at least one uppercase character status incomplete": Use at least one uppercase character
+    - listitem "Use at least one number status incomplete": Use at least one number
+  - text: Code
+  - textbox "Code"
+  - button "Submit code"

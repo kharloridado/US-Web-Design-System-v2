@@ -1,0 +1,490 @@
+- region:
+  - text: Type to filter icons
+  - textbox "Type to filter icons"
+  - paragraph: 243 icons. Click an icon to copy its code snippet.
+- region "accessibility_new icon.":
+  - button "Copy icon to clipboard"
+- region "accessible_forward icon.":
+  - button "Copy icon to clipboard"
+- region "account_balance icon.":
+  - button "Copy icon to clipboard"
+- region "account_box icon.":
+  - button "Copy icon to clipboard"
+- region "account_circle icon.":
+  - button "Copy icon to clipboard"
+- region "add icon.":
+  - button "Copy icon to clipboard"
+- region "add_circle icon.":
+  - button "Copy icon to clipboard"
+- region "add_circle_outline icon.":
+  - button "Copy icon to clipboard"
+- region "alarm icon.":
+  - button "Copy icon to clipboard"
+- region "alternate_email icon.":
+  - button "Copy icon to clipboard"
+- region "announcement icon.":
+  - button "Copy icon to clipboard"
+- region "arrow_back icon.":
+  - button "Copy icon to clipboard"
+- region "arrow_downward icon.":
+  - button "Copy icon to clipboard"
+- region "arrow_drop_down icon.":
+  - button "Copy icon to clipboard"
+- region "arrow_drop_up icon.":
+  - button "Copy icon to clipboard"
+- region "arrow_forward icon.":
+  - button "Copy icon to clipboard"
+- region "arrow_upward icon.":
+  - button "Copy icon to clipboard"
+- region "api icon.":
+  - button "Copy icon to clipboard"
+- region "assessment icon.":
+  - button "Copy icon to clipboard"
+- region "attach_file icon.":
+  - button "Copy icon to clipboard"
+- region "attach_money icon.":
+  - button "Copy icon to clipboard"
+- region "autorenew icon.":
+  - button "Copy icon to clipboard"
+- region "backpack icon.":
+  - button "Copy icon to clipboard"
+- region "bathtub icon.":
+  - button "Copy icon to clipboard"
+- region "bedding icon.":
+  - button "Copy icon to clipboard"
+- region "bookmark icon.":
+  - button "Copy icon to clipboard"
+- region "bug_report icon.":
+  - button "Copy icon to clipboard"
+- region "build icon.":
+  - button "Copy icon to clipboard"
+- region "calendar_today icon.":
+  - button "Copy icon to clipboard"
+- region "campaign icon.":
+  - button "Copy icon to clipboard"
+- region "camping icon.":
+  - button "Copy icon to clipboard"
+- region "cancel icon.":
+  - button "Copy icon to clipboard"
+- region "chat icon.":
+  - button "Copy icon to clipboard"
+- region "check icon.":
+  - button "Copy icon to clipboard"
+- region "check_box_outline_blank icon.":
+  - button "Copy icon to clipboard"
+- region "check_circle icon.":
+  - button "Copy icon to clipboard"
+- region "check_circle_outline icon.":
+  - button "Copy icon to clipboard"
+- region "checkroom icon.":
+  - button "Copy icon to clipboard"
+- region "clean_hands icon.":
+  - button "Copy icon to clipboard"
+- region "clothes icon.":
+  - button "Copy icon to clipboard"
+- region "close icon.":
+  - button "Copy icon to clipboard"
+- region "closed_caption icon.":
+  - button "Copy icon to clipboard"
+- region "cloud icon.":
+  - button "Copy icon to clipboard"
+- region "code icon.":
+  - button "Copy icon to clipboard"
+- region "comment icon.":
+  - button "Copy icon to clipboard"
+- region "connect_without_contact icon.":
+  - button "Copy icon to clipboard"
+- region "construction icon.":
+  - button "Copy icon to clipboard"
+- region "construction_worker icon.":
+  - button "Copy icon to clipboard"
+- region "contact_page icon.":
+  - button "Copy icon to clipboard"
+- region "content_copy icon.":
+  - button "Copy icon to clipboard"
+- region "coronavirus icon.":
+  - button "Copy icon to clipboard"
+- region "credit_card icon.":
+  - button "Copy icon to clipboard"
+- region "deck icon.":
+  - button "Copy icon to clipboard"
+- region "delete icon.":
+  - button "Copy icon to clipboard"
+- region "device_thermostat icon.":
+  - button "Copy icon to clipboard"
+- region "directions icon.":
+  - button "Copy icon to clipboard"
+- region "directions_bike icon.":
+  - button "Copy icon to clipboard"
+- region "directions_bus icon.":
+  - button "Copy icon to clipboard"
+- region "directions_car icon.":
+  - button "Copy icon to clipboard"
+- region "directions_walk icon.":
+  - button "Copy icon to clipboard"
+- region "do_not_disturb icon.":
+  - button "Copy icon to clipboard"
+- region "do_not_touch icon.":
+  - button "Copy icon to clipboard"
+- region "drag_handle icon.":
+  - button "Copy icon to clipboard"
+- region "eco icon.":
+  - button "Copy icon to clipboard"
+- region "edit icon.":
+  - button "Copy icon to clipboard"
+- region "electrical_services icon.":
+  - button "Copy icon to clipboard"
+- region "emoji_events icon.":
+  - button "Copy icon to clipboard"
+- region "error icon.":
+  - button "Copy icon to clipboard"
+- region "error_outline icon.":
+  - button "Copy icon to clipboard"
+- region "event icon.":
+  - button "Copy icon to clipboard"
+- region "expand_less icon.":
+  - button "Copy icon to clipboard"
+- region "expand_more icon.":
+  - button "Copy icon to clipboard"
+- region "facebook icon.":
+  - button "Copy icon to clipboard"
+- region "fast_forward icon.":
+  - button "Copy icon to clipboard"
+- region "fast_rewind icon.":
+  - button "Copy icon to clipboard"
+- region "favorite icon.":
+  - button "Copy icon to clipboard"
+- region "favorite_border icon.":
+  - button "Copy icon to clipboard"
+- region "fax icon.":
+  - button "Copy icon to clipboard"
+- region "file_download icon.":
+  - button "Copy icon to clipboard"
+- region "file_present icon.":
+  - button "Copy icon to clipboard"
+- region "file_upload icon.":
+  - button "Copy icon to clipboard"
+- region "filter_alt icon.":
+  - button "Copy icon to clipboard"
+- region "filter_list icon.":
+  - button "Copy icon to clipboard"
+- region "fingerprint icon.":
+  - button "Copy icon to clipboard"
+- region "first_page icon.":
+  - button "Copy icon to clipboard"
+- region "flag icon.":
+  - button "Copy icon to clipboard"
+- region "flickr icon.":
+  - button "Copy icon to clipboard"
+- region "flight icon.":
+  - button "Copy icon to clipboard"
+- region "flooding icon.":
+  - button "Copy icon to clipboard"
+- region "folder icon.":
+  - button "Copy icon to clipboard"
+- region "folder_open icon.":
+  - button "Copy icon to clipboard"
+- region "format_quote icon.":
+  - button "Copy icon to clipboard"
+- region "format_size icon.":
+  - button "Copy icon to clipboard"
+- region "forum icon.":
+  - button "Copy icon to clipboard"
+- region "github icon.":
+  - button "Copy icon to clipboard"
+- region "grid_view icon.":
+  - button "Copy icon to clipboard"
+- region "group_add icon.":
+  - button "Copy icon to clipboard"
+- region "groups icon.":
+  - button "Copy icon to clipboard"
+- region "hearing icon.":
+  - button "Copy icon to clipboard"
+- region "help icon.":
+  - button "Copy icon to clipboard"
+- region "help_outline icon.":
+  - button "Copy icon to clipboard"
+- region "highlight_off icon.":
+  - button "Copy icon to clipboard"
+- region "history icon.":
+  - button "Copy icon to clipboard"
+- region "home icon.":
+  - button "Copy icon to clipboard"
+- region "hospital icon.":
+  - button "Copy icon to clipboard"
+- region "hotel icon.":
+  - button "Copy icon to clipboard"
+- region "hourglass_empty icon.":
+  - button "Copy icon to clipboard"
+- region "hurricane icon.":
+  - button "Copy icon to clipboard"
+- region "identification icon.":
+  - button "Copy icon to clipboard"
+- region "image icon.":
+  - button "Copy icon to clipboard"
+- region "info icon.":
+  - button "Copy icon to clipboard"
+- region "info_outline icon.":
+  - button "Copy icon to clipboard"
+- region "insights icon.":
+  - button "Copy icon to clipboard"
+- region "instagram icon.":
+  - button "Copy icon to clipboard"
+- region "keyboard icon.":
+  - button "Copy icon to clipboard"
+- region "label icon.":
+  - button "Copy icon to clipboard"
+- region "language icon.":
+  - button "Copy icon to clipboard"
+- region "last_page icon.":
+  - button "Copy icon to clipboard"
+- region "launch icon.":
+  - button "Copy icon to clipboard"
+- region "lightbulb icon.":
+  - button "Copy icon to clipboard"
+- region "lightbulb_outline icon.":
+  - button "Copy icon to clipboard"
+- region "link icon.":
+  - button "Copy icon to clipboard"
+- region "link_off icon.":
+  - button "Copy icon to clipboard"
+- region "linkedin icon.":
+  - button "Copy icon to clipboard"
+- region "list icon.":
+  - button "Copy icon to clipboard"
+- region "local_cafe icon.":
+  - button "Copy icon to clipboard"
+- region "local_fire_department icon.":
+  - button "Copy icon to clipboard"
+- region "local_gas_station icon.":
+  - button "Copy icon to clipboard"
+- region "local_grocery_store icon.":
+  - button "Copy icon to clipboard"
+- region "local_hospital icon.":
+  - button "Copy icon to clipboard"
+- region "local_laundry_service icon.":
+  - button "Copy icon to clipboard"
+- region "local_library icon.":
+  - button "Copy icon to clipboard"
+- region "local_offer icon.":
+  - button "Copy icon to clipboard"
+- region "local_parking icon.":
+  - button "Copy icon to clipboard"
+- region "local_pharmacy icon.":
+  - button "Copy icon to clipboard"
+- region "local_police icon.":
+  - button "Copy icon to clipboard"
+- region "local_taxi icon.":
+  - button "Copy icon to clipboard"
+- region "location_city icon.":
+  - button "Copy icon to clipboard"
+- region "location_on icon.":
+  - button "Copy icon to clipboard"
+- region "lock icon.":
+  - button "Copy icon to clipboard"
+- region "lock_open icon.":
+  - button "Copy icon to clipboard"
+- region "lock_outline icon.":
+  - button "Copy icon to clipboard"
+- region "login icon.":
+  - button "Copy icon to clipboard"
+- region "logout icon.":
+  - button "Copy icon to clipboard"
+- region "loop icon.":
+  - button "Copy icon to clipboard"
+- region "mail icon.":
+  - button "Copy icon to clipboard"
+- region "mail_outline icon.":
+  - button "Copy icon to clipboard"
+- region "map icon.":
+  - button "Copy icon to clipboard"
+- region "masks icon.":
+  - button "Copy icon to clipboard"
+- region "medical_services icon.":
+  - button "Copy icon to clipboard"
+- region "menu icon.":
+  - button "Copy icon to clipboard"
+- region "military_tech icon.":
+  - button "Copy icon to clipboard"
+- region "more_horiz icon.":
+  - button "Copy icon to clipboard"
+- region "more_vert icon.":
+  - button "Copy icon to clipboard"
+- region "my_location icon.":
+  - button "Copy icon to clipboard"
+- region "navigate_before icon.":
+  - button "Copy icon to clipboard"
+- region "navigate_next icon.":
+  - button "Copy icon to clipboard"
+- region "navigate_far_before icon.":
+  - button "Copy icon to clipboard"
+- region "navigate_far_next icon.":
+  - button "Copy icon to clipboard"
+- region "near_me icon.":
+  - button "Copy icon to clipboard"
+- region "notifications icon.":
+  - button "Copy icon to clipboard"
+- region "notifications_active icon.":
+  - button "Copy icon to clipboard"
+- region "notifications_none icon.":
+  - button "Copy icon to clipboard"
+- region "notifications_off icon.":
+  - button "Copy icon to clipboard"
+- region "park icon.":
+  - button "Copy icon to clipboard"
+- region "people icon.":
+  - button "Copy icon to clipboard"
+- region "person icon.":
+  - button "Copy icon to clipboard"
+- region "pets icon.":
+  - button "Copy icon to clipboard"
+- region "phone icon.":
+  - button "Copy icon to clipboard"
+- region "photo_camera icon.":
+  - button "Copy icon to clipboard"
+- region "print icon.":
+  - button "Copy icon to clipboard"
+- region "priority_high icon.":
+  - button "Copy icon to clipboard"
+- region "public icon.":
+  - button "Copy icon to clipboard"
+- region "push_pin icon.":
+  - button "Copy icon to clipboard"
+- region "radio_button_unchecked icon.":
+  - button "Copy icon to clipboard"
+- region "rain icon.":
+  - button "Copy icon to clipboard"
+- region "reduce_capacity icon.":
+  - button "Copy icon to clipboard"
+- region "remove icon.":
+  - button "Copy icon to clipboard"
+- region "remove_circle icon.":
+  - button "Copy icon to clipboard"
+- region "report icon.":
+  - button "Copy icon to clipboard"
+- region "restaurant icon.":
+  - button "Copy icon to clipboard"
+- region "rss_feed icon.":
+  - button "Copy icon to clipboard"
+- region "safety_divider icon.":
+  - button "Copy icon to clipboard"
+- region "sanitizer icon.":
+  - button "Copy icon to clipboard"
+- region "severe_weather icon.":
+  - button "Copy icon to clipboard"
+- region "save_alt icon.":
+  - button "Copy icon to clipboard"
+- region "schedule icon.":
+  - button "Copy icon to clipboard"
+- region "school icon.":
+  - button "Copy icon to clipboard"
+- region "science icon.":
+  - button "Copy icon to clipboard"
+- region "search icon.":
+  - button "Copy icon to clipboard"
+- region "security icon.":
+  - button "Copy icon to clipboard"
+- region "send icon.":
+  - button "Copy icon to clipboard"
+- region "sentiment_dissatisfied icon.":
+  - button "Copy icon to clipboard"
+- region "sentiment_neutral icon.":
+  - button "Copy icon to clipboard"
+- region "sentiment_satisfied icon.":
+  - button "Copy icon to clipboard"
+- region "sentiment_satisfied_alt icon.":
+  - button "Copy icon to clipboard"
+- region "sentiment_very_dissatisfied icon.":
+  - button "Copy icon to clipboard"
+- region "settings icon.":
+  - button "Copy icon to clipboard"
+- region "share icon.":
+  - button "Copy icon to clipboard"
+- region "shield icon.":
+  - button "Copy icon to clipboard"
+- region "shopping_basket icon.":
+  - button "Copy icon to clipboard"
+- region "snow icon.":
+  - button "Copy icon to clipboard"
+- region "soap icon.":
+  - button "Copy icon to clipboard"
+- region "social_distance icon.":
+  - button "Copy icon to clipboard"
+- region "sort_arrow icon.":
+  - button "Copy icon to clipboard"
+- region "spellcheck icon.":
+  - button "Copy icon to clipboard"
+- region "star icon.":
+  - button "Copy icon to clipboard"
+- region "star_half icon.":
+  - button "Copy icon to clipboard"
+- region "star_outline icon.":
+  - button "Copy icon to clipboard"
+- region "store icon.":
+  - button "Copy icon to clipboard"
+- region "support icon.":
+  - button "Copy icon to clipboard"
+- region "support_agent icon.":
+  - button "Copy icon to clipboard"
+- region "text_fields icon.":
+  - button "Copy icon to clipboard"
+- region "thumb_down_alt icon.":
+  - button "Copy icon to clipboard"
+- region "thumb_up_alt icon.":
+  - button "Copy icon to clipboard"
+- region "timer icon.":
+  - button "Copy icon to clipboard"
+- region "toggle_off icon.":
+  - button "Copy icon to clipboard"
+- region "toggle_on icon.":
+  - button "Copy icon to clipboard"
+- region "topic icon.":
+  - button "Copy icon to clipboard"
+- region "tornado icon.":
+  - button "Copy icon to clipboard"
+- region "translate icon.":
+  - button "Copy icon to clipboard"
+- region "trending_down icon.":
+  - button "Copy icon to clipboard"
+- region "trending_up icon.":
+  - button "Copy icon to clipboard"
+- region "twitter icon.":
+  - button "Copy icon to clipboard"
+- region "undo icon.":
+  - button "Copy icon to clipboard"
+- region "unfold_less icon.":
+  - button "Copy icon to clipboard"
+- region "unfold_more icon.":
+  - button "Copy icon to clipboard"
+- region "update icon.":
+  - button "Copy icon to clipboard"
+- region "upload_file icon.":
+  - button "Copy icon to clipboard"
+- region "verified icon.":
+  - button "Copy icon to clipboard"
+- region "verified_user icon.":
+  - button "Copy icon to clipboard"
+- region "visibility icon.":
+  - button "Copy icon to clipboard"
+- region "visibility_off icon.":
+  - button "Copy icon to clipboard"
+- region "volume_off icon.":
+  - button "Copy icon to clipboard"
+- region "warning icon.":
+  - button "Copy icon to clipboard"
+- region "wash icon.":
+  - button "Copy icon to clipboard"
+- region "wifi icon.":
+  - button "Copy icon to clipboard"
+- region "work icon.":
+  - button "Copy icon to clipboard"
+- region "x icon.":
+  - button "Copy icon to clipboard"
+- region "youtube icon.":
+  - button "Copy icon to clipboard"
+- region "zoom_in icon.":
+  - button "Copy icon to clipboard"
+- region "zoom_out_map icon.":
+  - button "Copy icon to clipboard"
+- region "zoom_out icon.":
+  - button "Copy icon to clipboard"

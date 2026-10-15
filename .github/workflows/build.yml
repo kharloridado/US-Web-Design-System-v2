@@ -23,3 +23,29 @@ jobs:
         run: npm run inventory
       - name: dist/ and docs/acceptance/ are committed and up to date
         run: test -z "$(git status --porcelain -- dist docs/acceptance)" || (git status --short -- dist docs/acceptance; exit 1)
+
+  reference:
+    # Renders every public USWDS variant from the official package and checks it
+    # in Chromium. Produces the baselines O11 Style Guide screens are compared to.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Render all USWDS variants
+        run: npm run reference:render
+      - name: Cache images USWDS stories hotlink
+        run: npm run reference:fetch
+      - name: Verify in Chromium, capture baselines and screenshots
+        run: npm run reference:screenshots
+      - name: Accessibility baselines are committed and up to date
+        run: test -z "$(git status --porcelain -- reference/aria)" || (git status --short -- reference/aria; exit 1)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: uswds-reference-screenshots
+          path: reference/screenshots/
+          retention-days: 30

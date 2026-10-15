@@ -1,0 +1,4 @@
+- text: Appointment date mm/dd/yyyy
+- textbox "Appointment date" [disabled]
+- button "Toggle calendar" [disabled]
+- status

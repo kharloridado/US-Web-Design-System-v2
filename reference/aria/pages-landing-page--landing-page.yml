@@ -1,0 +1,108 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- region "Official website of the United States government":
+  - button "Here’s how you know"
+- banner:
+  - emphasis:
+    - link "<Project title>":
+      - /url: /
+- main:
+  - region "Introduction":
+    - 'heading "Hero callout: Bring attention to a project priority" [level=1]'
+    - paragraph: Support the callout with some short explanatory text. You don’t need more than a couple of sentences.
+    - link "Call to action":
+      - /url: ""
+  - heading "A tagline highlights your approach" [level=2]
+  - paragraph: The tagline should inspire confidence and interest, focusing on the value that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.
+  - paragraph: Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense, and stay brief here. People who are interested can find details on internal pages.
+  - img "Alt text"
+  - heading "Graphic headings can vary." [level=2]
+  - paragraph: Graphic headings can be used a few different ways, depending on what your landing page is for. Highlight your values, specific program areas, or results.
+  - img "Alt text"
+  - heading "Stick to 6 or fewer words." [level=2]
+  - paragraph: Keep body text to about 30 words. They can be shorter, but try to be somewhat balanced across all four. It creates a clean appearance with good spacing.
+  - img "Alt text"
+  - heading "Never highlight anything without a goal." [level=2]
+  - paragraph: For anything you want to highlight here, understand what your users know now, and what activity or impression you want from them after they see it.
+  - img "Alt text"
+  - heading "Could also have 2 or 6." [level=2]
+  - paragraph: In addition to your goal, find out your users’ goals. What do they want to know or do that supports your mission? Use these headings to show those.
+  - heading "Section heading" [level=2]
+  - paragraph: "Everything up to this point should help people understand your agency or project: who you are, your goal or mission, and how you approach it. Use this section to encourage them to act. Describe why they should get in touch here, and use an active verb on the button below. “Get in touch,” “Learn more,” and so on."
+  - link "Call to action":
+    - /url: ""
+- contentinfo:
+  - link "Return to top":
+    - /url: "#"
+  - navigation "Footer navigation":
+    - list:
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+  - paragraph: <Name of Agency>
+  - link "Facebook":
+    - /url: javascript:void(0);
+    - img "Facebook"
+  - link "Twitter":
+    - /url: javascript:void(0);
+    - img "Twitter"
+  - link "YouTube":
+    - /url: javascript:void(0);
+    - img "YouTube"
+  - link "Instagram":
+    - /url: javascript:void(0);
+    - img "Instagram"
+  - link "RSS":
+    - /url: javascript:void(0);
+    - img "RSS"
+  - paragraph: <Agency Contact Center>
+  - link "<(800) 555-GOVT>":
+    - /url: tel:1-800-555-5555
+  - link "<info@agency.gov>":
+    - /url: mailto:info@agency.gov
+- region "Agency identifier":
+  - link "<Parent agency> logo":
+    - /url: javascript:void(0)
+    - img "<Parent agency> logo"
+  - region "Agency description":
+    - paragraph: domain.gov
+    - paragraph:
+      - text: official website of the
+      - link "<Parent agency>":
+        - /url: ""
+- navigation "Important links":
+  - list:
+    - listitem:
+      - link "About <Parent shortname>":
+        - /url: javascript:void(0)
+    - listitem:
+      - link "Accessibility support":
+        - /url: ""
+    - listitem:
+      - link "FOIA requests":
+        - /url: ""
+    - listitem:
+      - link "No FEAR Act data":
+        - /url: ""
+    - listitem:
+      - link "Office of the Inspector General":
+        - /url: ""
+    - listitem:
+      - link "Performance reports":
+        - /url: ""
+    - listitem:
+      - link "Privacy policy":
+        - /url: ""
+- region "U.S. government information and services":
+  - text: Looking for U.S. government information and services?
+  - link "Visit USA.gov":
+    - /url: https://www.usa.gov/

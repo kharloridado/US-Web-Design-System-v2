@@ -4,6 +4,7 @@ The [U.S. Web Design System](https://designsystem.digital.gov) (`@uswds/uswds` 3
 
 - Plan and architecture: [`docs/MIGRATION_PLAN.md`](docs/MIGRATION_PLAN.md)
 - What done means: [`docs/DEFINITION_OF_DONE.md`](docs/DEFINITION_OF_DONE.md) (inventory: [`docs/acceptance/inventory.md`](docs/acceptance/inventory.md))
+- Reference pages O11 is compared against: [`reference/README.md`](reference/README.md)
 - Service Studio setup and platform spike: [`docs/phase-0-outsystems-setup.md`](docs/phase-0-outsystems-setup.md)
 
 ## Build
@@ -13,6 +14,7 @@ npm ci
 npm run build   # compile Theme + Block CSS, copy fonts/images, write dist/manifest.json
 npm run check   # prove dist/ has 100% of the official USWDS CSS, with nothing duplicated
 npm run inventory  # list every USWDS variant and behavior case that must work in O11
+npm run reference  # render all 208 USWDS variants as reference pages and verify them in Chromium
 ```
 
 | Output | Goes to |

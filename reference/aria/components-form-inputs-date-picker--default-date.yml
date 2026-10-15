@@ -1,0 +1,4 @@
+- text: Appointment date mm/dd/yyyy
+- textbox "Appointment date": 03/06/1995
+- button "Toggle calendar"
+- status

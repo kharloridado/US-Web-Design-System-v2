@@ -1,0 +1,21 @@
+- navigation "Side navigation,,":
+  - list:
+    - listitem:
+      - link "Parent link":
+        - /url: javascript:void(0);
+    - listitem:
+      - link "Current page":
+        - /url: javascript:void(0);
+      - list:
+        - listitem:
+          - link "Child link":
+            - /url: javascript:void(0);
+        - listitem:
+          - link "Child link":
+            - /url: javascript:void(0);
+        - listitem:
+          - link "Child link":
+            - /url: javascript:void(0);
+    - listitem:
+      - link "Parent link":
+        - /url: javascript:void(0);

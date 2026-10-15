@@ -1,0 +1,9 @@
+- list:
+  - listitem:
+    - text: Provide
+    - code: alt
+    - text: text to images
+  - listitem: Use headings in logical order
+  - listitem: Use anchor elements for links and buttons for things like toggles
+  - listitem: Use tables for tabular data
+  - listitem: Avoid autoplaying videos and audio

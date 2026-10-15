@@ -1,0 +1,20 @@
+- group "Date of Birth":
+  - text: Date of Birth Month Select a month from the dropdown.
+  - combobox "Month" [disabled]:
+    - option "- Select -" [selected]
+    - option "January"
+    - option "February"
+    - option "March"
+    - option "April"
+    - option "May"
+    - option "June"
+    - option "July"
+    - option "August"
+    - option "September"
+    - option "October"
+    - option "November"
+    - option "December"
+  - text: Day Enter 1 or 2 digits for the day.
+  - textbox "Day" [disabled]
+  - text: Year Enter 4 digits for the year.
+  - textbox "Year" [disabled]

@@ -1,0 +1,5 @@
+- text: Text input This is an input with a character counter.
+- textbox "Text input" [disabled]
+- text: You can enter up to 25 characters 25 characters allowed Textarea This is a textarea with a character counter.
+- textbox "Textarea" [disabled]
+- text: You can enter up to 50 characters 50 characters allowed

@@ -1,0 +1,5 @@
+- paragraph:
+  - text: Lorem ipsum dolor sit amet,
+  - link "consectetur adipiscing":
+    - /url: javascript:void(0);
+  - text: elit, sed do eiusmod.

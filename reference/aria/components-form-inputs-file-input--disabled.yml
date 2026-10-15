@@ -1,0 +1,2 @@
+- text: Input accepts a single file
+- button "Drag file here or choose from folder" [disabled]

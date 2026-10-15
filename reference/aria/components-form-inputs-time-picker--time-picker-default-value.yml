@@ -1,0 +1,5 @@
+- text: Appointment time Select a time from the dropdown. Type into the input to filter options.
+- combobox "Appointment time": 1:00pm
+- button "Clear the select contents"
+- button "Toggle the dropdown list"
+- status

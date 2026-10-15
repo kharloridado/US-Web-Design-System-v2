@@ -1,0 +1,4 @@
+- text: Appointment time Select a time from the dropdown. Type into the input to filter options.
+- combobox "Appointment time" [disabled]
+- button "Toggle the dropdown list" [disabled]
+- status

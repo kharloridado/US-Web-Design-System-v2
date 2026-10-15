@@ -1,0 +1,26 @@
+- banner:
+  - emphasis:
+    - link "<Project title>":
+      - /url: javascript:void(0)
+  - navigation "Primary navigation":
+    - list:
+      - listitem:
+        - button "<Current section>"
+      - listitem:
+        - button "<Section>"
+      - listitem:
+        - link "<Simple link>":
+          - /url: javascript:void(0);
+    - list:
+      - listitem:
+        - link "Secondary link":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "Another secondary link":
+          - /url: javascript:void(0);
+    - region "Search component":
+      - search:
+        - text: Search
+        - searchbox "Search"
+        - button "Search":
+          - img "Search"

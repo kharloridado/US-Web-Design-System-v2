@@ -1,0 +1,19 @@
+- table "Stacked borderless table with headers (when on a mobile-width screen)":
+  - caption: Stacked borderless table with headers (when on a mobile-width screen)
+  - rowgroup:
+    - row "Declaration of Independence Description Statement adopted by the Continental Congress declaring independence from the British Empire. Year 1776":
+      - rowheader "Declaration of Independence"
+      - cell "Description Statement adopted by the Continental Congress declaring independence from the British Empire."
+      - cell "Year 1776"
+    - row "Bill of Rights Description The first ten amendments of the U.S. Constitution guaranteeing rights and freedoms. Year 1791":
+      - rowheader "Bill of Rights"
+      - cell "Description The first ten amendments of the U.S. Constitution guaranteeing rights and freedoms."
+      - cell "Year 1791"
+    - row "Declaration of Sentiments Description A document written during the Seneca Falls Convention outlining the rights that American women should be entitled to as citizens. Year 1848":
+      - rowheader "Declaration of Sentiments"
+      - cell "Description A document written during the Seneca Falls Convention outlining the rights that American women should be entitled to as citizens."
+      - cell "Year 1848"
+    - row "Emancipation Proclamation Description An executive order granting freedom to slaves in designated southern states. Year 1863":
+      - rowheader "Emancipation Proclamation"
+      - cell "Description An executive order granting freedom to slaves in designated southern states."
+      - cell "Year 1863"

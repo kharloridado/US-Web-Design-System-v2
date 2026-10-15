@@ -1,0 +1,7 @@
+- button "Default"
+- button "Hover"
+- button "Active"
+- button "Focus"
+- button "Disabled" [disabled]
+- button "aria-disabled" [disabled]
+- button "Unstyled button"

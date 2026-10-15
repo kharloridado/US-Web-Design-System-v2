@@ -6,7 +6,12 @@
     "build": "node scripts/build.mjs",
     "check": "node scripts/check-parity.mjs",
     "inventory": "node scripts/inventory.mjs",
-    "ci": "npm run build && npm run check && npm run inventory"
+    "ci": "npm run build && npm run check && npm run inventory",
+    "reference:render": "node scripts/reference/render.mjs",
+    "reference:fetch": "node scripts/reference/fetch-external.mjs",
+    "reference:verify": "node scripts/reference/verify.mjs",
+    "reference:screenshots": "node scripts/reference/verify.mjs --screenshots",
+    "reference": "npm run reference:render && npm run reference:verify"
   },
   "repository": {
     "type": "git",
@@ -16,8 +21,10 @@
   "devDependencies": {
     "@uswds/uswds": "3.14.0",
     "autoprefixer": "10.6.1",
+    "playwright": "1.56.1",
     "postcss": "8.5.30",
-    "sass": "1.105.1"
+    "sass": "1.105.1",
+    "twig": "3.0.0"
   },
   "private": true,
   "type": "module",

@@ -1,0 +1,29 @@
+- region "Key information":
+  - heading "Key information" [level=3]
+  - list:
+    - listitem:
+      - text: If you are under a winter storm warning,
+      - link "find shelter":
+        - /url: ""
+      - text: right away.
+    - listitem:
+      - text: Sign up for
+      - link "your community’s warning system":
+        - /url: ""
+      - text: .
+    - listitem:
+      - text: Learn the signs of, and basic treatments for,
+      - link "frostbite":
+        - /url: ""
+      - text: and
+      - link "hypothermia":
+        - /url: ""
+      - text: .
+    - listitem:
+      - text: Gather emergency supplies for your
+      - link "home":
+        - /url: ""
+      - text: and your
+      - link "car":
+        - /url: ""
+      - text: .

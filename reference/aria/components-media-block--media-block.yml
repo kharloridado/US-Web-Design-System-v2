@@ -1,0 +1,12 @@
+- region "Highlight in 6 words or less Improve clarity":
+  - heading "Media block component" [level=1]
+  - img "A blue placeholder circle"
+  - heading "Highlight in 6 words or less" [level=2]
+  - paragraph: Media blocks can be used to highlight your values, specific program areas, or results. Never highlight anything without a goal.
+  - img "A blue placeholder circle"
+  - heading "Improve clarity" [level=2]
+  - paragraph: Keep body text short and sweet to help with understanding. Concise text also helps with type spacing. We recommend 30 words or less.
+- region "Increase Understanding":
+  - img "A blue placeholder circle"
+  - heading "Increase Understanding" [level=2]
+  - paragraph: Add a graphic to help supplement the body text next to it. Make sure your alt text describes the image itself and not a copy of the text next to it.

@@ -24,8 +24,8 @@ USWDS 3.14.0 is done in O11 when **all seven gates pass**. Each gate is automate
 | 1 | **Every package assigned** | 75 / 75 packages owned by the Theme, a Block, or recorded as having no styles (`npm run build`) | ✅ Passing |
 | 2 | **CSS identical** | 0 rules missing, 0 extra, 0 duplicated vs the official bundle (`npm run check`) | ✅ Passing |
 | 3 | **Every variant built in O11** | Each of the 208 variants has a Style Guide screen built from O11 Blocks and platform widgets (no pasted USWDS HTML), using the same content as the USWDS story | ⬜ Phases 1–7 |
-| 4 | **Looks identical** | Playwright screenshots of each O11 variant vs the USWDS reference rendering at 320, 480, 640, 1024 and 1400 px, with dynamic content (dates, generated IDs) masked. Threshold: ≤ 0.1% differing pixels | ⬜ Needs reference renderer |
-| 5 | **Reads identically to assistive tech** | Playwright accessibility tree (roles, names, states, focus order) of each O11 variant equals the USWDS reference. axe reports no violation the USWDS reference doesn't also have. Manual NVDA + VoiceOver pass per component (manual) | ⬜ |
+| 4 | **Looks identical** | Playwright screenshots of each O11 variant vs the USWDS reference rendering at 320, 480, 640, 1024 and 1400 px, with dynamic content (dates, generated IDs) masked. Threshold: ≤ 0.1% differing pixels, captured in the same environment | ⬜ Reference side ready |
+| 5 | **Reads identically to assistive tech** | Playwright accessibility tree (roles, names, states, focus order) of each O11 variant equals the USWDS reference in `reference/aria/`. axe reports no violation the USWDS reference doesn't also have. Manual NVDA + VoiceOver pass per component (manual) | ⬜ Reference side ready |
 | 6 | **Behaves identically** | All 414 USWDS behavior cases, ported to Playwright, pass against the O11 Style Guide screens. This covers native rebuilds (accordion, modal, header, tooltip…) and Web Components alike | ⬜ |
 | 7 | **Works as an O11 app** | All 9 USWDS page templates and 5 form patterns run as real screens from `USWDS_Templates`. A new app from `USWDS_AppTemplate` runs end to end with no OutSystems UI reference. Every interactive variant still works after client-side navigation away and back (50×), with no console errors or React warnings | ⬜ |
 
@@ -50,6 +50,6 @@ Any other difference is a defect.
 
 | Needed for | Tool |
 |---|---|
-| Gates 4–5 | Reference renderer: renders each USWDS story's twig template with its story content to static HTML, served with the official USWDS CSS and JS |
+| Gates 4–5 | ✅ **Reference renderer** ([`reference/`](../reference/README.md)): all 208 variants render from USWDS's own story files and pass in Chromium. 208 accessibility-tree baselines committed; screenshots at 5 widths produced in CI |
 | Gate 6 | Port of the 414 USWDS spec cases from their jsdom setup to Playwright, pointed at Style Guide screens |
 | Gates 3–7 | A tracker showing each variant's status per gate |

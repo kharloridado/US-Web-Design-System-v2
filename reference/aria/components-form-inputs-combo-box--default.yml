@@ -1,0 +1,4 @@
+- text: Select a fruit
+- combobox "Select a fruit"
+- button "Toggle the dropdown list"
+- status

@@ -1,0 +1,5 @@
+- region "Search component":
+  - search:
+    - text: Search
+    - searchbox "Search"
+    - button "Search"

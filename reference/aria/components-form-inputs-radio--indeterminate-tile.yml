@@ -1,0 +1,10 @@
+- group "Select one historical figure":
+  - text: Select one historical figure
+  - radio "Sojourner Truth"
+  - text: Sojourner Truth
+  - radio "Frederick Douglass This is optional text that can be used to describe the label in more detail."
+  - text: Frederick Douglass This is optional text that can be used to describe the label in more detail.
+  - radio "Booker T. Washington"
+  - text: Booker T. Washington
+  - radio "George Washington Carver" [disabled]
+  - text: George Washington Carver

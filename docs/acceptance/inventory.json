@@ -9,1800 +9,2314 @@
   },
   "stories": [
     {
+      "id": "pages-create-account--create-account-page",
       "title": "Pages/Create Account",
       "package": "templates",
+      "file": "templates/usa-create-account/usa-create-account.stories.js",
       "story": "CreateAccountPage",
       "twig": "./usa-create-account.twig",
       "kind": "variant"
     },
     {
+      "id": "pages-create-account--create-account-page-spanish",
       "title": "Pages/Create Account",
       "package": "templates",
+      "file": "templates/usa-create-account/usa-create-account.stories.js",
       "story": "CreateAccountPageSpanish",
       "twig": "./usa-create-account.twig",
       "kind": "spanish"
     },
     {
+      "id": "pages-documentation-page--documentation-page",
       "title": "Pages/Documentation Page",
       "package": "templates",
+      "file": "templates/usa-documentation/usa-docs.stories.js",
       "story": "DocumentationPage",
       "twig": "./usa-docs.twig",
       "kind": "variant"
     },
     {
+      "id": "pages-documentation-page--test-documentation-reorder",
       "title": "Pages/Documentation Page",
       "package": "templates",
+      "file": "templates/usa-documentation/usa-docs.stories.js",
       "story": "TestDocumentationReorder",
       "twig": "./usa-docs.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "pages-error--page-not-found",
       "title": "Pages/Error",
       "package": "templates",
+      "file": "templates/usa-error/usa-error.stories.js",
       "story": "PageNotFound",
       "twig": "./usa-error.twig",
       "kind": "variant"
     },
     {
+      "id": "pages-error--page-not-found-spanish",
       "title": "Pages/Error",
       "package": "templates",
+      "file": "templates/usa-error/usa-error.stories.js",
       "story": "PageNotFoundSpanish",
       "twig": "./usa-error.twig",
       "kind": "spanish"
     },
     {
+      "id": "pages-landing-page--landing-page",
       "title": "Pages/Landing Page",
       "package": "templates",
+      "file": "templates/usa-landing/usa-landing.stories.js",
       "story": "LandingPage",
       "twig": "./usa-landing.twig",
       "kind": "variant"
     },
     {
+      "id": "pages-sign-in--sign-in-page",
       "title": "Pages/Sign-In",
       "package": "templates",
+      "file": "templates/usa-sign-in/usa-sign-in.stories.js",
       "story": "SignInPage",
       "twig": "./usa-sign-in.twig",
       "kind": "variant"
     },
     {
+      "id": "pages-sign-in--sign-in-page-spanish",
       "title": "Pages/Sign-In",
       "package": "templates",
+      "file": "templates/usa-sign-in/usa-sign-in.stories.js",
       "story": "SignInPageSpanish",
       "twig": "./usa-sign-in.twig",
       "kind": "spanish"
     },
     {
+      "id": "pages-sign-in--multiple-sign-in-page",
       "title": "Pages/Sign-In",
       "package": "templates",
+      "file": "templates/usa-sign-in/usa-sign-in.stories.js",
       "story": "MultipleSignInPage",
       "twig": "./usa-sign-in--multiple/usa-sign-in--multiple.twig",
       "kind": "variant"
     },
     {
+      "id": "pages-sign-in--multiple-sign-in-page-spanish",
       "title": "Pages/Sign-In",
       "package": "templates",
+      "file": "templates/usa-sign-in/usa-sign-in.stories.js",
       "story": "MultipleSignInPageSpanish",
       "twig": "./usa-sign-in--multiple/usa-sign-in--multiple.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-accordion--default",
       "title": "Components/Accordion",
       "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
       "story": "Default",
       "twig": "./usa-accordion.twig",
       "kind": "variant"
     },
     {
+      "id": "components-accordion--bordered",
       "title": "Components/Accordion",
       "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
       "story": "Bordered",
       "twig": "./usa-accordion.twig",
       "kind": "variant"
     },
     {
+      "id": "components-accordion--multiselectable",
       "title": "Components/Accordion",
       "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
       "story": "Multiselectable",
       "twig": "./usa-accordion.twig",
       "kind": "variant"
     },
     {
+      "id": "components-accordion--icon-start",
       "title": "Components/Accordion",
       "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
       "story": "IconStart",
       "twig": "./usa-accordion.twig",
       "kind": "variant"
     },
     {
+      "id": "components-accordion--icon-end",
       "title": "Components/Accordion",
       "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
       "story": "IconEnd",
       "twig": "./usa-accordion.twig",
       "kind": "variant"
     },
     {
+      "id": "components-accordion--test-icons",
       "title": "Components/Accordion",
       "package": "usa-accordion",
+      "file": "usa-accordion/src/usa-accordion.stories.js",
       "story": "TestIcons",
       "twig": "./test/test-patterns/test-accordion-icon.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-add-aspect--add-aspect",
       "title": "Components/Add Aspect",
       "package": "usa-add-aspect",
+      "file": "usa-add-aspect/src/usa-add-aspect.stories.js",
       "story": "AddAspect",
       "twig": "./usa-add-aspect.twig",
       "kind": "variant"
     },
     {
+      "id": "components-add-aspect--test",
       "title": "Components/Add Aspect",
       "package": "usa-add-aspect",
+      "file": "usa-add-aspect/src/usa-add-aspect.stories.js",
       "story": "Test",
       "twig": "./test/test-usa-add-aspect.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-alert--default",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "Default",
       "twig": "./usa-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-alert--emergency",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "Emergency",
       "twig": "./usa-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-alert--error",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "Error",
       "twig": "./usa-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-alert--info",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "Info",
       "twig": "./usa-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-alert--no-header",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "NoHeader",
       "twig": "./usa-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-alert--no-icon",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "NoIcon",
       "twig": "./usa-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-alert--slim",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "Slim",
       "twig": "./usa-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-alert--success",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "Success",
       "twig": "./usa-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-alert--warning",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "Warning",
       "twig": "./usa-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-alert--test",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "Test",
       "twig": "./test/test-patterns/test-usa-alert-lists.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-alert--test-alert-site-alert-comparison",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "TestAlertSiteAlertComparison",
       "twig": "./test/test-patterns/test-alert-comparison.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-alert--test-alerts-in-template",
       "title": "Components/Alert",
       "package": "usa-alert",
+      "file": "usa-alert/src/usa-alert.stories.js",
       "story": "TestAlertsInTemplate",
       "twig": "./test/test-patterns/test-alert-in-template.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-banner--default",
       "title": "Components/Banner",
       "package": "usa-banner",
+      "file": "usa-banner/src/usa-banner.stories.js",
       "story": "Default",
       "twig": "",
       "kind": "variant"
     },
     {
+      "id": "components-banner--default-spanish",
       "title": "Components/Banner",
       "package": "usa-banner",
+      "file": "usa-banner/src/usa-banner.stories.js",
       "story": "DefaultSpanish",
       "twig": "",
       "kind": "spanish"
     },
     {
+      "id": "components-banner--mil",
       "title": "Components/Banner",
       "package": "usa-banner",
+      "file": "usa-banner/src/usa-banner.stories.js",
       "story": "Mil",
       "twig": "",
       "kind": "variant"
     },
     {
+      "id": "components-banner--mil-spanish",
       "title": "Components/Banner",
       "package": "usa-banner",
+      "file": "usa-banner/src/usa-banner.stories.js",
       "story": "MilSpanish",
       "twig": "",
       "kind": "spanish"
     },
     {
+      "id": "components-breadcrumb--default",
       "title": "Components/Breadcrumb",
       "package": "usa-breadcrumb",
+      "file": "usa-breadcrumb/src/usa-breadcrumb.stories.js",
       "story": "Default",
       "twig": "./usa-breadcrumb.twig",
       "kind": "variant"
     },
     {
+      "id": "components-breadcrumb--truncate",
       "title": "Components/Breadcrumb",
       "package": "usa-breadcrumb",
+      "file": "usa-breadcrumb/src/usa-breadcrumb.stories.js",
       "story": "Truncate",
       "twig": "./usa-breadcrumb.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button-group--default",
       "title": "Components/Button Group",
       "package": "usa-button-group",
+      "file": "usa-button-group/src/usa-button-group.stories.js",
       "story": "Default",
       "twig": "./usa-button-group.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button-group--segmented",
       "title": "Components/Button Group",
       "package": "usa-button-group",
+      "file": "usa-button-group/src/usa-button-group.stories.js",
       "story": "Segmented",
       "twig": "./usa-button-group.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button-group--test-text-wrapping",
       "title": "Components/Button Group",
       "package": "usa-button-group",
+      "file": "usa-button-group/src/usa-button-group.stories.js",
       "story": "TestTextWrapping",
       "twig": "./test/test-patterns/test-usa-button-group--text-wrapping.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-button-group--test-nested-button-groups",
       "title": "Components/Button Group",
       "package": "usa-button-group",
+      "file": "usa-button-group/src/usa-button-group.stories.js",
       "story": "TestNestedButtonGroups",
       "twig": "./test/test-patterns/test-usa-button-group--nested.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-button--default",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "Default",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--accent-cool",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "AccentCool",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--accent-warm",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "AccentWarm",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--base",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "Base",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--big",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "Big",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--icon",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "Icon",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--outline",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "Outline",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--outline-inverse",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "OutlineInverse",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--secondary",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "Secondary",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--unstyled",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "Unstyled",
       "twig": "./usa-button.twig",
       "kind": "variant"
     },
     {
+      "id": "components-button--links-styled-as-buttons",
       "title": "Components/Button",
       "package": "usa-button",
+      "file": "usa-button/src/usa-button.stories.js",
       "story": "LinksStyledAsButtons",
       "twig": "./usa-button--links/usa-button--links.twig",
       "kind": "variant"
     },
     {
+      "id": "components-card--default",
       "title": "Components/Card",
       "package": "usa-card",
+      "file": "usa-card/src/usa-card.stories.js",
       "story": "Default",
       "twig": "./usa-card.twig",
       "kind": "variant"
     },
     {
+      "id": "components-card--flag",
       "title": "Components/Card",
       "package": "usa-card",
+      "file": "usa-card/src/usa-card.stories.js",
       "story": "Flag",
       "twig": "./usa-card.twig",
       "kind": "variant"
     },
     {
+      "id": "components-card--media",
       "title": "Components/Card",
       "package": "usa-card",
+      "file": "usa-card/src/usa-card.stories.js",
       "story": "Media",
       "twig": "./usa-card.twig",
       "kind": "variant"
     },
     {
+      "id": "components-card--test",
       "title": "Components/Card",
       "package": "usa-card",
+      "file": "usa-card/src/usa-card.stories.js",
       "story": "Test",
       "twig": "./usa-card.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-form-inputs-character-count--character-count",
       "title": "Components/Form Inputs/Character Count",
       "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
       "story": "CharacterCount",
       "twig": "./usa-character-count.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-character-count--disabled",
       "title": "Components/Form Inputs/Character Count",
       "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
       "story": "Disabled",
       "twig": "./usa-character-count.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-character-count--aria-disabled",
       "title": "Components/Form Inputs/Character Count",
       "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-character-count.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-character-count--test-no-label",
       "title": "Components/Form Inputs/Character Count",
       "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
       "story": "TestNoLabel",
       "twig": "./test/test-patterns/test-usa-character-count--no-label.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-form-inputs-character-count--test-no-form-group",
       "title": "Components/Form Inputs/Character Count",
       "package": "usa-character-count",
+      "file": "usa-character-count/src/usa-character-count.stories.js",
       "story": "TestNoFormGroup",
       "twig": "./test/test-patterns/test-usa-character-count--no-form-group.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-form-inputs-checkbox--default",
       "title": "Components/Form Inputs/Checkbox",
       "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
       "story": "Default",
       "twig": "./usa-checkbox.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-checkbox--disabled",
       "title": "Components/Form Inputs/Checkbox",
       "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
       "story": "Disabled",
       "twig": "./usa-checkbox.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-checkbox--aria-disabled",
       "title": "Components/Form Inputs/Checkbox",
       "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-checkbox.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-checkbox--tile",
       "title": "Components/Form Inputs/Checkbox",
       "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
       "story": "Tile",
       "twig": "./usa-checkbox--tile.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-checkbox--disabled-tile",
       "title": "Components/Form Inputs/Checkbox",
       "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
       "story": "DisabledTile",
       "twig": "./usa-checkbox--tile.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-checkbox--aria-disabled-tile",
       "title": "Components/Form Inputs/Checkbox",
       "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
       "story": "AriaDisabledTile",
       "twig": "./usa-checkbox--tile.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-checkbox--test",
       "title": "Components/Form Inputs/Checkbox",
       "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
       "story": "Test",
       "twig": "./test/test-patterns/test-usa-checkbox.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-form-inputs-checkbox--indeterminate",
       "title": "Components/Form Inputs/Checkbox",
       "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
       "story": "Indeterminate",
       "twig": "./usa-checkbox.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-checkbox--indeterminate-tile",
       "title": "Components/Form Inputs/Checkbox",
       "package": "usa-checkbox",
+      "file": "usa-checkbox/src/usa-checkbox.stories.js",
       "story": "IndeterminateTile",
       "twig": "./usa-checkbox--tile.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-checklist--checklist",
       "title": "Components/Form Inputs/Checklist",
       "package": "usa-checklist",
+      "file": "usa-checklist/src/usa-checklist.stories.js",
       "story": "Checklist",
       "twig": "./usa-checklist.twig",
       "kind": "variant"
     },
     {
+      "id": "components-collection--default",
       "title": "Components/Collection",
       "package": "usa-collection",
+      "file": "usa-collection/src/usa-collection.stories.js",
       "story": "Default",
       "twig": "./usa-collection.twig",
       "kind": "variant"
     },
     {
+      "id": "components-collection--fancy-date",
       "title": "Components/Collection",
       "package": "usa-collection",
+      "file": "usa-collection/src/usa-collection.stories.js",
       "story": "FancyDate",
       "twig": "./usa-collection--fancy-date.twig",
       "kind": "variant"
     },
     {
+      "id": "components-collection--media",
       "title": "Components/Collection",
       "package": "usa-collection",
+      "file": "usa-collection/src/usa-collection.stories.js",
       "story": "Media",
       "twig": "./usa-collection--media.twig",
       "kind": "variant"
     },
     {
+      "id": "components-collection--only-headers",
       "title": "Components/Collection",
       "package": "usa-collection",
+      "file": "usa-collection/src/usa-collection.stories.js",
       "story": "OnlyHeaders",
       "twig": "./usa-collection--only-headers.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-combo-box--default",
       "title": "Components/Form Inputs/Combo Box",
       "package": "usa-combo-box",
+      "file": "usa-combo-box/src/usa-combo-box.stories.js",
       "story": "Default",
       "twig": "./usa-combo-box.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-combo-box--disabled",
       "title": "Components/Form Inputs/Combo Box",
       "package": "usa-combo-box",
+      "file": "usa-combo-box/src/usa-combo-box.stories.js",
       "story": "Disabled",
       "twig": "./usa-combo-box.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-combo-box--aria-disabled",
       "title": "Components/Form Inputs/Combo Box",
       "package": "usa-combo-box",
+      "file": "usa-combo-box/src/usa-combo-box.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-combo-box.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-combo-box--test",
       "title": "Components/Form Inputs/Combo Box",
       "package": "usa-combo-box",
+      "file": "usa-combo-box/src/usa-combo-box.stories.js",
       "story": "Test",
       "twig": "./test/test-patterns/test-usa-combo-box.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-form-inputs-date-picker--default",
       "title": "Components/Form Inputs/Date Picker",
       "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
       "story": "Default",
       "twig": "./usa-date-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-picker--default-date",
       "title": "Components/Form Inputs/Date Picker",
       "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
       "story": "DefaultDate",
       "twig": "./usa-date-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-picker--range-date",
       "title": "Components/Form Inputs/Date Picker",
       "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
       "story": "RangeDate",
       "twig": "./usa-date-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-picker--restricted-date",
       "title": "Components/Form Inputs/Date Picker",
       "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
       "story": "RestrictedDate",
       "twig": "./usa-date-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-picker--disabled",
       "title": "Components/Form Inputs/Date Picker",
       "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
       "story": "Disabled",
       "twig": "./usa-date-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-picker--aria-disabled",
       "title": "Components/Form Inputs/Date Picker",
       "package": "usa-date-picker",
+      "file": "usa-date-picker/src/usa-date-picker.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-date-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-range-picker--default",
       "title": "Components/Form Inputs/Date Range Picker",
       "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
       "story": "Default",
       "twig": "./usa-date-range-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-range-picker--default-date",
       "title": "Components/Form Inputs/Date Range Picker",
       "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
       "story": "DefaultDate",
       "twig": "./usa-date-range-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-range-picker--restricted-date",
       "title": "Components/Form Inputs/Date Range Picker",
       "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
       "story": "RestrictedDate",
       "twig": "./usa-date-range-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-range-picker--disabled",
       "title": "Components/Form Inputs/Date Range Picker",
       "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
       "story": "Disabled",
       "twig": "./usa-date-range-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-date-range-picker--aria-disabled",
       "title": "Components/Form Inputs/Date Range Picker",
       "package": "usa-date-range-picker",
+      "file": "usa-date-range-picker/src/date-range-picker.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-date-range-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-embed-container--embed-container",
       "title": "Components/Embed Container",
       "package": "usa-embed-container",
+      "file": "usa-embed-container/src/usa-embed-container.stories.js",
       "story": "EmbedContainer",
       "twig": "./usa-embed-container.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-file-input--default",
       "title": "Components/Form Inputs/File Input",
       "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
       "story": "Default",
       "twig": "./usa-file-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-file-input--error",
       "title": "Components/Form Inputs/File Input",
       "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
       "story": "Error",
       "twig": "./usa-file-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-file-input--multiple",
       "title": "Components/Form Inputs/File Input",
       "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
       "story": "Multiple",
       "twig": "./usa-file-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-file-input--specific",
       "title": "Components/Form Inputs/File Input",
       "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
       "story": "Specific",
       "twig": "./usa-file-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-file-input--wildcard",
       "title": "Components/Form Inputs/File Input",
       "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
       "story": "Wildcard",
       "twig": "./usa-file-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-file-input--disabled",
       "title": "Components/Form Inputs/File Input",
       "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
       "story": "Disabled",
       "twig": "./usa-file-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-file-input--aria-disabled",
       "title": "Components/Form Inputs/File Input",
       "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-file-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-file-input--test-multiple-inputs",
       "title": "Components/Form Inputs/File Input",
       "package": "usa-file-input",
+      "file": "usa-file-input/src/usa-file-input.stories.js",
       "story": "TestMultipleInputs",
       "twig": "./test/test-patterns/test-usa-file-input.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "design-tokens-fonts--fonts",
       "title": "Design Tokens/Fonts",
       "package": "usa-fonts",
+      "file": "usa-fonts/src/usa-fonts.stories.js",
       "story": "Fonts",
       "twig": "./usa-fonts.twig",
       "kind": "variant"
     },
     {
+      "id": "components-footer--default",
       "title": "Components/Footer",
       "package": "usa-footer",
+      "file": "usa-footer/src/usa-footer.stories.js",
       "story": "Default",
       "twig": "./usa-footer.twig",
       "kind": "variant"
     },
     {
+      "id": "components-footer--big-footer",
       "title": "Components/Footer",
       "package": "usa-footer",
+      "file": "usa-footer/src/usa-footer.stories.js",
       "story": "BigFooter",
       "twig": "./usa-footer--big/usa-footer--big.twig",
       "kind": "variant"
     },
     {
+      "id": "components-footer--slim-footer",
       "title": "Components/Footer",
       "package": "usa-footer",
+      "file": "usa-footer/src/usa-footer.stories.js",
       "story": "SlimFooter",
       "twig": "./usa-footer--slim/usa-footer--slim.twig",
       "kind": "variant"
     },
     {
+      "id": "patterns-forms--mailing-address",
       "title": "Patterns/Forms",
       "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
       "story": "MailingAddress",
       "twig": "../../templates/usa-address-form.twig",
       "kind": "variant"
     },
     {
+      "id": "patterns-forms--name",
       "title": "Patterns/Forms",
       "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
       "story": "Name",
       "twig": "../../templates/usa-name-form.twig",
       "kind": "variant"
     },
     {
+      "id": "patterns-forms--reset-password",
       "title": "Patterns/Forms",
       "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
       "story": "ResetPassword",
       "twig": "../../templates/usa-password-reset-form.twig",
       "kind": "variant"
     },
     {
+      "id": "patterns-forms--sign-in",
       "title": "Patterns/Forms",
       "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
       "story": "SignIn",
       "twig": "../../templates/usa-sign-in/usa-sign-in-form/usa-sign-in-form.twig",
       "kind": "variant"
     },
     {
+      "id": "patterns-forms--sign-in-spanish",
       "title": "Patterns/Forms",
       "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
       "story": "SignInSpanish",
       "twig": "../../templates/usa-sign-in/usa-sign-in-form/usa-sign-in-form.twig",
       "kind": "spanish"
     },
     {
+      "id": "patterns-forms--sign-in-multiple",
       "title": "Patterns/Forms",
       "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
       "story": "SignInMultiple",
       "twig": "../../templates/usa-sign-in/includes/_usa-sign-in-multiple-inner.twig",
       "kind": "variant"
     },
     {
+      "id": "patterns-forms--sign-in-multiple-spanish",
       "title": "Patterns/Forms",
       "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
       "story": "SignInMultipleSpanish",
       "twig": "../../templates/usa-sign-in/includes/_usa-sign-in-multiple-inner.twig",
       "kind": "spanish"
     },
     {
+      "id": "patterns-forms--disabled-form-elements",
       "title": "Patterns/Forms",
       "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
       "story": "DisabledFormElements",
       "twig": "./test/test-pattern/test-usa-form.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "patterns-forms--test-error-form-elements",
       "title": "Patterns/Forms",
       "package": "usa-form",
+      "file": "usa-form/src/usa-form.stories.js",
       "story": "TestErrorFormElements",
       "twig": "./test/test-pattern/test-usa-form.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-graphic-list--graphic-list",
       "title": "Components/Graphic List",
       "package": "usa-graphic-list",
+      "file": "usa-graphic-list/src/usa-graphic-list.stories.js",
       "story": "GraphicList",
       "twig": "./usa-graphic-list.twig",
       "kind": "variant"
     },
     {
+      "id": "components-header--default",
       "title": "Components/Header",
       "package": "usa-header",
+      "file": "usa-header/src/usa-header.stories.js",
       "story": "Default",
       "twig": "./usa-header.twig",
       "kind": "variant"
     },
     {
+      "id": "components-header--megamenu",
       "title": "Components/Header",
       "package": "usa-header",
+      "file": "usa-header/src/usa-header.stories.js",
       "story": "Megamenu",
       "twig": "./usa-header.twig",
       "kind": "variant"
     },
     {
+      "id": "components-header--extended",
       "title": "Components/Header",
       "package": "usa-header",
+      "file": "usa-header/src/usa-header.stories.js",
       "story": "Extended",
       "twig": "./usa-header--extended/usa-header--extended.twig",
       "kind": "variant"
     },
     {
+      "id": "components-header--extended-megamenu",
       "title": "Components/Header",
       "package": "usa-header",
+      "file": "usa-header/src/usa-header.stories.js",
       "story": "ExtendedMegamenu",
       "twig": "./usa-header--extended/usa-header--extended.twig",
       "kind": "variant"
     },
     {
+      "id": "components-hero--hero",
       "title": "Components/Hero",
       "package": "usa-hero",
+      "file": "usa-hero/src/usa-hero.stories.js",
       "story": "Hero",
       "twig": "./usa-hero.twig",
       "kind": "variant"
     },
     {
+      "id": "components-icon-list--default",
       "title": "Components/Icon List",
       "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
       "story": "Default",
       "twig": "./usa-icon-list.twig",
       "kind": "variant"
     },
     {
+      "id": "components-icon-list--custom-rich",
       "title": "Components/Icon List",
       "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
       "story": "CustomRich",
       "twig": "./usa-icon-list.twig",
       "kind": "variant"
     },
     {
+      "id": "components-icon-list--custom-size",
       "title": "Components/Icon List",
       "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
       "story": "CustomSize",
       "twig": "./usa-icon-list.twig",
       "kind": "variant"
     },
     {
+      "id": "components-icon-list--rich",
       "title": "Components/Icon List",
       "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
       "story": "Rich",
       "twig": "./usa-icon-list.twig",
       "kind": "variant"
     },
     {
+      "id": "components-icon-list--simple",
       "title": "Components/Icon List",
       "package": "usa-icon-list",
+      "file": "usa-icon-list/src/usa-icon-list.stories.js",
       "story": "Simple",
       "twig": "./usa-icon-list.twig",
       "kind": "variant"
     },
     {
+      "id": "design-tokens-icons-icon-sizes--icon-sizes",
       "title": "Design Tokens/Icons/Icon Sizes",
       "package": "usa-icon",
+      "file": "usa-icon/src/usa-icon--sizes/usa-icon--sizes.stories.js",
       "story": "IconSizes",
       "twig": "./usa-icon--sizes.twig",
       "kind": "spanish"
     },
     {
+      "id": "design-tokens-icons--icons",
       "title": "Design Tokens/Icons",
       "package": "usa-icon",
+      "file": "usa-icon/src/usa-icon.stories.js",
       "story": "Icons",
       "twig": "./usa-icon.twig",
       "kind": "variant"
     },
     {
+      "id": "components-identifier--default",
       "title": "Components/Identifier",
       "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
       "story": "Default",
       "twig": "./usa-identifier.twig",
       "kind": "variant"
     },
     {
+      "id": "components-identifier--default-spanish",
       "title": "Components/Identifier",
       "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
       "story": "DefaultSpanish",
       "twig": "./usa-identifier.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-identifier--multiple-parents-and-logos",
       "title": "Components/Identifier",
       "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
       "story": "MultipleParentsAndLogos",
       "twig": "./usa-identifier.twig",
       "kind": "variant"
     },
     {
+      "id": "components-identifier--multiple-parents-and-logos-spanish",
       "title": "Components/Identifier",
       "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
       "story": "MultipleParentsAndLogosSpanish",
       "twig": "./usa-identifier.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-identifier--no-logos",
       "title": "Components/Identifier",
       "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
       "story": "NoLogos",
       "twig": "./usa-identifier.twig",
       "kind": "variant"
     },
     {
+      "id": "components-identifier--no-logos-spanish",
       "title": "Components/Identifier",
       "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
       "story": "NoLogosSpanish",
       "twig": "./usa-identifier.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-identifier--taxpayer-disclaimer",
       "title": "Components/Identifier",
       "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
       "story": "TaxpayerDisclaimer",
       "twig": "./usa-identifier.twig",
       "kind": "variant"
     },
     {
+      "id": "components-identifier--taxpayer-disclaimer-spanish",
       "title": "Components/Identifier",
       "package": "usa-identifier",
+      "file": "usa-identifier/src/usa-identifier.stories.js",
       "story": "TaxpayerDisclaimerSpanish",
       "twig": "./usa-identifier.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-in-page-navigation--default",
       "title": "Components/In-Page Navigation",
       "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
       "story": "Default",
       "twig": "./usa-in-page-navigation.twig",
       "kind": "variant"
     },
     {
+      "id": "components-in-page-navigation--test-custom-content-selector",
       "title": "Components/In-Page Navigation",
       "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
       "story": "TestCustomContentSelector",
       "twig": "./test/test-patterns/test-custom-content-selector.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-in-page-navigation--test-custom-header-selector",
       "title": "Components/In-Page Navigation",
       "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
       "story": "TestCustomHeaderSelector",
       "twig": "./test/test-patterns/test-custom-header-selector.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-in-page-navigation--test-hidden-headers",
       "title": "Components/In-Page Navigation",
       "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
       "story": "TestHiddenHeaders",
       "twig": "./test/test-patterns/test-hidden-headers.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-in-page-navigation--test-minimum-headers",
       "title": "Components/In-Page Navigation",
       "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
       "story": "TestMinimumHeaders",
       "twig": "./test/test-patterns/test-minimum-header.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-in-page-navigation--test-nested-headers",
       "title": "Components/In-Page Navigation",
       "package": "usa-in-page-navigation",
+      "file": "usa-in-page-navigation/src/usa-in-page-navigation.stories.js",
       "story": "TestNestedHeaders",
       "twig": "./test/test-patterns/test-nested-headers.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-form-inputs-text-input-mask--ssn",
       "title": "Components/Form Inputs/Text Input Mask",
       "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
       "story": "SSN",
       "twig": "./usa-input-mask.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input-mask--phone",
       "title": "Components/Form Inputs/Text Input Mask",
       "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
       "story": "Phone",
       "twig": "./usa-input-mask.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input-mask--zip",
       "title": "Components/Form Inputs/Text Input Mask",
       "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
       "story": "ZIP",
       "twig": "./usa-input-mask.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input-mask--alphanumeric",
       "title": "Components/Form Inputs/Text Input Mask",
       "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
       "story": "Alphanumeric",
       "twig": "./usa-input-mask.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input-mask--disabled",
       "title": "Components/Form Inputs/Text Input Mask",
       "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
       "story": "Disabled",
       "twig": "./usa-input-mask.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input-mask--aria-disabled",
       "title": "Components/Form Inputs/Text Input Mask",
       "package": "usa-input-mask",
+      "file": "usa-input-mask/src/usa-input-mask.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-input-mask.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-input-prefix-or-suffix--prefix",
       "title": "Components/Form Inputs/Input Prefix or Suffix",
       "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
       "story": "Prefix",
       "twig": "./usa-input-prefix.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-input-prefix-or-suffix--prefix-disabled",
       "title": "Components/Form Inputs/Input Prefix or Suffix",
       "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
       "story": "PrefixDisabled",
       "twig": "./usa-input-prefix.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-input-prefix-or-suffix--prefix-aria-disabled",
       "title": "Components/Form Inputs/Input Prefix or Suffix",
       "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
       "story": "PrefixAriaDisabled",
       "twig": "./usa-input-prefix.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-input-prefix-or-suffix--suffix",
       "title": "Components/Form Inputs/Input Prefix or Suffix",
       "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
       "story": "Suffix",
       "twig": "./usa-input-suffix.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-input-prefix-or-suffix--suffix-disabled",
       "title": "Components/Form Inputs/Input Prefix or Suffix",
       "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
       "story": "SuffixDisabled",
       "twig": "./usa-input-suffix.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-input-prefix-or-suffix--suffix-aria-disabled",
       "title": "Components/Form Inputs/Input Prefix or Suffix",
       "package": "usa-input-prefix-suffix",
+      "file": "usa-input-prefix-suffix/src/usa-input-prefix-suffix.stories.js",
       "story": "SuffixAriaDisabled",
       "twig": "./usa-input-suffix.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input--input",
       "title": "Components/Form Inputs/Text Input",
       "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
       "story": "Input",
       "twig": "./usa-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input--disabled",
       "title": "Components/Form Inputs/Text Input",
       "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
       "story": "Disabled",
       "twig": "./usa-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input--aria-disabled",
       "title": "Components/Form Inputs/Text Input",
       "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input--error",
       "title": "Components/Form Inputs/Text Input",
       "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
       "story": "Error",
       "twig": "./usa-input.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-text-input--state-showcase",
       "title": "Components/Form Inputs/Text Input",
       "package": "usa-input",
+      "file": "usa-input/src/usa-input.stories.js",
       "story": "StateShowcase",
       "twig": "./usa-input--showcase.twig",
       "kind": "variant"
     },
     {
+      "id": "components-language-selector--two-languages",
       "title": "Components/Language Selector",
       "package": "usa-language-selector",
+      "file": "usa-language-selector/src/usa-language-selector.stories.js",
       "story": "TwoLanguages",
       "twig": "./usa-language-selector.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-language-selector--three-or-more-languages",
       "title": "Components/Language Selector",
       "package": "usa-language-selector",
+      "file": "usa-language-selector/src/usa-language-selector.stories.js",
       "story": "ThreeOrMoreLanguages",
       "twig": "./usa-language-selector--three-or-more/usa-language-selector--three-or-more.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-language-selector--in-header-example",
       "title": "Components/Language Selector",
       "package": "usa-language-selector",
+      "file": "usa-language-selector/src/usa-language-selector.stories.js",
       "story": "InHeaderExample",
       "twig": "./usa-language-selector--header/usa-language-selector--header.twig",
       "kind": "variant"
     },
     {
+      "id": "components-language-selector--unstyled-example",
       "title": "Components/Language Selector",
       "package": "usa-language-selector",
+      "file": "usa-language-selector/src/usa-language-selector.stories.js",
       "story": "UnstyledExample",
       "twig": "./usa-language-selector--unstyled/usa-language-selector--unstyled.twig",
       "kind": "variant"
     },
     {
+      "id": "components-link--link",
       "title": "Components/Link",
       "package": "usa-link",
+      "file": "usa-link/src/usa-link.stories.js",
       "story": "Link",
       "twig": "./usa-link.twig",
       "kind": "variant"
     },
     {
+      "id": "components-list--list",
       "title": "Components/List",
       "package": "usa-list",
+      "file": "usa-list/src/usa-list.stories.js",
       "story": "List",
       "twig": "./usa-list.twig",
       "kind": "variant"
     },
     {
+      "id": "components-media-block--media-block",
       "title": "Components/Media Block",
       "package": "usa-media-block",
+      "file": "usa-media-block/src/usa-media-block.stories.js",
       "story": "MediaBlock",
       "twig": "./usa-media-block.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-memorable-date--memorable-date",
       "title": "Components/Form Inputs/Memorable Date",
       "package": "usa-memorable-date",
+      "file": "usa-memorable-date/src/usa-memorable-date.stories.js",
       "story": "MemorableDate",
       "twig": "./usa-memorable-date.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-memorable-date--disabled",
       "title": "Components/Form Inputs/Memorable Date",
       "package": "usa-memorable-date",
+      "file": "usa-memorable-date/src/usa-memorable-date.stories.js",
       "story": "Disabled",
       "twig": "./usa-memorable-date.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-memorable-date--aria-disabled",
       "title": "Components/Form Inputs/Memorable Date",
       "package": "usa-memorable-date",
+      "file": "usa-memorable-date/src/usa-memorable-date.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-memorable-date.twig",
       "kind": "variant"
     },
     {
+      "id": "components-modal--default",
       "title": "Components/Modal",
       "package": "usa-modal",
+      "file": "usa-modal/src/usa-modal.stories.js",
       "story": "Default",
       "twig": "./usa-modal.twig",
       "kind": "variant"
     },
     {
+      "id": "components-modal--large",
       "title": "Components/Modal",
       "package": "usa-modal",
+      "file": "usa-modal/src/usa-modal.stories.js",
       "story": "Large",
       "twig": "./usa-modal.twig",
       "kind": "variant"
     },
     {
+      "id": "components-modal--forced-action",
       "title": "Components/Modal",
       "package": "usa-modal",
+      "file": "usa-modal/src/usa-modal.stories.js",
       "story": "ForcedAction",
       "twig": "./usa-modal.twig",
       "kind": "variant"
     },
     {
+      "id": "components-modal--test-nested-forms",
       "title": "Components/Modal",
       "package": "usa-modal",
+      "file": "usa-modal/src/usa-modal.stories.js",
       "story": "TestNestedForms",
       "twig": "./test/test-patterns/test-usa-modal--nested-forms.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-header-partials-primary--default",
       "title": "Components/Header/Partials/Primary",
       "package": "usa-nav",
+      "file": "usa-nav/src/usa-nav__primary/usa-nav-primary.stories.js",
       "story": "Default",
       "twig": "./usa-nav__primary.twig",
       "kind": "variant"
     },
     {
+      "id": "components-header-partials-primary--megamenu",
       "title": "Components/Header/Partials/Primary",
       "package": "usa-nav",
+      "file": "usa-nav/src/usa-nav__primary/usa-nav-primary.stories.js",
       "story": "Megamenu",
       "twig": "./usa-nav__primary.twig",
       "kind": "variant"
     },
     {
+      "id": "components-header-partials-secondary--default",
       "title": "Components/Header/Partials/Secondary",
       "package": "usa-nav",
+      "file": "usa-nav/src/usa-nav__secondary/usa-nav-secondary.stories.js",
       "story": "Default",
       "twig": "./usa-nav__secondary.twig",
       "kind": "variant"
     },
     {
+      "id": "components-header-partials-secondary--search-included",
       "title": "Components/Header/Partials/Secondary",
       "package": "usa-nav",
+      "file": "usa-nav/src/usa-nav__secondary/usa-nav-secondary.stories.js",
       "story": "SearchIncluded",
       "twig": "./usa-nav__secondary.twig",
       "kind": "variant"
     },
     {
+      "id": "components-pagination--default",
       "title": "Components/Pagination",
       "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
       "story": "Default",
       "twig": "./usa-pagination.twig",
       "kind": "variant"
     },
     {
+      "id": "components-pagination--unbounded",
       "title": "Components/Pagination",
       "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
       "story": "Unbounded",
       "twig": "./usa-pagination.twig",
       "kind": "variant"
     },
     {
+      "id": "components-pagination--spanish",
       "title": "Components/Pagination",
       "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
       "story": "Spanish",
       "twig": "./usa-pagination.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-pagination--spanish-unbounded",
       "title": "Components/Pagination",
       "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
       "story": "SpanishUnbounded",
       "twig": "./usa-pagination.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-pagination--test",
       "title": "Components/Pagination",
       "package": "usa-pagination",
+      "file": "usa-pagination/src/usa-pagination.stories.js",
       "story": "Test",
       "twig": "./test/test-patterns/test-pagination-all.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-process-list--default",
       "title": "Components/Process List",
       "package": "usa-process-list",
+      "file": "usa-process-list/src/usa-process-list.stories.js",
       "story": "Default",
       "twig": "./usa-process-list.twig",
       "kind": "variant"
     },
     {
+      "id": "components-process-list--process-list-custom-sizing",
       "title": "Components/Process List",
       "package": "usa-process-list",
+      "file": "usa-process-list/src/usa-process-list.stories.js",
       "story": "ProcessListCustomSizing",
       "twig": "./usa-process-list--custom-sizing.twig",
       "kind": "variant"
     },
     {
+      "id": "components-process-list--process-list-no-text",
       "title": "Components/Process List",
       "package": "usa-process-list",
+      "file": "usa-process-list/src/usa-process-list.stories.js",
       "story": "ProcessListNoText",
       "twig": "./usa-process-list--no-text.twig",
       "kind": "variant"
     },
     {
+      "id": "components-prose--default",
       "title": "Components/Prose",
       "package": "usa-prose",
+      "file": "usa-prose/src/usa-prose.stories.js",
       "story": "Default",
       "twig": "./usa-prose.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-radio--default",
       "title": "Components/Form Inputs/Radio",
       "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
       "story": "Default",
       "twig": "./usa-radio.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-radio--disabled",
       "title": "Components/Form Inputs/Radio",
       "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
       "story": "Disabled",
       "twig": "./usa-radio.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-radio--aria-disabled",
       "title": "Components/Form Inputs/Radio",
       "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-radio.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-radio--radio-tile",
       "title": "Components/Form Inputs/Radio",
       "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
       "story": "RadioTile",
       "twig": "./usa-radio--tile.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-radio--tile-disabled",
       "title": "Components/Form Inputs/Radio",
       "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
       "story": "TileDisabled",
       "twig": "./usa-radio--tile.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-radio--tile-aria-disabled",
       "title": "Components/Form Inputs/Radio",
       "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
       "story": "TileAriaDisabled",
       "twig": "./usa-radio--tile.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-radio--indeterminate",
       "title": "Components/Form Inputs/Radio",
       "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
       "story": "Indeterminate",
       "twig": "./usa-radio.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-radio--indeterminate-tile",
       "title": "Components/Form Inputs/Radio",
       "package": "usa-radio",
+      "file": "usa-radio/src/usa-radio.stories.js",
       "story": "IndeterminateTile",
       "twig": "./usa-radio--tile.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-range--range",
       "title": "Components/Form Inputs/Range",
       "package": "usa-range",
+      "file": "usa-range/src/usa-range.stories.js",
       "story": "Range",
       "twig": "./usa-range.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-range--disabled",
       "title": "Components/Form Inputs/Range",
       "package": "usa-range",
+      "file": "usa-range/src/usa-range.stories.js",
       "story": "Disabled",
       "twig": "./usa-range.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-range--aria-disabled",
       "title": "Components/Form Inputs/Range",
       "package": "usa-range",
+      "file": "usa-range/src/usa-range.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-range.twig",
       "kind": "variant"
     },
     {
+      "id": "components-search--default",
       "title": "Components/Search",
       "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
       "story": "Default",
       "twig": "./usa-search.twig",
       "kind": "variant"
     },
     {
+      "id": "components-search--big",
       "title": "Components/Search",
       "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
       "story": "Big",
       "twig": "./usa-search.twig",
       "kind": "variant"
     },
     {
+      "id": "components-search--small",
       "title": "Components/Search",
       "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
       "story": "Small",
       "twig": "./usa-search.twig",
       "kind": "variant"
     },
     {
+      "id": "components-search--default-lang-es",
       "title": "Components/Search",
       "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
       "story": "DefaultLangEs",
       "twig": "./usa-search.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-search--big-lang-es",
       "title": "Components/Search",
       "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
       "story": "BigLangEs",
       "twig": "./usa-search.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-search--small-lang-es",
       "title": "Components/Search",
       "package": "usa-search",
+      "file": "usa-search/src/usa-search.stories.js",
       "story": "SmallLangEs",
       "twig": "./usa-search.twig",
       "kind": "spanish"
     },
     {
+      "id": "components-section--default",
       "title": "Components/Section",
       "package": "usa-section",
+      "file": "usa-section/src/usa-section.stories.js",
       "story": "Default",
       "twig": "./usa-section.twig",
       "kind": "variant"
     },
     {
+      "id": "components-section--dark",
       "title": "Components/Section",
       "package": "usa-section",
+      "file": "usa-section/src/usa-section.stories.js",
       "story": "Dark",
       "twig": "./usa-section.twig",
       "kind": "variant"
     },
     {
+      "id": "components-section--light",
       "title": "Components/Section",
       "package": "usa-section",
+      "file": "usa-section/src/usa-section.stories.js",
       "story": "Light",
       "twig": "./usa-section.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-select--select",
       "title": "Components/Form Inputs/Select",
       "package": "usa-select",
+      "file": "usa-select/src/usa-select.stories.js",
       "story": "Select",
       "twig": "./usa-select.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-select--disabled",
       "title": "Components/Form Inputs/Select",
       "package": "usa-select",
+      "file": "usa-select/src/usa-select.stories.js",
       "story": "Disabled",
       "twig": "./usa-select.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-select--aria-disabled",
       "title": "Components/Form Inputs/Select",
       "package": "usa-select",
+      "file": "usa-select/src/usa-select.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-select.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-select--multiple",
       "title": "Components/Form Inputs/Select",
       "package": "usa-select",
+      "file": "usa-select/src/usa-select.stories.js",
       "story": "Multiple",
       "twig": "./test/test-patterns/usa-select--multiple.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-side-navigation--level-one",
       "title": "Components/Side Navigation",
       "package": "usa-sidenav",
+      "file": "usa-sidenav/src/usa-sidenav.stories.js",
       "story": "LevelOne",
       "twig": "./usa-sidenav.twig",
       "kind": "variant"
     },
     {
+      "id": "components-side-navigation--level-two",
       "title": "Components/Side Navigation",
       "package": "usa-sidenav",
+      "file": "usa-sidenav/src/usa-sidenav.stories.js",
       "story": "LevelTwo",
       "twig": "./usa-sidenav.twig",
       "kind": "variant"
     },
     {
+      "id": "components-side-navigation--level-three",
       "title": "Components/Side Navigation",
       "package": "usa-sidenav",
+      "file": "usa-sidenav/src/usa-sidenav.stories.js",
       "story": "LevelThree",
       "twig": "./usa-sidenav.twig",
       "kind": "variant"
     },
     {
+      "id": "components-side-navigation--test",
       "title": "Components/Side Navigation",
       "package": "usa-sidenav",
+      "file": "usa-sidenav/src/usa-sidenav.stories.js",
       "story": "Test",
       "twig": "./test/test-patterns/test-sidenav-button.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-site-alert--default",
       "title": "Components/Site Alert",
       "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
       "story": "Default",
       "twig": "./usa-site-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-site-alert--info",
       "title": "Components/Site Alert",
       "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
       "story": "Info",
       "twig": "./usa-site-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-site-alert--emergency",
       "title": "Components/Site Alert",
       "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
       "story": "Emergency",
       "twig": "./usa-site-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-site-alert--emergency-list",
       "title": "Components/Site Alert",
       "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
       "story": "EmergencyList",
       "twig": "./usa-site-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-site-alert--emergency-no-header",
       "title": "Components/Site Alert",
       "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
       "story": "EmergencyNoHeader",
       "twig": "./usa-site-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-site-alert--emergency-no-icon",
       "title": "Components/Site Alert",
       "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
       "story": "EmergencyNoIcon",
       "twig": "./usa-site-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-site-alert--emergency-slim",
       "title": "Components/Site Alert",
       "package": "usa-site-alert",
+      "file": "usa-site-alert/src/usa-site-alert.stories.js",
       "story": "EmergencySlim",
       "twig": "./usa-site-alert.twig",
       "kind": "variant"
     },
     {
+      "id": "components-site-title--site-title",
       "title": "Components/Site Title",
       "package": "usa-site-title",
+      "file": "usa-site-title/src/usa-site-title.stories.js",
       "story": "SiteTitle",
       "twig": "./usa-site-title.twig",
       "kind": "variant"
     },
     {
+      "id": "components-skipnav--skipnav",
       "title": "Components/Skipnav",
       "package": "usa-skipnav",
+      "file": "usa-skipnav/src/usa-skipnav.stories.js",
       "story": "Skipnav",
       "twig": "./usa-skipnav.twig",
       "kind": "variant"
     },
     {
+      "id": "components-step-indicator--default",
       "title": "Components/Step Indicator",
       "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
       "story": "Default",
       "twig": "./usa-step-indicator.twig",
       "kind": "variant"
     },
     {
+      "id": "components-step-indicator--center-counters-sm",
       "title": "Components/Step Indicator",
       "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
       "story": "CenterCountersSm",
       "twig": "./usa-step-indicator.twig",
       "kind": "variant"
     },
     {
+      "id": "components-step-indicator--center-counters",
       "title": "Components/Step Indicator",
       "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
       "story": "CenterCounters",
       "twig": "./usa-step-indicator.twig",
       "kind": "variant"
     },
     {
+      "id": "components-step-indicator--center-no-label",
       "title": "Components/Step Indicator",
       "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
       "story": "CenterNoLabel",
       "twig": "./usa-step-indicator.twig",
       "kind": "variant"
     },
     {
+      "id": "components-step-indicator--center",
       "title": "Components/Step Indicator",
       "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
       "story": "Center",
       "twig": "./usa-step-indicator.twig",
       "kind": "variant"
     },
     {
+      "id": "components-step-indicator--counters-sm",
       "title": "Components/Step Indicator",
       "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
       "story": "CountersSm",
       "twig": "./usa-step-indicator.twig",
       "kind": "variant"
     },
     {
+      "id": "components-step-indicator--counters",
       "title": "Components/Step Indicator",
       "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
       "story": "Counters",
       "twig": "./usa-step-indicator.twig",
       "kind": "variant"
     },
     {
+      "id": "components-step-indicator--no-labels",
       "title": "Components/Step Indicator",
       "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
       "story": "NoLabels",
       "twig": "./usa-step-indicator.twig",
       "kind": "variant"
     },
     {
+      "id": "components-step-indicator--short",
       "title": "Components/Step Indicator",
       "package": "usa-step-indicator",
+      "file": "usa-step-indicator/src/usa-step-indicator.stories.js",
       "story": "Short",
       "twig": "./usa-step-indicator.twig",
       "kind": "variant"
     },
     {
+      "id": "components-summary-box--summary-box",
       "title": "Components/Summary Box",
       "package": "usa-summary-box",
+      "file": "usa-summary-box/src/usa-summary-box.stories.js",
       "story": "SummaryBox",
       "twig": "./usa-summary-box.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table-scrollable--default",
       "title": "Components/Table/Scrollable",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table--scrollable/usa-table--scrollable.stories.js",
       "story": "Default",
       "twig": "./usa-table--scrollable.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table-scrollable--striped",
       "title": "Components/Table/Scrollable",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table--scrollable/usa-table--scrollable.stories.js",
       "story": "Striped",
       "twig": "./usa-table--scrollable.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table-scrollable--compact",
       "title": "Components/Table/Scrollable",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table--scrollable/usa-table--scrollable.stories.js",
       "story": "Compact",
       "twig": "./usa-table--scrollable.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table-scrollable--compact-striped",
       "title": "Components/Table/Scrollable",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table--scrollable/usa-table--scrollable.stories.js",
       "story": "CompactStriped",
       "twig": "./usa-table--scrollable.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table-stacked--default",
       "title": "Components/Table/Stacked",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table--stacked/usa-table--stacked.stories.js",
       "story": "Default",
       "twig": "./usa-table--stacked.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table-stacked--borderless",
       "title": "Components/Table/Stacked",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table--stacked/usa-table--stacked.stories.js",
       "story": "Borderless",
       "twig": "./usa-table--stacked.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table-stacked--with-header",
       "title": "Components/Table/Stacked",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table--stacked/usa-table--stacked.stories.js",
       "story": "WithHeader",
       "twig": "./usa-table--stacked.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table-stacked--with-header-borderless",
       "title": "Components/Table/Stacked",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table--stacked/usa-table--stacked.stories.js",
       "story": "withHeaderBorderless",
       "twig": "./usa-table--stacked.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table--default",
       "title": "Components/Table",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
       "story": "Default",
       "twig": "./usa-table.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table--borderless",
       "title": "Components/Table",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
       "story": "Borderless",
       "twig": "./usa-table.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table--striped",
       "title": "Components/Table",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
       "story": "Striped",
       "twig": "./usa-table.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table--sticky-header",
       "title": "Components/Table",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
       "story": "StickyHeader",
       "twig": "./usa-table.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table--sortable",
       "title": "Components/Table",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
       "story": "Sortable",
       "twig": "./usa-table--sortable/usa-table--sortable.twig",
       "kind": "variant"
     },
     {
+      "id": "components-table--test-sticky-header-multiple-rows",
       "title": "Components/Table",
       "package": "usa-table",
+      "file": "usa-table/src/usa-table.stories.js",
       "story": "TestStickyHeaderMultipleRows",
       "twig": "./test/test-patterns/test-usa-table--multiple-sticky-headers.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-tags--info",
       "title": "Components/Tags",
       "package": "usa-tag",
+      "file": "usa-tag/src/usa-tag.stories.js",
       "story": "Info",
       "twig": "./usa-tag.twig",
       "kind": "variant"
     },
     {
+      "id": "components-tags--big",
       "title": "Components/Tags",
       "package": "usa-tag",
+      "file": "usa-tag/src/usa-tag.stories.js",
       "story": "Big",
       "twig": "./usa-tag.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-time-picker--time-picker",
       "title": "Components/Form Inputs/Time Picker",
       "package": "usa-time-picker",
+      "file": "usa-time-picker/src/usa-time-picker.stories.js",
       "story": "TimePicker",
       "twig": "./usa-time-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-time-picker--time-picker-default-value",
       "title": "Components/Form Inputs/Time Picker",
       "package": "usa-time-picker",
+      "file": "usa-time-picker/src/usa-time-picker.stories.js",
       "story": "TimePickerDefaultValue",
       "twig": "./usa-time-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-time-picker--disabled",
       "title": "Components/Form Inputs/Time Picker",
       "package": "usa-time-picker",
+      "file": "usa-time-picker/src/usa-time-picker.stories.js",
       "story": "Disabled",
       "twig": "./usa-time-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-form-inputs-time-picker--aria-disabled",
       "title": "Components/Form Inputs/Time Picker",
       "package": "usa-time-picker",
+      "file": "usa-time-picker/src/usa-time-picker.stories.js",
       "story": "AriaDisabled",
       "twig": "./usa-time-picker.twig",
       "kind": "variant"
     },
     {
+      "id": "components-tooltip--tooltip",
       "title": "Components/Tooltip",
       "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
       "story": "Tooltip",
       "twig": "./usa-tooltip.twig",
       "kind": "variant"
     },
     {
+      "id": "components-tooltip--tooltip-utility",
       "title": "Components/Tooltip",
       "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
       "story": "TooltipUtility",
       "twig": "./usa-tooltip--utilities.twig",
       "kind": "variant"
     },
     {
+      "id": "components-tooltip--test",
       "title": "Components/Tooltip",
       "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
       "story": "Test",
       "twig": "./test/test-patterns/test-usa-tooltip-utilities.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-tooltip--test-no-wrapper",
       "title": "Components/Tooltip",
       "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
       "story": "TestNoWrapper",
       "twig": "./test/test-patterns/test-usa-tooltip-no-wrapper.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-tooltip--test-non-button",
       "title": "Components/Tooltip",
       "package": "usa-tooltip",
+      "file": "usa-tooltip/src/usa-tooltip.stories.js",
       "story": "TestNonButton",
       "twig": "./test/test-patterns/test-usa-tooltip-non-button.twig",
       "kind": "uswds-internal-test"
     },
     {
+      "id": "components-validation--input-validation",
       "title": "Components/Validation",
       "package": "usa-validation",
+      "file": "usa-validation/src/usa-validation.stories.js",
       "story": "InputValidation",
       "twig": "./usa-validation.twig",
       "kind": "variant"
     },
     {
+      "id": "components-validation--textarea-validation",
       "title": "Components/Validation",
       "package": "usa-validation",
+      "file": "usa-validation/src/usa-validation.stories.js",
       "story": "TextareaValidation",
       "twig": "./usa-validation--textarea.twig",
       "kind": "variant"

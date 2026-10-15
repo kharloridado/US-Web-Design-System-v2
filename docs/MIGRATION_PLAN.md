@@ -284,7 +284,7 @@ Legend: **CSS** = Theme classes only. **B** = Block. **N / W / P** = §7.
 
 | Phase | Scope | Exit criteria |
 |---|---|---|
-| **0. Setup & spike** (1–2 wks) | Repo pipeline + CI ✅, module skeletons, **platform widget DOM spike** (§4), reference renderer for every USWDS story (Definition of Done gates 4–5) | `npm run build` → `dist/` ✅. Parity check: 0 missing/duplicated rules vs official USWDS ✅. Spike inventory documented ([setup guide](phase-0-outsystems-setup.md)) |
+| **0. Setup & spike** (1–2 wks) | Repo pipeline + CI ✅, module skeletons, **platform widget DOM spike** (§4), reference renderer for every USWDS story (Definition of Done gates 4–5) ✅ | `npm run build` → `dist/` ✅. Parity check: 0 missing/duplicated rules vs official USWDS ✅. Spike inventory documented ([setup guide](phase-0-outsystems-setup.md)) |
 | **1. Foundations** (3 wks) | Settings, tokens, fonts/images/sprite, global + typography + grid + full utilities, Icon Block, shared client actions | Token/utility specimen pages in Style Guide |
 | **2. Platform widget contract** (2 wks) | All of §4 | Every platform widget/state matches USWDS on the contract test page |
 | **3. Layouts & site chrome** (2 wks) | Skipnav, Site alert, Banner, Header (all variants), Footer (all), Identifier, Side nav, Layout Blocks | Keyboard + screen-reader pass. Menus survive navigation |

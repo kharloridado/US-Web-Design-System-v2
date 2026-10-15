@@ -1,0 +1,2 @@
+- text: Range slider Move the slider to change the value
+- slider "Range slider" [disabled]: "20"

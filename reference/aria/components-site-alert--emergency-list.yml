@@ -1,0 +1,14 @@
+- region "Site alert,,,":
+  - heading "Emergency alert message" [level=3]
+  - list:
+    - listitem:
+      - text: The primary emergency message and
+      - link "a link":
+        - /url: javascript:void(0);
+      - text: for supporting context.
+    - listitem:
+      - text: Another message,
+      - link "and another link":
+        - /url: javascript:void(0);
+      - text: .
+    - listitem: A final emergency message.

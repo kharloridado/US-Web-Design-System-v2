@@ -1,0 +1,105 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- region "Official website of the United States government":
+  - button "Here’s how you know"
+- banner:
+  - emphasis:
+    - link "<Project title>":
+      - /url: /
+- main:
+  - heading "Sign in" [level=1]
+  - group "Access your account":
+    - text: Access your account Email address
+    - textbox "Email address"
+    - text: Password
+    - textbox "Password"
+    - button "Show password"
+    - button "Sign in"
+    - paragraph:
+      - link "Forgot password?":
+        - /url: javascript:void()
+  - paragraph:
+    - text: Don't have an account?
+    - link "Create your account now":
+      - /url: javascript:void(0);
+    - text: .
+  - heading "Are you a federal employee?" [level=2]
+  - paragraph: If you are a federal employee or <other secondary user>, please use <secondary Single Sign On (SSO)>.
+  - paragraph:
+    - link "Launch secondary SSO":
+      - /url: ""
+- contentinfo:
+  - link "Return to top":
+    - /url: "#"
+  - navigation "Footer navigation":
+    - list:
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+      - listitem:
+        - link "<Primary link>":
+          - /url: javascript:void(0);
+  - paragraph: <Name of Agency>
+  - link "Facebook":
+    - /url: javascript:void(0);
+    - img "Facebook"
+  - link "Twitter":
+    - /url: javascript:void(0);
+    - img "Twitter"
+  - link "YouTube":
+    - /url: javascript:void(0);
+    - img "YouTube"
+  - link "Instagram":
+    - /url: javascript:void(0);
+    - img "Instagram"
+  - link "RSS":
+    - /url: javascript:void(0);
+    - img "RSS"
+  - paragraph: <Agency Contact Center>
+  - link "<(800) 555-GOVT>":
+    - /url: tel:1-800-555-5555
+  - link "<info@agency.gov>":
+    - /url: mailto:info@agency.gov
+- region "Agency identifier":
+  - link "<Parent agency> logo":
+    - /url: javascript:void(0)
+    - img "<Parent agency> logo"
+  - region "Agency description":
+    - paragraph: domain.gov
+    - paragraph:
+      - text: official website of the
+      - link "<Parent agency>":
+        - /url: ""
+- navigation "Important links":
+  - list:
+    - listitem:
+      - link "About <Parent shortname>":
+        - /url: javascript:void(0)
+    - listitem:
+      - link "Accessibility support":
+        - /url: ""
+    - listitem:
+      - link "FOIA requests":
+        - /url: ""
+    - listitem:
+      - link "No FEAR Act data":
+        - /url: ""
+    - listitem:
+      - link "Office of the Inspector General":
+        - /url: ""
+    - listitem:
+      - link "Performance reports":
+        - /url: ""
+    - listitem:
+      - link "Privacy policy":
+        - /url: ""
+- region "U.S. government information and services":
+  - text: Looking for U.S. government information and services?
+  - link "Visit USA.gov":
+    - /url: https://www.usa.gov/
