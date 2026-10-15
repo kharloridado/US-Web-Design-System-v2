@@ -50,6 +50,9 @@ test.describe("File input", () => {
     });
 
     test("removes the drag instruction", async ({ page }) => {
+      // Stricter than USWDS: the instructions must have been built, so the
+      // missing drag text means it was left out, not that nothing ran.
+      await expect(page.locator(".usa-file-input__instructions")).toHaveCount(1);
       await expect(dragText(page)).toHaveCount(0);
     });
 
