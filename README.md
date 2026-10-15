@@ -16,6 +16,8 @@ npm run check   # prove dist/ has 100% of the official USWDS CSS, with nothing d
 npm run inventory  # list every USWDS variant and behavior case that must work in O11
 npm run reference  # render all 208 USWDS variants as reference pages and verify them in Chromium
 npm run test:elements  # test the 7 USWDS custom elements against those reference pages
+npm run test:behavior  # USWDS's own behavior cases, ported to Playwright (384 tests)
+npm run check:behavior  # all 414 USWDS behavior cases ported or accounted for
 ```
 
 | Output | Goes to |

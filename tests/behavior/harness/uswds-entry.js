@@ -8,9 +8,23 @@ window.uswdsPresent = true;
 window.USWDS_TEST = {
   components,
   started: false,
-  // Same as USWDS's initComponents(): every behavior on document.body.
-  start() {
-    Object.values(components).forEach((behavior) => behavior.on(document.body));
+  // Default: same as USWDS's initComponents(), every behavior on document.body.
+  //   only: ["fileInput"]          start just these behaviors (keys of components),
+  //                                like a spec that calls one Component.on()
+  //   root: "#id" | "shadow:#id"   start them on that element, or on its shadow root
+  start({ only, root } = {}) {
+    let target = document.body;
+    if (root) {
+      const shadow = root.startsWith("shadow:");
+      const el = document.querySelector(shadow ? root.slice(7) : root);
+      target = shadow ? el?.shadowRoot : el;
+      if (!target) throw new Error(`USWDS_TEST.start: no root for "${root}"`);
+    }
+    const keys = only ?? Object.keys(components);
+    for (const key of keys) {
+      if (!components[key]) throw new Error(`USWDS_TEST.start: unknown behavior "${key}"`);
+      components[key].on(target);
+    }
     this.started = true;
   },
 };

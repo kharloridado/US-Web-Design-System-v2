@@ -7,6 +7,9 @@
 // on page load, like USWDS's specs (body.innerHTML = TEMPLATE; Component.on(body)).
 // fixture.open(id, { before }) runs `before(page)` first, then starts the
 // behaviors, for specs that change the fixture before initializing.
+// fixture.open(id, { start: { only, root } }) starts only some behaviors and/or
+// on another root, for specs that call one Component.on(someRoot); see
+// window.USWDS_TEST.start in uswds-entry.js.
 //
 // Every test fails if the page throws an uncaught error, unless it calls
 // fixture.allowErrors().
@@ -21,14 +24,15 @@ export const test = base.extend({
 
     await use({
       page,
-      async open(id, { before } = {}) {
+      async open(id, { before, start } = {}) {
         // BEHAVIOR_NO_START=1 loads fixtures without starting USWDS. Ported tests
         // that still pass then only check static markup, which is how to spot
         // a port that doesn't exercise the behavior.
         const noStart = !!process.env.BEHAVIOR_NO_START;
-        await page.goto(`/fixtures/${id}.html${before || noStart ? "?manual" : ""}`);
+        const manual = !!(before || start);
+        await page.goto(`/fixtures/${id}.html${manual || noStart ? "?manual" : ""}`);
         if (before) await before(page);
-        if (before && !noStart) await page.evaluate(() => window.USWDS_TEST.start());
+        if (manual && !noStart) await page.evaluate((options) => window.USWDS_TEST.start(options), start ?? {});
       },
       allowErrors() {
         allowErrors = true;

@@ -64,16 +64,14 @@ test.describe("File input", () => {
 
   test.describe("file input: unsupported media queries", () => {
     test.beforeEach(async ({ fixture }) => {
+      // USWDS's spec starts only the file input; other behaviors (the footer)
+      // call window.matchMedia unconditionally.
       await fixture.open("usa-file-input/file-input-single.template", {
         before: (page) =>
           page.evaluate(() => {
             window.matchMedia = undefined;
-            // USWDS's spec starts only the file input. The page starts every
-            // behavior, and the footer behavior calls window.matchMedia
-            // unconditionally; there is no footer on this fixture, so it is not
-            // started.
-            if (window.USWDS_TEST) window.USWDS_TEST.components.footer.on = () => {};
           }),
+        start: { only: ["fileInput"] },
       });
     });
 

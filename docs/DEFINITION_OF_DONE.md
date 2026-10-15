@@ -26,7 +26,7 @@ USWDS 3.14.0 is done in O11 when **all seven gates pass**. Each gate is automate
 | 3 | **Every variant built in O11** | Each of the 208 variants has a Style Guide screen built from O11 Blocks and platform widgets (no pasted USWDS HTML), using the same content as the USWDS story | ⬜ Phases 1–7 |
 | 4 | **Looks identical** | Playwright screenshots of each O11 variant vs the USWDS reference rendering at 320, 480, 640, 1024 and 1400 px, with dynamic content (dates, generated IDs) masked. Threshold: ≤ 0.1% differing pixels, captured in the same environment | ⬜ Reference side ready |
 | 5 | **Reads identically to assistive tech** | Playwright accessibility tree (roles, names, states, focus order) of each O11 variant equals the USWDS reference in `reference/aria/`. axe reports no violation the USWDS reference doesn't also have. Manual NVDA + VoiceOver pass per component (manual) | ⬜ Reference side ready |
-| 6 | **Behaves identically** | All 414 USWDS behavior cases, ported to Playwright, pass against the O11 Style Guide screens. This covers native rebuilds (accordion, modal, header, tooltip…) and Web Components alike | ⬜ |
+| 6 | **Behaves identically** | All 414 USWDS behavior cases are accounted for: the 384 that describe something on a page are ported to Playwright and pass against the O11 Style Guide screens; the other 30 test USWDS internals (pure helper functions, JavaScript API calls, errors for malformed markup) and are recorded with a reason. This covers native rebuilds (accordion, modal, header, tooltip…) and Web Components alike | ⬜ Reference side ready |
 | 7 | **Works as an O11 app** | All 9 USWDS page templates and 5 form patterns run as real screens from `USWDS_Templates`. A new app from `USWDS_AppTemplate` runs end to end with no OutSystems UI reference. Every interactive variant still works after client-side navigation away and back (50×), with no console errors or React warnings | ⬜ |
 
 ## What "exactly as is" allows
@@ -51,5 +51,5 @@ Any other difference is a defect.
 | Needed for | Tool |
 |---|---|
 | Gates 4–5 | ✅ **Reference renderer** ([`reference/`](../reference/README.md)): all 208 variants render from USWDS's own story files and pass in Chromium. 208 accessibility-tree baselines committed; screenshots at 5 widths produced in CI |
-| Gate 6 | Port of the 414 USWDS spec cases from their jsdom setup to Playwright, pointed at Style Guide screens |
+| Gate 6 | ✅ **Behavior suite** ([`tests/behavior/`](../tests/behavior/PORTING.md)): 384 cases ported and passing on USWDS's own spec fixtures (`npm run test:behavior`), 30 recorded as internal (`npm run check:behavior`). Still to add: running the same tests against the custom elements and the O11 Style Guide |
 | Gates 3–7 | A tracker showing each variant's status per gate |

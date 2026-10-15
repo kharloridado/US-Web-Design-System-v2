@@ -73,12 +73,9 @@ test.describe("Banner initialized at shadow root", () => {
           // Same look as the light-DOM banner: the page stylesheet, inside the root.
           root.append(document.querySelector('link[rel="stylesheet"]').cloneNode());
           root.append(document.querySelector(".usa-banner"));
-          const start = window.USWDS_TEST.start.bind(window.USWDS_TEST);
-          window.USWDS_TEST.start = () => {
-            start();
-            window.USWDS_TEST.components.banner.on(root);
-          };
         }),
+      // USWDS's spec: banner.on(shadowRoot).
+      start: { only: ["banner"], root: "shadow:#banner-host" },
     });
   });
 
